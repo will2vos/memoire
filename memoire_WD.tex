@@ -1,0 +1,126 @@
+
+\documentclass[MSc,bibsection,english,french]{ulthese}
+
+%\usepackage[utf8]{inputenc}
+\ifxetex\else \usepackage[utf8]{inputenc} \fi
+
+\setlength{\beforechapskip}{20pt} % reduce space before chapter
+
+\usepackage{amsmath}              % recommandé pour les mathématiques
+\usepackage{icomma}               % gestion de la virgule dans les nombres
+\usepackage{gensymb}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{chngcntr}           % numerotation figure en annexe par section
+\usepackage{array}
+\usepackage{pdflscape}
+
+
+%\usepackage{mathpazo}            % texte et mathématiques en Palatino
+\usepackage{listings}            % insérer language R dans texte
+\usepackage{xcolor}        % colorer le texte pour corrections
+\definecolor{myYellow}{RGB}{248.7,225.0,63.1}
+\usepackage{soul}          % colorer le texte plus long pour wrap up
+\sethlcolor{myYellow}
+
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{purple},
+    breaklines=true,
+    keywordstyle=\color{blue},
+    commentstyle=\color{purple},
+}
+\usepackage{chngcntr}           % numerotation figure en annexe par section
+
+\usepackage{rotating}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{url}
+%modify interline spacing
+\usepackage{setspace}
+\usepackage{lscape}
+
+% Define typographic struts, as suggested by Claudio Beccari
+%   in an article in TeX and TUG News, Vol. 2, 1993.
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}   % = `bottom' strut
+
+  \DeclareCaptionLabelFormat{Sformat}{#1 S#2}  
+  \DeclareCaptionLabelSeparator{none}{}    %<---
+  \captionsetup[table]{labelformat=Sformat}
+  
+\usepackage[protrusion=true, expansion=true, shrink=55, stretch=55, 
+tracking=true, kerning=true, spacing=true, 
+final]{microtype}
+
+%%%%%%%%%%%%%%%%
+%format references in text and bibliography with natbib package
+\usepackage{natbib}
+\setcitestyle{round, sort}
+
+\usepackage{multibib} %citer plusieurs bibliographies FR/ENG
+\newcites{Eng}{My English Biblio}
+
+%default style in French (defined in babel)
+\bibliographystyle{ecologyNewFR.bst}
+%second style in English for second bibliography
+\bibliographystyleEng{ecologyNewEN.bst}
+%%%%%%%%%%%%%%%%
+  
+\usepackage{bibentry}
+\frenchbsetup{%
+  StandardItemizeEnv=true,       % format standard des listes
+  ThinSpaceInFrenchNumbers=true, % espace fine dans les nombres
+  og=«, fg=»                     % caractères « et » sont les guillemets
+}
+
+  \addto\extrasfrench{
+  \renewcommand{\bibsection}{\section*{\bibname}\prebibhook}}
+
+%change name of English references section
+%\addto{\captionsenglish}{\renewcommand{\bibname}{References}}
+
+  \titre{Impactes des traitements sylvicoles dans un contexte de migration assistée d'arbres sur la cooccurence entre amphibiens et arthropodes}
+
+  \auteur{William Devos}
+  \direction{Marc J. Mazerolle, directeur de recherche}
+  \codirection{Mathieu Bouchard, codirecteur de recherche}
+
+  \annee{2024}
+
+\begin{document}
+
+\frontmatter                    % pages liminaires
+
+\frontispice                    % production de la page frontispice
+
+\include{resume}                % résumé français
+\include{abstract}              % résumé anglais
+\cleardoublepage
+
+\tableofcontents                % production de la TdM
+\cleardoublepage
+
+\listoftables                   % production de la liste des tableaux
+\cleardoublepage
+
+\listoffigures                  % production de la liste des figures
+\cleardoublepage
+
+\include{remerciements}         % remerciements
+\include{avantpropos}           % avant-propos
+
+\mainmatter                     % corps du document
+
+\include{introduction}          % introduction
+\include{chapitre1-articles}    % chapitre 1
+\include{conclusion}            % conclusion
+
+\appendix                       % annexes le cas échéant
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+%\include{Appendix_Fayard_Aurore_111283522}
+
+\end{document}
