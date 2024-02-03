@@ -163,21 +163,38 @@ We used daily average measurements from both station since informations form pre
 \label{subsec:analyses}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:analyses}} 
 
-To assess the effects of overstory treatments on the site occupancy of taxa, we combined structural equation (SEM) with occupancy model (Grace 2010,  MacKenzie et al., 2006, Joseph 2016).
-SEM allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (figure SEM) (Grace 2010).
-Furthermore, occupancy models enable us to account for the imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved (Bailey 2004, source carabes )
+To assess the effects of overstory treatments on the site occupancy of taxa, we combined structural equation with occupancy models and linear mixte model (Grace 2010, MacKenzie et al., 2006, Joseph 2016).
+Sructural equation models (SEM) are well adapt to study complex path relationships and allow to investigate on an ecological process (grace 2008).
+Based on a theoretical framework, all studied variables are interconnected in a network where the effect of a disturbance on each variable can be estimated by taking into account 
+the disturbance effects on other related variables (grace 2008).
+It allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (figure SEM)(grace 2010).
+Furthermore, occupancy models enable us to account for the imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved (Bailey 2004, Spiers 2022)
 Occupancy modeling uses repeated surveys to compute detection probabilities and estimate the species true occupancy (MacKenzie et al. 2002).
+Our model was made to explain how overstory treatments can affects taxon occupancy (salamanders, carabids) or biomass (springtails), concidering impacts on environnementales variables 
+(CWD, canopy openess and litter) and detection probabilities (precipitation) (figure).
+Analysis was performed with a Bayesian approche and parameters were estimated using Markov chain Monte Carlo method (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 (Lunn et al., 2013, Kellner 2018, R Core Team. 2020, ). 
+We executed the model with five chains, 200,000 iterations each. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. See Table X for more details.
+We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic.
 
-SEM analysis was performed with a Bayesian approche. 
-Parameters were estimated using Markov chain Monte Carlo method with JAGS 4.3.0 include in the jagsUI package in R 4.3.1. 
+%CWD, canope, litter
+We applied vague prior for all parameters with a normal distribution N($\mu = 0$, $\sigma^2 = 100$) for $\beta$ estimates and uniform prior distributions U($0,150$) for residual standard deviations
+We used a block random effect with 
+We allow each overstory group to have there own variance due to heteroscedasticity.
 
-Structural equation modeling (SEM) provides one means by which to formally represent causal assumptions in the form of direct and indirect causal pathways, 
-helping to close the gap between biological mechanisms and statistical methodology (Bollen 1989, Grace 2006).
+We used vague prior with a normal distribution on all parameters for the $\beta$ estimates
 
-Using multiple equations to represent complex path relationships (grace 2008)
 
-structural equation models are better suited to study the multiple processes that control the behavior of systems. (grace 2008)
-Researchers commonly want to know the interplay between processes, their relative importance, and how effects of perturbations cascade through systems (grace 2008)
+
+We imposed vague priors for all model parameters using a normal distribution N(0, σ2= 1000) for β estimates and uniform U(0,300) prior distributions for residual standard deviations. 
+We used vague priors that did not favor particular values because there was limited information available in the literature on the relationships between the variables under investigation
+
+
+Occupancy models were used to estimates salamanders and both carabid groups occupancy probablities. 
+we assess springtails biomass by using linear mixte models.
+Environnementale variables estimates were estimate patapouale
+
+
+
 
 
 % We used vague prior distributions for the means (N(m =0,s2 = 1000)) and standard deviations (Uniform(0, 100)) of each group (Supplementary Table S11
@@ -189,11 +206,8 @@ Researchers commonly want to know the interplay between processes, their relativ
 
 
 
-
-
 Parameters were estimated in a Bayesian framework using Markov chain Monte Carlo implemented in JAGS 4.3.0 using the jagsUI package in R 4.0.3 
-(Lunn et al. 2009; Kellner 2018; RCoreTeam2020). We used vague prior distributions for the means (N(m =0,s2 = 1000)) and standard deviations 
-(Uniform(0, 100)) of each group (Supplementary Table S11)
+
 
 %%% qu'est ce qu'on a fait avec les données ?
 %% espèces
