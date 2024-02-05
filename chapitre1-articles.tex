@@ -163,93 +163,29 @@ We used daily average measurements from both station since informations form pre
 \label{subsec:analyses}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:analyses}} 
 
-To assess the effects of overstory treatments on the site occupancy of taxa, we combined structural equation with occupancy models and linear mixte model (Grace 2010, MacKenzie et al., 2006, Joseph 2016).
+To assess the effects of overstory treatments on the site occupancy of taxa, we combined structural equation with occupancy models (Grace 2010, MacKenzie et al., 2006, Joseph 2016).
 Sructural equation models (SEM) are well adapt to study complex path relationships and allow to investigate on an ecological process (grace 2008).
 Based on a theoretical framework, all studied variables are interconnected in a network where the effect of a disturbance on each variable can be estimated by taking into account 
 the disturbance effects on other related variables (grace 2008).
-It allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (figure SEM)(grace 2010).
+It allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (Figure \ref*{fig:SEM}, Grace 2010).
 Furthermore, occupancy models enable us to account for the imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved (Bailey 2004, Spiers 2022)
-Occupancy modeling uses repeated surveys to compute detection probabilities and estimate the species true occupancy (MacKenzie et al. 2002).
-Our model was made to explain how overstory treatments can affects taxon occupancy (salamanders, carabids) or biomass (springtails), concidering impacts on environnementales variables 
-(CWD, canopy openess and litter) and detection probabilities (precipitation) (figure).
-Analysis was performed with a Bayesian approche and parameters were estimated using Markov chain Monte Carlo method (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 (Lunn et al., 2013, Kellner 2018, R Core Team. 2020, ). 
-We executed the model with five chains, 200,000 iterations each. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. See Table X for more details.
+Occupancy modeling uses repeated surveys to compute detection probabilities and estimate the species true occupancy (MacKenzie et al. 2002, Mazerolle et al., 2007).
+Our model was designed to explain how overstory treatments can affect environmental variables (CWD, canopy openness, litter depth) 
+and species occupancy (salamanders, carabids) or biomass (springtails), while accounting for imperfect and variable species detection (precipitation, CWD)(Figure \ref*{fig:SEM}).
+Analysis was performed with a Bayesian approche and parameters were estimated using Markov chain Monte Carlo method (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 (Lunn et al., 2013, Kellner 2018, R Core Team. 2020, ).
+We applied non-informative priors to all parameters by using normal distribution N($\mu = 0$, $\sigma^2 = 100$) and uniform distribution U($0,1$) as $\beta$ estimates. 
+We also included a block random effect to estimate all parameters and allow each overstory group to have there own variance due to heteroscedasticity. 
+We executed the model with five chains, 200,000 iterations each (Gelman 2014). A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. See Table X for more details.
 We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic.
 
-%CWD, canope, litter
-We applied vague prior for all parameters with a normal distribution N($\mu = 0$, $\sigma^2 = 100$) for $\beta$ estimates and uniform prior distributions U($0,150$) for residual standard deviations
-We used a block random effect with 
-We allow each overstory group to have there own variance due to heteroscedasticity.
 
-We used vague prior with a normal distribution on all parameters for the $\beta$ estimates
-
-
-
-We imposed vague priors for all model parameters using a normal distribution N(0, σ2= 1000) for β estimates and uniform U(0,300) prior distributions for residual standard deviations. 
-We used vague priors that did not favor particular values because there was limited information available in the literature on the relationships between the variables under investigation
-
-
-Occupancy models were used to estimates salamanders and both carabid groups occupancy probablities. 
-we assess springtails biomass by using linear mixte models.
-Environnementale variables estimates were estimate patapouale
-
-
-
-
-
-% We used vague prior distributions for the means (N(m =0,s2 = 1000)) and standard deviations (Uniform(0, 100)) of each group (Supplementary Table S11
-% We tested differences among groups with Bayesian multiple comparisons and reported differences between means using 95% credible intervals (95% CRI; Kruschke 2011; Gelman et al. 2012)
-% We ran five chains with 250 000 iterations, using 125 000 iterations as burn-in, and a thinning rate of 10
-% We used trace plots, posterior density plots, and the Brooks–Gelman–Rubin statistic to assess convergence, whereas we evaluated potential departures from model assumptions with standardized residual plots.
-% choix des variables environnementales
-
-
-
-
-Parameters were estimated in a Bayesian framework using Markov chain Monte Carlo implemented in JAGS 4.3.0 using the jagsUI package in R 4.0.3 
-
-
-%%% qu'est ce qu'on a fait avec les données ?
-%% espèces
-% salamandre
-- presence/absence de salamandres pour un site pour une journée 
-- modèle d'occupation % quel variable envionnementales ?
-- detection imparfaites
-
-% carabes
-- présence/absence de carabes pour un site, pour une journée 
-- séparation des carabes en deux groupes (proie/compétiteur)
-- modèle d'occupation
-
-% collemboles
-- biomasse par site
-- GLM
-
-%% données ENV
-% Température, humidité
-- moyenne quotidienne des deux station apliquer a tous les blocs
-% précitation
-- somme des précipitation pour trois journée avant la visites
-% CWD
-- somme des cwd par sites
-% Ouverture de la canopé
-- moyenne des quatre mesures par sites
-% Profondeur de litière
-- moyenne des six mesure par sites
-
-% Corrélation entre les variables
-
-% SEM
-- comprend quel variables
-- découdre pour avoir le file d'idée
-
-
-
-
-% selection de modèles
-% modèles d'occupation % detection imparfaites
-However, it would be possible to account for imperfect and variable species detection in our models to enable comparison (Mazerolle et al., 2007).
-% Modèle d'équations structurelles
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.55]{figSEM.png}
+	\caption[Theoretical model illustrating the relationships between overstory treatments, environmental variables and taxa.]{Theoretical model illustrating the relationships between overstory treatments, environnementale variables, salamanders, carabids, and springtails. 
+  Each arrow indicates the direction of a potential effect, from an explanatory variable to a response variable.}
+	\label{fig:SEM}
+	\end{figure}  
 
 \clearpage
 
