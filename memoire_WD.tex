@@ -1,46 +1,14 @@
 
 \documentclass[MSc,bibsection,english,french]{ulthese}
 
-%\usepackage[utf8]{inputenc}
-\ifxetex\else \usepackage[utf8]{inputenc} \fi
+ \usepackage[utf8]{inputenc}
 
-\setlength{\beforechapskip}{20pt} % reduce space before chapter
-
-\usepackage{amsmath}              % recommandé pour les mathématiques
-\usepackage{icomma}               % gestion de la virgule dans les nombres
-\usepackage{gensymb}
-\usepackage{caption}
-\usepackage{graphicx}
-\usepackage{chngcntr}           % numerotation figure en annexe par section
-\usepackage{array}
-\usepackage{pdflscape}
-
-
-%\usepackage{mathpazo}            % texte et mathématiques en Palatino
-\usepackage{listings}            % insérer language R dans texte
-\usepackage{xcolor}        % colorer le texte pour corrections
-\definecolor{myYellow}{RGB}{248.7,225.0,63.1}
-\usepackage{soul}          % colorer le texte plus long pour wrap up
-\sethlcolor{myYellow}
-
-\lstset{language=R,
-    basicstyle=\small\ttfamily,
-    stringstyle=\color{purple},
-    breaklines=true,
-    keywordstyle=\color{blue},
-    commentstyle=\color{purple},
-}
-\usepackage{chngcntr}           % numerotation figure en annexe par section
-
-\usepackage{rotating}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{amssymb}
-\usepackage{mathrsfs}
-\usepackage{url}
-%modify interline spacing
-\usepackage{setspace}
-\usepackage{lscape}
+  \usepackage{amsmath}
+  \usepackage{gensymb}
+  \usepackage{caption}
+  \usepackage{graphicx}
+  \usepackage{array}
+  \usepackage{pdflscape}
 
 % Define typographic struts, as suggested by Claudio Beccari
 %   in an article in TeX and TUG News, Vol. 2, 1993.
@@ -51,37 +19,31 @@
   \DeclareCaptionLabelSeparator{none}{}    %<---
   \captionsetup[table]{labelformat=Sformat}
   
-\usepackage[protrusion=true, expansion=true, shrink=55, stretch=55, 
+  \usepackage[protrusion=true, expansion=true, shrink=55, stretch=55, 
 tracking=true, kerning=true, spacing=true, 
 final]{microtype}
-
-%%%%%%%%%%%%%%%%
-%format references in text and bibliography with natbib package
-\usepackage{natbib}
-\setcitestyle{round, sort}
-
-\usepackage{multibib} %citer plusieurs bibliographies FR/ENG
-\newcites{Eng}{My English Biblio}
-
-%default style in French (defined in babel)
-\bibliographystyle{ecologyNewFR.bst}
-%second style in English for second bibliography
-\bibliographystyleEng{ecologyNewEN.bst}
-%%%%%%%%%%%%%%%%
+  \usepackage{natbib}
   
-\usepackage{bibentry}
-\frenchbsetup{%
-  StandardItemizeEnv=true,       % format standard des listes
-  ThinSpaceInFrenchNumbers=true, % espace fine dans les nombres
-  og=«, fg=»                     % caractères « et » sont les guillemets
+  \usepackage{bibentry}
+  \frenchbsetup{%
+    StandardItemizeEnv=true,       % format standard des listes
+    ThinSpaceInFrenchNumbers=true, % espace fine dans les nombres
+    og=«, fg=»                     % caractères « et » sont les guillemets
 }
+
 
   \addto\extrasfrench{
   \renewcommand{\bibsection}{\section*{\bibname}\prebibhook}}
 
-%change name of English references section
-%\addto{\captionsenglish}{\renewcommand{\bibname}{References}}
+  %package to include multiple bibliographies in different styles
+%\usepackage[resetlabels,labeled]{multibib}
+\usepackage{multibib}
+\newcites{Eng}{My English Biblio}
 
+%default style in French (defined in babel)
+\bibliographystyle{ecologyNewFR}
+%second style in English for second bibliography
+\bibliographystyleEng{ecologyNewEN}
   \titre{Impactes des traitements sylvicoles dans un contexte de migration assistée d'arbres sur la cooccurence entre amphibiens et arthropodes}
 
   \auteur{William Devos}
@@ -99,6 +61,9 @@ final]{microtype}
 \include{resume}                % résumé français
 \include{abstract}              % résumé anglais
 \cleardoublepage
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
 
 \tableofcontents                % production de la TdM
 \cleardoublepage
