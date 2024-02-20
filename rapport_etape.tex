@@ -1,0 +1,87 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+
+\setlength{\droptitle}{-10em}
+
+\title{Rapport de cheminement}
+\author{William Devos}
+\date{Février 2024}
+
+\begin{document}
+
+\maketitle
+
+Au cours des six derniers mois, nous avons achevé les mesures sur les échantillons en quantifiant 
+la biomasse sèche des collemboles. Tous les collemboles ont été regroupés par unité d'échantillonnage, 
+puis séchés par lyophilisation et pesés à l'aide d'une microbalance. Les données de biomasse ont été ajoutés 
+aux données de présence/absence que nous avions déjà pour les salamandres et les carabes. Les carabes ont été 
+divisés en deux groupes pour distinguer ceux représentant des proies pour la salamandres cendrée de ceux représentant des 
+compétiteurs (e.g. débris ligneux, litière, alimentation). 
+Le seuil utilisé pour séparer les espèces de carabes est basé sur la capacité d'une salamandre cendrée à ingérer un carabe.
+Le seuil utilisé dans notre étude est défini par l'ouverture maximale de la mâchoire chez une salamandre cendrée. \\
+
+Nous avons développé un modèle d'équation structurelle (SEM) pour comprendre de manière intégrative l'impact des 
+traitements de coupe forestière (coupe totale, coupe partielle) sur la cooccurrence de la faune du sol, 
+ainsi que sur les variables environnementales jouant un rôle important dans les probabilités d'occupation 
+des espèces étudiées (Figure \ref*{fig:SEM}). Le SEM intègre des modèles linéaires mixtes 
+pour estimer les paramètres des collemboles et des variables environnementales (volume de débris ligneux (CWD), 
+profondeur de litière, ouverture du couvert), ainsi que des modèles d'occupation pour estimer les paramètres des 
+salamandres et des deux groupes de carabes. Les modèles d'occupation tiennent compte de la détection imparfaite en 
+estimant la probabilité de détection à partir du volume de débris ligneux et des précipitations. 
+Les analyses ont été réalisé avec une approche Bayésienne et nous avons estimé les paramètres en utilisant la méthode de Monte-Carlo par chaînes de Markov (MCMC).
+
+
+\pagebreak
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.60]{fig_sem3.png}
+	\caption{Modèle théorique illustrant les relations directes et indirectes entre les traitements de coupe forestière, les variables environnementales et la petite faune. 
+    Chaque flèche indique l'effet potentiel d'une variable explicative sur une variable de réponse.}
+	\label{fig:SEM}
+	\end{figure}  
+
+Les résultats actuels montrent un effet marginal des traitements de coupes forestières sur la probabilité d'occupation des salamandres.
+Les salamandres auraient avec probabilité plus faible d'occuper les sites de coupes totale comparativement aux sites de coupe partielles. 
+Nos résultats ne montrent pas d'effet significatifs des traitements de coupes sur la probabilité d'occupapation des carabes ou la biomasse des collemboles.
+En revanche, nous avons observé un effet positif des précipitations sur la probabilité de détection des deux groupes de carabes. 
+En ce qui concerne les variables environnementales, les traitements de coupe forestière augmentent de manière significative l'ouverture de la canope.  
+La profondeur de la litière semble diminuée avec l'intensité du coupe forestière cependant les effets ne sont pas significatif.
+Le CWD ne semble pas être affecté par les traitements de coupe forestière selon nos résultats.\\
+
+\pagebreak
+
+Je suis actuellement dans la rédaction de mon mémoire. 
+Voici un échéancier des prochains mois, dans le but de faire le dépôt initial de mon mémoire d’ici le 5 mai 2024 :
+
+
+
+    \begin{center}
+        \begin{tabular}{|c c c c|} 
+            \hline
+            Activité & Durée & Début & Fin \\ [0.5ex] 
+            \hline\hline
+            Rédaction méthodes & 1 sem & 15 janvier & 21 janvier \\ 
+            \hline
+            Rédaction résultats & 2 sem & 5 février & 18 février \\
+            \hline
+            Rédaction discussion + conclusion & 3 sem & 19 février & 10 mars \\
+            \hline
+            Rédaction introduction générale & 3 sem & 11 mars & 31 mars \\
+            \hline
+            Rédaction conclusion générale + résumé & 2 sem & 1 avril & 14 avril \\ 
+            \hline
+            Corrections finales & 3 sem & 15 avril & 5 mai \\
+            \hline
+            Dépôt initial & 1 j & avant le 5 mai 2024 & . \\
+            \hline
+            Dépôt final & .& mai 2024 & . \\ 
+            \hline
+        \end{tabular}
+    \end{center}
+    
+
+\end{document}

@@ -1,5 +1,5 @@
-\chapter{Soil fauna occupancy responses to cutting treatments in assisted tree migration context}     % numéroté
-\label{chap:SEM}    
+\chapter{Direct and indirect effects of forest harvest on soil fauna cooccurence in assisted tree migration context}     % numéroté
+\label{chapitre1-articles}    
 
 William Devos$^1$, Mathieu Bouchard$^1$, Marc Mazerolle$^1$
 
@@ -8,8 +8,6 @@ $^1$ Centre d'étude de la forêt, Département des sciences du bois \\
 et de la forêt, Université Laval, Québec, QC G1V 0A6, Canada. \\ 
 
 \clearpage
-
-
 
 \section*{Résumé}
 \label{sec:resume1}
@@ -51,7 +49,6 @@ Thereby forest harvesting treatments modify habitat use at the top of the trophi
 a cascading effect that subsequently influences lower trophic levels such as carabids of the salamander prey group, and finally, springtails.
 
 
-
 \section*{Material and methods}
 \label{sec:matmet1}
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:matmet1}}
@@ -61,7 +58,7 @@ a cascading effect that subsequently influences lower trophic levels such as car
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:area}}
 
 \begin{otherlanguage*}{english}
-  Our study was conduct within the Portneuf Wildlife Reserve in the Captial-Nationale administrative region (47°07'N, 72°24'W, Figure \ref{fig:cartoblock}) near Rivière-à-Pierre and Lac Amanites. 
+  Our study was conduct within the Portneuf Wildlife Reserve in the Captial-Nationale administrative region (47°07'N, 72°24'W, Figure \ref{fig:sites}) near Rivière-à-Pierre and Lac Amanites. 
   This area is located within the balsam fir (\textit{Abies balsamea})-yellow birch (\textit{Betula alleghaniensis}) bioclimatic domain \citep{saucierChapitreEcologieForestiere2009}.
   Tree cover also contain sugar maple (\textit{Acer saccharum}), red maple (\textit{Acer rubrum}), white spruce (\textit{Picea glauca}), black spruce (\textit{Picea mariana}), red spruce (\textit{Picea rubens}),
   white birch (\textit{Betula papyrifera}) and quaking aspen (\textit{Populus tremuloides}) (foret ouverte, rapport d'inventaire). 
@@ -81,9 +78,9 @@ a cascading effect that subsequently influences lower trophic levels such as car
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.70]{mapSites.png}
+	\includegraphics[scale=0.70]{fig_sites.png}
 	\caption[Localisation of study site in Québec, Canada.]{Localisation of study site in Québec (1) and the assisted migration experimental system (2) with four blocks (A, B, C, D) in Portneuf Wildlife Reserve (47°07'N, 72°24'W) including two overstory treatments : clear-cut (orange) and partial-cut (grey).}
-	\label{fig:cartoblock}
+	\label{fig:sites}
 	\end{figure}  
 
 
@@ -152,6 +149,8 @@ We only selected CWD with a basal diameter greater than or equal to nine centime
 Subsequently, we measured basal diameters, apical diameters and CWD's length with a tree caliper. 
 Segments of CWD outside the plots boundaries wasn't considered.
 We employed (Fraver et al., 2007) conic–paraboloid formula to estimate the volume of each CWD :
+
+
 \[Volume = L/12 \times (5A_b + 5A_u + 2\sqrt{A_b \times A_u})\]
 
 Where $L$ is the length of logs, $A_b$ the basal area, and $A_u$ the apical area.
@@ -170,39 +169,193 @@ We used daily average measurements from both station since informations form pre
 
 
 
+
 \subsection*{Statistical analyses}
 \label{subsec:analyses}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:analyses}} 
 
-To assess the effects of overstory treatments on the site occupancy of taxa, we combined structural equation with occupancy models \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
-Sructural equation models (SEM) are well adapt to study complex path relationships and allow to investigate on an ecological process \citep{graceStructuralEquationModeling2008}.
+To assess the effects of overstory treatments on the site occupancy of taxa, we used structural equation models (SEM) integrating occupancy and linear mixed models \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
+SEM are well adapt to study complex path relationships and allow to investigate on an ecological process \citep{graceStructuralEquationModeling2008}.
 Based on a theoretical framework, all studied variables are interconnected in a network where the effect of a disturbance on each variable can be estimated by taking into account 
 the disturbance effects on other related variables \citep{graceStructuralEquationModeling2008}.
 It allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (Figure \ref*{fig:SEM}, \citealp{graceSpecificationStructuralEquation2010}).
-Furthermore, occupancy models enable us to account for the imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}
-Occupancy modeling uses repeated surveys to compute detection probabilities and estimate the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
-Our model was designed to explain how overstory treatments can affect environmental variables (CWD, canopy openness, litter depth) 
-and species occupancy (salamanders, carabids) or biomass (springtails), while accounting for imperfect and variable species detection (precipitation, CWD)(Figure \ref*{fig:SEM}).
-Analysis was performed with a Bayesian approche and parameters were estimated using Markov chain Monte Carlo method (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 \citep{lunnBUGSProjectEvolution2009,kellnerJagsUIWrapperRjags2024,rcoreteamLanguageEnvironmentStatistical2020}.
-We applied non-informative priors to all parameters by using normal distribution N($\mu = 0$, $\sigma^2 = 100$) and uniform distribution U($0,1$) as $\beta$ estimates. 
-We also included a block random effect to estimate all parameters and allow each overstory group to have there own variance due to heteroscedasticity. 
-We executed the model with five chains, 200,000 iterations each \citep{gelmanUnderstandingPredictiveInformation2014}. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. See Table X for more details.
-We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic.
-
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.55]{figSEM.png}
+	\includegraphics[scale=0.75]{fig_sem3.png}
 	\caption[Theoretical model illustrating the relationships between overstory treatments, environmental variables and taxa.]{Theoretical model illustrating the relationships between overstory treatments, environnementale variables, salamanders, carabids, and springtails. 
   Each arrow indicates the direction of a potential effect, from an explanatory variable to a response variable.}
 	\label{fig:SEM}
 	\end{figure}  
+
+Furtheremore, occupancy models enable us to account for the imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}
+Occupancy modeling uses repeated surveys to compute detection probabilities and estimate the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
+Our model was designed to explain how overstory treatments can affect environmental variables (CWD, canopy openness, litter depth) 
+and species occupancy (salamanders, carabids) or biomass (springtails), while accounting for imperfect and variable species detection (precipitation, CWD)(Figure \ref*{fig:SEM}).
+Analysis was performed with a Bayesian approche and parameters were estimated using Markov chain Monte Carlo method (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 \citep{lunnBUGSProjectEvolution2009,kellnerJagsUIWrapperRjags2024,rcoreteamLanguageEnvironmentStatistical2020}.
+We applied non-informative priors to all parameters by using normal distribution $\text{Normal}(\mu = 0, \sigma^2 = 100$) and uniform distribution $\text{Uniform}(0,1)$ as $\beta$ estimates. 
+We also included a block random effect to estimate all parameters and allow each overstory group to have there own variance due to heteroscedasticity. 
+We executed the model with five chains, 200,000 iterations each \citep{gelmanUnderstandingPredictiveInformation2014}. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. See Table X for more details.
+We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic.
+
+On as utiliser un modèle d'équation structurelle 
+
+Lors des analyses du CWD, de la canope nous avons observées de l'hétérogéneité entre les variance des différent groupe de traitements. 
+Nous avons donc permis à chaque groupes d'avoir leur propre variances avec $\sigma \sim \text{Uniform}(0,150)$
+
+
+CWD \\
+
+\begin{align}
+  \mu_{\text{CWD}_i} &= 
+  \beta_{0[\text{CWD}]} + \beta_{\text{Cutpartial}[\text{CWD}]} \times \text{Cutpartial}_{i} + \nonumber\\
+  & \beta_{\text{Cutclear}[\text{CWD}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{CWD}]_{\text{block}_i}} \\
+  \text{CWD}_{i} &\sim 
+  \text{Normal} (\mu_{\text{CWD}_i}, \tau_{\text{CWD}_{\text{Group}_i}}) \nonumber 
+\end{align}
+
+Canopy \\
+
+\begin{align}
+  \mu_{\text{Canopy}_i} &= 
+  \beta_{0[\text{Canopy}]} + \beta_{\text{Cutpartial}[\text{Canopy}]} \times \text{Cutpartial}_{i} + \nonumber \\
+  & \beta_{\text{Cutclear}[\text{Canopy}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Canopy}]_{\text{block}_i}} \\
+  \text{Canopy}_{i} &\sim 
+  \text{Normal} (\mu_{\text{Canopy}_i}, \tau_{\text{Canopy}_{\text{Group}_i}}) \nonumber 
+\end{align}
+
+Litter\\
+
+\begin{align}
+  \mu_{\text{Litter}_i} &= 
+  \beta_{0[\text{Litter}]} + \beta_{\text{Cutpartial}[\text{Litter}]} \times \text{Cutpartial}_{i} + \nonumber\\
+  & \beta_{\text{Cutclear}[\text{Litter}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Litter}]_{\text{block}_i}} \\
+  \text{Litter}_{i} &\sim 
+  \text{Normal} (\mu_{\text{Litter}_i}, \tau_{\text{Litter}_{\text{Group}_i}}) \nonumber 
+\end{align}
+
+Salamanders \\
+
+\begin{align}
+z_{\text{Salamander}_i} &\sim 
+\text{Bernoulli}(\psi_{\text{Salamander}_{\text{Group}_i}}) \nonumber \\
+\text{logit}(p_{\text{Salamander}_{ij}}) &= 
+\alpha_{0[\text{Salamander}]} + \alpha_{\text{CWD}[\text{Salamander}]} \times \text{CWD}_i + \\
+&\alpha_{\text{Precipitation}[\text{Salamander}]} \times \text{Precipitation}_{ij} + \alpha_{\text{Block}[\text{Salamander}]_{\text{Block}_i}} \nonumber \\
+\text{Salamander}_{ij} &\sim 
+\text{Bernoulli}(z_{\text{Salamander}_i} \times p_{\text{Salamander}_{ij}}) \nonumber
+\end{align}
+
+Carabid - prey \\
+
+\begin{align}
+  \text{logit}(\psi_{\text{Carabid.prey}_i}) &= 
+  \beta_{0[\text{Carabid.prey}]} + \beta_{z_{\text{Salamander}}[\text{Carabid.prey}]} \times z_{\text{Salamander}_i} + \nonumber \\
+  &\beta_{\text{Cutpartial}[\text{Carabid.prey}]} \times \text{Cutpartial}_i + \beta_{\text{Cutclear}[\text{Carabid.prey}]} \times \text{Cutclear}_i \nonumber\\
+  z_{\text{Carabid.prey}_i} &\sim 
+  \text{Bernoulli}(\psi_{\text{Carabid.prey}_i}) \nonumber \\
+  \text{logit}(p_{\text{Carabid.prey}_{ij}}) &= 
+  \alpha_{0[\text{Carabid.prey}]} + \alpha_{\text{CWD}[\text{Carabid.prey}]} \times \text{CWD}_i +  \\
+  &\alpha_{\text{Precipitation}[\text{Carabid.prey}]} \times \text{Precipitation}_{ij} + \alpha_{\text{Block}[\text{Carabid.prey}]_{\text{Block}_i}} \nonumber \\
+  \text{Carabid.prey}_{ij} &\sim 
+  \text{Bernoulli}(z_{\text{Carabid.prey}_i} \times p_{\text{Carabid.prey}_{ij}}) \nonumber
+\end{align}
+
+Carabid - competiton \\
+
+\begin{align}
+z_{\text{Carabid.comp}_i} &\sim 
+\text{Bernoulli}(\psi_{\text{Carabid.comp}_{\text{Group}_i}}) \nonumber \\
+\text{logit}(p_{\text{Carabid.comp}_{ij}}) &= 
+\alpha_{0[\text{Carabid.comp}]} + \alpha_{\text{CWD}[\text{Carabid.comp}]} \times \text{CWD}_i + \\
+&\alpha_{\text{Precipitation}[\text{Carabid.comp}]} \times \text{Precipitation}_{ij} + \alpha_{\text{Block}[\text{Carabid.comp}]_{\text{Block}_i}} \nonumber \\
+\text{Carabid.comp}_{ij} &\sim 
+\text{Bernoulli}(z_{\text{Carabid.comp}_i} \times p_{\text{Carabid.comp}_{ij}}) \nonumber
+\end{align}
+
+Springtails \\
+
+\begin{align}
+  \mu_{\text{Springtail}_i} &=
+  \beta_{0[\text{Springtail}]} + \beta_{\text{Cutpartial}[\text{Springtail}]} \times \text{Cutpartial}_i + \nonumber\\
+  &\beta_{\text{Cutclear}[Springtail]} \times \text{Cutclear}_i + \beta_{z_{\text{Salamander}}[\text{Springtail}]} \times z_{Salamander} + \\
+  &\beta_{z_{\text{Carabid.prey}}[\text{Springtail}]} \times z_{Carabid.comp} + \beta_{z_{\text{Carabid.comp}}[\text{Springtail}]} \times z_{Carabid.comp} \nonumber\\
+  &\alpha_{\text{Block}[\text{Springtail}]_{\text{Block}_i}} \nonumber
+\end{align}
+
+
+
+
+
+% These approaches combine two regression components in a single hierarchical model: one component estimates the state
+% variable (abundance: λ, occupancy: ѱ) and the effect of explanatory variables influencing the
+% state variable, whereas the second component estimates the detection probability (p) and the
+% effect of variables influencing detection probability (Mazerolle et al., 2007; Royle & Dorazio,
+% 2008)
+
+% We conducted model
+% selection and inference based on the second-order Akaike information criterion (Burnham
+% and Anderson, 2002; Mazerolle, 2006). Model selection and multimodel inference using the
+% shrinkage estimator were implemented with the AICcmodavg package (Burnham &
+% Anderson, 2002; Mazerolle, 2015, 2020). For site occupancy models, we assessed the fit with
+% the MacKenzie & Bailey (2004) goodness-of-fit of fit test.
+
+% All parameters in our analyses were estimated by maximum likelihood using the unmarked
+% package in R 4.1.2 (Fiske & Chandler, 2011; R Core Team 2021).
+
+
+
+
 
 \clearpage
 
 \section*{Results}
 \label{sec:results1}
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:results1}}
+
+\subsection*{Environmental variables}
+\label{subsec:ResEnv}
+\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResEnv}} 
+
+%% var env
+pas d'effet du traitement de coupe dsur le CWD
+Effet sur l'ouverture de la canope
+tendance sur la profondeur de litière
+
+\subsection*{Species cooccurence}
+\label{subsec:ResSpCooc}
+\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResSpCooc}} 
+
+%% salamandres
+% occu
+pas de différence 1v2, 1v3
+effet marginal de coupe total sur prob d'occu des salamandres (graphique prob d'occu ~ coupe + graphique posterieur)
+% det
+pas d'effet de precipitation sur les salamandres
+pas d'effet de volume de débris ligneux sur les salamandres
+
+%% carabes - comp
+% occu
+pas d'effet du traitement de coupe sur carabes comp
+% det
+effet de precip sur car comp (graphique prob de detection ~ precipitation)
+pas d'effet du débris ligneux sur CWD
+
+%% carabes - prey
+% ~ z.sal
+pas d'effet
+% car.prey ~ cut
+pas d'effet
+
+% p car.prey
+effet de precipitation (graphique p ~ precipitation)
+
+%% collemboles
+ pas d'effet du traitement de coupe
+ pas d'effet des autre espèces
+
+
+
 
 \clearpage
 
@@ -223,7 +376,7 @@ We verified the convergence of MCMC chains by examining trace plots, posterior d
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:conflict1}}
 
 None declared
-
+spotilaRoleTemperatureWater1972
 \section*{Author contributions}
 \label{sec:author1}
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:author1}}
