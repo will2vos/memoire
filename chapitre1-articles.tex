@@ -58,7 +58,7 @@ a cascading effect that subsequently influences lower trophic levels such as car
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:area}}
 
 \begin{otherlanguage*}{english}
-  Our study was conduct within the Portneuf Wildlife Reserve in the Captial-Nationale administrative region (47°07'N, 72°24'W, Figure \ref{fig:sites}) near Rivière-à-Pierre and Lac Amanites. 
+  Our study was conduct within the Portneuf Wildlife Reserve in the Captial-Nationale administrative region (47°07'N, 72°24'W, Figure \ref{fig:area}) near Rivière-à-Pierre and Lac Amanites. 
   This area is located within the balsam fir (\textit{Abies balsamea})-yellow birch (\textit{Betula alleghaniensis}) bioclimatic domain \citep{saucierChapitreEcologieForestiere2009}.
   Tree cover also contain sugar maple (\textit{Acer saccharum}), red maple (\textit{Acer rubrum}), white spruce (\textit{Picea glauca}), black spruce (\textit{Picea mariana}), red spruce (\textit{Picea rubens}),
   white birch (\textit{Betula papyrifera}) and quaking aspen (\textit{Populus tremuloides}) (foret ouverte, rapport d'inventaire). 
@@ -78,9 +78,9 @@ a cascading effect that subsequently influences lower trophic levels such as car
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.70]{fig_sites.png}
-	\caption[Localisation of study site in Québec, Canada.]{Localisation of study site in Québec (1) and the assisted migration experimental system (2) with four blocks (A, B, C, D) in Portneuf Wildlife Reserve (47°07'N, 72°24'W) including two overstory treatments : clear-cut (orange) and partial-cut (grey).}
-	\label{fig:sites}
+	\includegraphics[scale=0.20]{fig_area2.png}
+	\caption[Study area in Portneuf Wildlife Reserve, Québec, Canada.]{Study area in Portneuf Wildlife Reserve where the assisted migration experimental system is implemented (47°07'N, 72°24'W).}
+	\label{fig:area}
 	\end{figure}  
 
 
@@ -89,13 +89,25 @@ a cascading effect that subsequently influences lower trophic levels such as car
 \label{subsec:sampling}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:sampling}}
 
-We selected 60 sampling units (10 m $\times$ 7,5 m) to collect our data : six units per overstory treatment (clear-cut and partial-cut) with three control outside the blocks for four blocks.
+We selected 60 sampling units (10 m $\times$ 7,5 m) to collect our data : six units per overstory treatment (clear-cut and partial-cut) with three control outside the blocks for four blocks (Figure \ref*{fig:blockSU}).
 Controls were separated from the blocks per at least 10 meters to remove treatments effects.
 Each sampling unit contained three methods to collect species data. 
 Artificial cover boards were used to count red-backed salamanders \citep{hesedUncoveringSalamanderEcology2012,mazerolleWoodlandSalamanderPopulation2021a,mooreComparisonPopulationEastern2009c}, 
 pitfall traps for the carabid monitoring (sources), and soil cores with litter collection for springtails assessment (sources) (figure).
 We conducted four sampling visits of five consecutive days each, namely in mid-May, mid-June, mid-July, and mid-August, during the summer 2022, to assesse the temporal effect. 
 Blocks were randomly visited to reduce time of day and sampler's fatigue level effects.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.60]{fig_blockSU.png}
+	\caption[Representation of a block and a sampling unit]{
+  Representation of a block (left) and a sampling unit (right). 
+  The block contain two overstory treatments : clear cut (square background), partial cut (dotted background). 
+  Fifteen sampling units were used per block : six per overstory treatment and three controls (\textbf{c}) outside the block.
+  Each sampling unit contained six artificial coverboards (stars) and one pitfall trap (crossed circle). Two soil cores (rhombus) were harvest per visits.
+  }
+	\label{fig:blockSU}
+	\end{figure}  
 
 Artificial coverboards is commonly employed for salamander sampling and yield similar or superior results compared to other methods such as active searching \citep{hydeSamplingPlethodontidSalamanders2001,mooreComparisonPopulationEastern2009c}. 
 This method helps reduce variability in the number and size of sampled ground objects \citep{hydeSamplingPlethodontidSalamanders2001}. 
@@ -137,6 +149,7 @@ Springtails dry biomass per samples units was quantified with a Sartorius Cubis\
 
 
 
+
 \subsection*{Environmental variables}
 \label{subsec:EnvVar}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:EnvVar}}
@@ -150,8 +163,10 @@ Subsequently, we measured basal diameters, apical diameters and CWD's length wit
 Segments of CWD outside the plots boundaries wasn't considered.
 We employed (Fraver et al., 2007) conic–paraboloid formula to estimate the volume of each CWD :
 
+\begin{equation}
+  \text{Volume} = L/12 \times (5A_b + 5A_u + 2\sqrt{A_b \times A_u})
+\end{equation}
 
-\[Volume = L/12 \times (5A_b + 5A_u + 2\sqrt{A_b \times A_u})\]
 
 Where $L$ is the length of logs, $A_b$ the basal area, and $A_u$ the apical area.
 We measured litter depth next to each coverboards and estimated the mean depth per sampling units \citep{mazerolleWoodlandSalamanderPopulation2021a}. 
@@ -167,38 +182,33 @@ Those station were equipped with a rain gauge and a probe measuring temperature,
 The temperature and humidity sensors were programmed for readings every 15 minutes. 
 We used daily average measurements from both station since informations form previous years showed no differences between blocks (Annexe).
 
-
-
-
 \subsection*{Statistical analyses}
 \label{subsec:analyses}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:analyses}} 
 
-To assess the effects of overstory treatments on the site occupancy of taxa, we used structural equation models (SEM) integrating occupancy and linear mixed models \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
-
+To assess the effects of overstory treatments on the site occupancy and environmental variables, we used a structural equation models (SEM) integrating occupancy and linear mixed models \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
 SEM are used to analysed complex relationships among observed and latent variables and allow to investigate on an ecological process \citep{graceStructuralEquationModeling2008}.
 Based on a theoretical framework, all studied variables are interconnected in a network where the effect of a disturbance on each variable can be estimated by taking into account 
 the disturbance effects on other related variables \citep{graceStructuralEquationModeling2008}.
 SEM use multiples equations to describe the relationships between variables and estimate parameters.
-Using SEM allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (Figure \ref*{fig:SEM}, \citealp{graceSpecificationStructuralEquation2010}).
+This method allow us to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (Figure \ref*{fig:SEM}, \citealp{graceSpecificationStructuralEquation2010}).
 \\
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.65]{fig_sem3.png}
+	\includegraphics[scale=0.55]{fig_sem3.png}
 	\caption[Theoretical model illustrating the relationships between overstory treatments, environmental variables and taxa.]{Theoretical model illustrating the relationships between overstory treatments, environnementale variables, salamanders, carabids, and springtails. 
   Each arrow indicates the direction of a potential effect, from an explanatory variable to a response variable.}
 	\label{fig:SEM}
 	\end{figure}  
 
 We integrated occupancy models to SEM to measured the effects of overstory treatments on salamanders and carabids occurrences. 
-Ocupancy models allow us to account for imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}
+Occupancy models allow us to account for imperfect detection of species since salamanders and carabids are known to be cryptic species and therefore may be present but unobserved \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}
 Occupancy modeling uses repeated surveys to compute detection probabilities and estimate the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
-%In our models, we used overstory treatments to explain the presence of salamanders and both carabids groups while considering precipitation levels, CWD and a block random effect to estimate detection probability.
-
-We calculated occupancy probabilities for salamanders and carabids form the salamanders competitor group at a site $i$ at a time $j$ with a Bernoulli distribution where the probability of success were estimated from the latent occupancy state $z$ and the detection $p$.
+We estimated occupancy probabilities for salamanders and carabids form the salamanders competitor group at a site $i$ at a time $j$ with a Bernoulli distribution where the probability of success were estimated from the latent occupancy state $z$ and the detection $p$.
 Latent occupancy states were estimated on a probability scale with a Bernoulli distribution considering species occupancy $\psi$ within each overstory treatments groups.
 We included precipitation levels, CWD and a block random effect to estimate detection probability with $\beta$s and $\alpha$s specific to each taxa.
+Air temperature and relative humidity were excluded from detection variables due to a high correlation with the precipitation level.
 
 \begin{align}
 z_{\text{Salamander}_i} &\sim 
@@ -237,13 +247,15 @@ and included overstory treatments and salamanders latent occupancy state $z_{Sal
 \end{align}
 
 We used linear mixed models to assess how overstory treatments can affect environmental variables (i.e. CWD, Canopy, Litter) and springtails biomass. 
-We used a Normal distribution to estimate posteriors and we included overstory treatments (i.e. Cutpartial, Cutclear) and a block random effect in linear predictors to estimate variables means. 
+We used a Normal distribution to estimate posteriors and we included overstory treatments (i.e. Cutpartial, Cutclear) and a block random effect in linear predictors 
+to estimate variables means. Linear predictor for springtails also accounted for latent occupancy states of salamanders and both carabids groups (i.e. $z_{Salamander}$, $z_{SCarabid.comp}$, $z_{Carabid.prey}$ ).
 % ajouter les elements d/equation des collemboles.
+
 \begin{align}
   \mu_{\text{Springtail}_i} &=
   \beta_{0[\text{Springtail}]} + \beta_{\text{Cutpartial}[\text{Springtail}]} \times \text{Cutpartial}_i + \nonumber\\
   &\beta_{\text{Cutclear}[Springtail]} \times \text{Cutclear}_i + \beta_{z_{\text{Salamander}}[\text{Springtail}]} \times z_{Salamander} + \\
-  &\beta_{z_{\text{Carabid.prey}}[\text{Springtail}]} \times z_{Carabid.comp} + \beta_{z_{\text{Carabid.comp}}[\text{Springtail}]} \times z_{Carabid.comp} \nonumber\\
+  &\beta_{z_{\text{Carabid.prey}}[\text{Springtail}]} \times z_{Carabid.prey} + \beta_{z_{\text{Carabid.comp}}[\text{Springtail}]} \times z_{Carabid.comp} \nonumber\\
   &\alpha_{\text{Block}[\text{Springtail}]_{\text{Block}_i}} \nonumber
 \end{align}
 
@@ -282,52 +294,130 @@ For CWD, canopy and springtails estimations, we also allowed each overstory grou
 
 Analysis was performed with a Bayesian approche and parameters were estimated using Markov chain Monte Carlo method (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 \citep{lunnBUGSProjectEvolution2009,kellnerJagsUIWrapperRjags2024,rcoreteamLanguageEnvironmentStatistical2020}.
 We applied non-informative priors to all parameters by using normal distribution $\text{Normal}(\mu = 0, \sigma^2 = 100$) and uniform distribution $\text{Uniform}(0,1)$ as $\beta$ estimates. 
-We also included a block random effect to estimate all parameters and allow each overstory group to have there own variance due to heteroscedasticity. 
-We executed the model with five chains, 200,000 iterations each \citep{gelmanUnderstandingPredictiveInformation2014}. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. See Table X for more details.
+We executed the model with five chains, 200,000 iterations each \citep{gelmanUnderstandingPredictiveInformation2014}. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. 
 We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic.
-% vague priors
-
-
-
-
-% These approaches combine two regression components in a single hierarchical model: one component estimates the state
-% variable (abundance: λ, occupancy: ѱ) and the effect of explanatory variables influencing the
-% state variable, whereas the second component estimates the detection probability (p) and the
-% effect of variables influencing detection probability (Mazerolle et al., 2007; Royle & Dorazio,
-% 2008)
-
-% We conducted model
-% selection and inference based on the second-order Akaike information criterion (Burnham
-% and Anderson, 2002; Mazerolle, 2006). Model selection and multimodel inference using the
-% shrinkage estimator were implemented with the AICcmodavg package (Burnham &
-% Anderson, 2002; Mazerolle, 2015, 2020). For site occupancy models, we assessed the fit with
-% the MacKenzie & Bailey (2004) goodness-of-fit of fit test.
-
-% All parameters in our analyses were estimated by maximum likelihood using the unmarked
-% package in R 4.1.2 (Fiske & Chandler, 2011; R Core Team 2021).
-
-
-% correlation entre les variables 
-
 
 \clearpage
+
+
 
 \section*{Results}
 \label{sec:results1}
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:results1}}
 
-\subsection*{Environmental variables}
+\subsection*{Environmental variables in overstory treatments}
 \label{subsec:ResEnv}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResEnv}} 
 
-%% var env
-pas d'effet du traitement de coupe dsur le CWD
-Effet sur l'ouverture de la canope
-tendance sur la profondeur de litière
+Environmental variables typically differ between forest cutting treatments and control conditions. We found that total cutting treatments have significantly less CWD compared to partial cutting (Figure \ref{fig:envar} A, Table\ref{tab:overstory}). Results indicate that canopy openness is significantly higher in total cutting treatments, followed by partial cutting treatments, when compared to control sites (Figure \ref{fig:envar} B, Table\ref{tab:overstory}). Conversely, sites with total cutting show the lowest litter depths, followed by partial cutting treatments, in contrast to control sites(Figure \ref{fig:envar} C, Table\ref{tab:overstory}).
 
-\subsection*{Species cooccurence}
-\label{subsec:ResSpCooc}
-\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResSpCooc}} 
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[scale=0.50]{fig_envar.png}
+  \caption[Overstory treatments effects on environmental variables]{ Environmental variables estimations within two different overstory treatments and control during the summer 2021 in the Portneuf Wildlife Reserve device, Quebec, Canada. 
+  Error bars denote 95\% credible intervals around estimates.}
+  \label{fig:envar}
+\end{figure}
+
+
+\begin{table}[ht!]
+  \centering
+  \caption[Direct and indirect estimated effects of overstory treatments and species occupancy on environnementale variables and species groups.]
+  {Direct and indirect estimated effects of overstory treatments and species occupancy on environnementale variables and species groups.}
+  \label{tab:overstory}
+  \begin{tabular}{lllll} 
+      \hline
+      &&&95\% Bayesian \\
+      Variable & Comparison & Estimate &  credible interval \\ [0.5ex] 
+      \hline
+      Coarse woody debris & Partial vs control & \hspace{1mm}0.02 & [-1.01, 1.06] \\ 
+                          & Clear vs control  & -0.77 & [-1.79, 0.23] \\ 
+                          & Clear vs partial  & -0.79 & [-1.15, -0.43] \\
+      Canopy openness     & Partial vs control & \hspace{1mm}6,49 & [1.97, 11.02] \\ 
+                          & Clear vs control  & \hspace{1mm}64.19 & [51.39, 77.06] \\ 
+                          & Clear vs partial  & \hspace{1mm}57.69 & [44.61, 70.76] \\ 
+      Litter depth        & Partial vs control & -1.54 & [-2.44, -0.65] \\ 
+                          & Clear vs control  & -3.39 & [-4.28, -2.50] \\ 
+                          & Clear vs partial  & -1.85 & [-2.57, -1.12] \\       
+      Salamander          & Partial vs control & \hspace{1mm}0.07 & [-0.29, 0.45] \\ 
+                          & Clear vs control  & -0.38 & [-0.75, 0.11] \\ 
+                          & Clear vs partial  & -0.45 & [-0.74, -0.07]$^{a}$ \\       
+      Carabid$_{competitor}$ & Partial vs control & -0.12 & [-0.35, 0.15] \\
+                          & Clear vs control  & -0.06 & [-0.29, 0.20] \\ 
+                          & Clear vs partial  & \hspace{1mm}0.06 & [-0.19, 0.30] \\ 
+      Carabid$_{prey}$    & Partial vs control & \hspace{1mm}3.31 & [-10.12, 17.72] \\
+                          & Clear vs control  & \hspace{1mm}10.19 & [-4.15, 24.45] \\ 
+                          & Clear vs partial  & \hspace{1mm}6.88 & [-12.81, 23.42] \\  
+                          & Salamander        & -2.20 & [-17.15, 16.59] \\  
+      Springtail         & Partial vs control & \hspace{1mm}8.11 & [-9.38, 25.40] \\
+                          & Clear vs control  & \hspace{1mm}2.11 & [-13.98, 18.11] \\ 
+                          & Clear vs partial  & -6.00 & [-29.09, 17.26] \\  
+                          & Salamander        & \hspace{1mm}6.80 & [-10.43, 23.26] \\ 
+                          & Carabid$_{competitor}$      & \hspace{1mm}0.56 & [-16.75, 17.66] \\ 
+                          & Carabid$_{prey}$      & \hspace{1mm}7.62 & [-8.93, 24.09] \\ 
+      \hline
+      \multicolumn{4}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean} \\
+      \multicolumn{4}{l}{number with 95\% credible intervals, where an interval excluding 0 indicates} \\
+      \multicolumn{4}{l}{a difference between groups.} \\
+      \multicolumn{4}{l}{$^{a}$Marginal difference based on 90\% Bayesian credible interval excluding 0}
+  \end{tabular}
+\end{table}
+
+
+\begin{table}[ht!]
+  \centering
+  \caption[Estimated effects of CWD and precipitation on the detection of salamanders and both carabids groups.]
+  {Estimated effects of CWD and precipitation on the detection of salamanders and both carabids groups.}
+  \label{tab:detection}
+  \begin{tabular}{lllll} 
+      \hline
+      &&&95\% Bayesian \\
+      Variable & Taxa & Estimate &  credible interval \\ [0.5ex] 
+      \hline      
+      Precipitation       & Salamander              & \hspace{1mm}0.11 & [-0.83, 1.06] \\ 
+                          & Carabid$_{competitor}$  & \hspace{1mm}1.17 & [0.59, 1.77] \\ 
+                          & Carabid$_{prey}$        & \hspace{1mm}1.87 & [0.70, 3.23] \\       
+      Coarse woody debris & Salamander              & -0.59 & [-1.39, 0.12] \\ 
+                          & Carabid$_{competitor}$  & \hspace{1mm}0.06 & [-0.26, 0.38] \\ 
+                          & Carabid$_{prey}$        & \hspace{1mm}0.27 & [-0.74, 1.37] \\   
+
+      \hline
+      \multicolumn{4}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean} \\
+      \multicolumn{4}{l}{number with 95\% credible intervals, where an interval excluding 0 indicates} \\
+      \multicolumn{4}{l}{a difference between groups.} \\
+  \end{tabular}
+\end{table}
+
+
+
+CWD
+control vs partial  no effect
+control vs totale  no effect
+partial vs total  effet 95\% 
+
+Canopy
+control vs partial  effect 95\%
+control vs totale  no effect
+partial vs total  effet 95\% 
+
+
+Comparativemment au témoins, l'ensemble des variables environnementales mesurées montre peu de différence parmis les differents traitement de coupe forestières.
+L'ouverture de la canopé augmente avec l'intensité de coupe et est significativement plus grandes plus grandes dans les traitements de coupe totale avec une ouverture moyenne 
+de 67.06\% (95\% CI : [42.70, 91.63]) comparativement au traitement de coupe partielle et temoins avec de moyenne respectives de 9.40\% (95\% CI : [0, 25.74]) et 2.91\% (95\% CI : [0, 14.71]). 
+Le CWD et la profondeur de litiere ne montre pas de différences significative 
+Nous n'avons pas trouve d'effet du traitement de coupes forestieres sur le CWD ou la profondeur de la litiere les intervalle de confiance entre les temoins et 
+les traitements de coupe se chevauchant.
+
+Les 
+
+
+
+effet 
+\subsection*{Taxa occupancy}
+\label{subsec:taxa}
+\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:taxa}} 
+
+nos résultats ne montre pas d'effets significatif des traitements de coupe forestières sur l
 
 %% salamandres
 % occu
@@ -358,7 +448,7 @@ effet de precipitation (graphique p ~ precipitation)
  pas d'effet des autre espèces
 
 
-
+%% tableau présentant les comparaison , avec les intervalle de confiance + beta ( voire tableau 2 de mazerolle 2021)
 
 \clearpage
 

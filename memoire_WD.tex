@@ -28,6 +28,8 @@
     keywordstyle=\color{blue},
     commentstyle=\color{purple},
 }
+
+
 \usepackage{chngcntr}           % numerotation figure en annexe par section
 
 \usepackage{rotating}
@@ -39,6 +41,8 @@
 %modify interline spacing
 \usepackage{setspace}
 \usepackage{lscape}
+\usepackage{fixltx2e}   % permet de mettre des mots en indice dans tableau
+\usepackage{multirow}   % permet de fusionner de colonne dans tableau
 
 
 % Define typographic struts, as suggested by Claudio Beccari
@@ -46,9 +50,12 @@
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
 \newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}   % = `bottom' strut
 
-  \DeclareCaptionLabelFormat{Sformat}{#1 S#2}  
-  \DeclareCaptionLabelSeparator{none}{}    %<---
-  \captionsetup[table]{labelformat=Sformat}
+\DeclareCaptionLabelFormat{tableformat}{#1 #2}
+\captionsetup[table]{labelformat=tableformat, labelsep=period}
+
+  % \DeclareCaptionLabelFormat{Sformat}{#1 S#2}  
+  % \DeclareCaptionLabelSeparator{none}{}    %<---
+  % \captionsetup[table]{labelformat=Sformat}
   
 \usepackage[protrusion=true, expansion=true, shrink=55, stretch=55, 
 tracking=true, kerning=true, spacing=true, 

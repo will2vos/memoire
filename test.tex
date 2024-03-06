@@ -1,21 +1,56 @@
 \documentclass{article}
-\usepackage{tikz}
+\usepackage{natbib}
+\usepackage{fixltx2e}
+\bibliographystyle{ecologyNewEN.bst}
+\title{Bibliography management: \texttt{natbib} package}
+\author{Overleaf}
+\date {April 2021}
+
 \begin{document}
-\begin{tikzpicture}
 
-\draw[gray, thick] (-1,2) -- (2,-4);
-\draw[gray, thick] (-1,-1) -- (2,2);
-\filldraw[black] (0,0) circle (2pt) node[anchor=west]{Intersection point};
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{lllll} 
+        \hline
+        \rule{0pt}{3ex}
+        &&&95\% Bayesian \\
+        Variable & Comparison & Estimate &  credible interval \\ [0.5ex] 
+        \hline
+        Coarse woody debris & Partial vs control & \hspace{1mm}0.02 & [-1.01, 1.06] \\ 
+                            & Clear vs control & -0.77 & [-1.79, 0.23] \\ 
+                            & Clear vs partial & -0.79 & [-1.15, -0.43] \\
+        Canopy openness     & Partial vs control & \hspace{1mm}6,49 & [1.97, 11.02] \\ 
+                            & Clear vs control & \hspace{1mm}64.19 & [51.39, 77.06] \\ 
+                            & Clear vs partial & \hspace{1mm}57.69 & [44.61, 70.76] \\ 
+        Litter depth        & Partial vs control & -1.54 & [-2.44, -0.65] \\ 
+                            & Clear vs control & -3.39 & [-4.28, -2.50] \\ 
+                            & Clear vs partial & -1.85 & [-2.57, -1.12] \\       
+        \hline
+        Salamander          & Partial vs control & \hspace{1mm}0.07 & [-0.29, 0.45] \\ 
+                            & Clear vs control & -0.38 & [-0.75, 0.11] \\ 
+                            & Clear vs partial & -0.45 & [-0.74, -0.07]$^{a}$ \\       
+        Carabid$_{competitor}$ & Partial vs control & -0.12 & [-0.35, 0.15] \\
+                            & Clear vs control & -0.06 & [-0.29, 0.20] \\ 
+                            & Clear vs partial & \hspace{1mm}0.06 & [-0.19, 0.30] \\ 
+                            & $\alpha$\textsubscript{Precipitation} & \hspace{1mm}1.17 & [0.59, 1.76] \\
+                            & $\alpha$\textsubscript{CWD} & \hspace{1mm}0.06 & [-0.26, 0.38] \\
+        Carabid$_{prey}$    & Partial vs control & \hspace{1mm}3.31 & [-10.12, 17.72] \\
+                            & Clear vs control & \hspace{1mm}10.19 & [-4.15, 24.45] \\ 
+                            & Clear vs partial & \hspace{1mm}6.88 & [-12.81, 23.42] \\  
+                            & $z$\textsubscript{Salamander} & -2.20 & [-17.15, 16.59] \\  
+                            & $\alpha$\textsubscript{Precipitation} & \hspace{1mm}1.87 & [0.70, 3.23] \\
+                            & $\alpha$\textsubscript{CWD} & \hspace{1mm}0.27 & [-0.74, 1.37] \\
+        Springtails         & Partial vs control & \hspace{1mm}8.11 & [-9.38, 25.40] \\
+                            & Clear vs control & \hspace{1mm}2.11 & [-13.98, 18.11] \\ 
+                            & Clear vs partial & -6.00 & [-29.09, 17.26] \\  
+                            & $z$\textsubscript{Salamander} & \hspace{1mm}6.80 & [-10.43, 23.26] \\ 
+                            & $z$\textsubscript{Carabid\textsubscript{comp}} & \hspace{1mm}0.56 & [-16.75, 17.66] \\ 
+                            & $z$\textsubscript{Carabid\textsubscript{prey}} & \hspace{1mm}7.62 & [-8.93, 24.09] \\ 
+        \hline
+    \end{tabular}
+  \end{table}
+ % ajouter type de réponse ( psi, % , )
+ %graphique precipitation
 
-\end{tikzpicture}
-
-\begin{tikzpicture}
-
-    \draw (-2,0) -- (2,0);
-    \filldraw [gray] (0,0) circle (2pt);
-    \draw (-2,-2) .. controls (0,0) .. (2,-2);
-    \draw (-2,2) .. controls (-1,0) and (1,0) .. (2,2);
-    
-    \end{tikzpicture}
-    
+ 
 \end{document}
