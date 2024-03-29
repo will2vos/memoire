@@ -46,7 +46,7 @@ We first hypothesized that forest harvesting treatments alter habitat use of soi
 Thus, the harvests initially affect habitat use by salamanders and large carabids and subsequently alter habitat selection for small carabids and, finally, springtails.
 Our second hypothesis suggested that forest harvesting associated with site preparation influences directly environmental variables such as litter depth, canopy openness, and coarse woody debris (CWD). 
 We predicted that larger forest cuts result in decreased litter depth and CWD as a consequence of reduced accumulation of leaves and woody debris on the forest floor.
-Conversely, we predicted that site preparation following clearcut reduces canopy cover.
+Conversely, we predicted that site preparation following clear-cut reduces canopy cover.
 
 \section*{Material and methods}
 \label{sec:matmet1}
@@ -137,7 +137,7 @@ Blocks were visited in a random sequence to reduce effects of time of day and ob
 	\includegraphics[scale=0.50]{fig_blockSU2.png}
 	\caption[Design of one block and one sampling unit with three sampling methods.]{
   Design of a block (left) and a sampling unit (right). 
-  The block contain two overstory treatments : clear cut (grey background), partial cut (white background). 
+  The block contain two overstory treatments : clear-cut (grey background), partial-cut (white background). 
   Fifteen sampling units were used per block : six per overstory treatment and three controls (\textbf{c}) outside each block.
   Each sampling unit contained six artificial coverboards (rhombus) and one pitfall trap (triangles). Two soil cores (circles) were collected per survey.
   }
@@ -200,7 +200,7 @@ We used this framework to measure direct and indirect processes that influence s
 	\centering
 	\includegraphics[scale=0.55]{fig_sem.png}
 	\caption[Theoretical model illustrating the anticipated relationships between overstory treatments, environmental variables and species groups.]
-  {Theoretical model illustrating the anticipated relationships between overstory treatments, coarse woody debris volume, canopy opensess, litter depth,
+  {Theoretical model illustrating the anticipated relationships between overstory treatments, coarse woody debris volume, canopy openness, litter depth,
    salamanders occupancy, carabids occupancy, and springtail biomass in the Portneuf Wildlife Reserve, Quebec, Canada. 
    Each arrow indicates the direction of a potential effect, from an explanatory variable to a response variable.}
 	\label{fig:SEM}
@@ -213,7 +213,7 @@ Occupancy models allow us to account for imperfect detection of species since sa
 Occupancy modeling uses repeated surveys to estimate detection probabilities and estimate the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
 
 To estimate the occupancy probabilities of salamanders and carabids, we used the observed detection at site $i$ during survey $j$, 
-represented by $\text{Salamander}_{ij}$, $\text{Carabid.comp}_{j}$ and $\text{Carabid.prey}_{ij}$. Observed detection followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as parameter, 
+represented by $\text{Salamander}_{ij}$, $\text{Carabid.comp}_{ij}$ and $\text{Carabid.prey}_{ij}$. Observed detection followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as parameter, 
 where $z_{i}$ represents the latent occupancy state of species groups at a site $i$ and $p_{ij}$ represents the probability of detecting species groups at a site $i$ during a survey $j$ :
 
 
@@ -236,10 +236,11 @@ The latent occupancy state $z$ indicates whether a site is occupied by a species
 \end{align}
 
 
-Salamanders and large carabids occupancy probabilities for each overstory groups $i$ ($\psi_{\text{Salamander}_{\text{Group}_i}}$, $\psi_{\text{Carabid.comp}_{\text{Group}_i}}$ ) follow a uniform distribution $U(0,1)$ 
+Salamanders and large carabids occupancy probabilities ($\psi_{\text{Salamander}_{\text{Group}_i}}$, $\psi_{\text{Carabid.comp}_{\text{Group}_i}}$ ) are drawn from uniform distribution $\text{U}(0, 1)$ for each overstory group $i$, 
 whereas small carabids occupancy probabilities ($\psi_{\text{Carabid.prey}_{i}}$) were estimated from a linear predictor with salamander latent occupancy state ($z_{\text{Salamander}_i}$) and overstory treatments 
-($\text{Cutpartial}_i$, $\text{Cutclear}_i$) as parameters on a logit scale. 
-$\beta$s represent the coefficients associated with each explanatory variables affecting occupancy in the linear predictor :
+($\text{Cutpartial}_i$, $\text{Cutclear}_i$) as explanatory variables on a logit scale. 
+$\beta$s represent the coefficients associated with each parameters affecting occupancy in the linear predictor. 
+We assumed vague normal priors, $\text{N}(0, \sigma = 10)$ for those $\beta$ parameters :
 
 
 \begin{align}
@@ -249,9 +250,11 @@ $\beta$s represent the coefficients associated with each explanatory variables a
 \end{align}
 
 We applied a logit scale on parameters influencing the probability of detecting species groups ($\text{logit}(p_{ij})$), allowing us to use 
-the coarse woody debris ($\text{CWD}_i$), the precipitation levels ($\text{Precipitation}_{ij}$) and a block random effect ($\alpha_{Block}$) as explanatory variables. 
+the coarse woody debris ($\text{CWD}_i$), the precipitation levels ($\text{Precipitation}_{ij}$) as explanatory variables with a block random effect ($\alpha_{Block}$). 
+$\alpha$s represent the coefficients associated with each explanatory variables affecting detection in the linear predictor. 
+We assumed vague normal priors for CWD, precipitation levels $\text{N}(0, \sigma = 10)$ and block random effects $\text{N}(0, \sigma_{Block})$ 
+where $\sigma_{Block}$ is drawn form uniform distribution $\text{U}(1, 10)$. 
 Air temperature and relative humidity were excluded from detection variables due to a high correlation with the precipitation level.
-$\alpha$s represent the coefficients associated with each explanatory variables affecting detection in the linear predictor : 
 
 
 \begin{align}
@@ -314,8 +317,7 @@ $\alpha$s represent the coefficients associated with each explanatory variables 
 \subsubsection{Linear mixed models} 
 
 We used linear mixed models to assess how overstory treatments affect springtail biomass ($\text{Springtail}_{i}$) and 
-environmental variables ($\text{CWD}_{i}$, $\text{Canopy}_{i}$, $\text{Litter}_{i}$) at site $i$. 
-We employed Normal distributions to estimate posteriors :
+environmental variables ($\text{CWD}_{i}$, $\text{Canopy}_{i}$, $\text{Litter}_{i}$) at site $i$ :
 
 \begin{align}
   \text{Springtail}_{i} &\sim \text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}}) \nonumber \\
@@ -324,10 +326,12 @@ We employed Normal distributions to estimate posteriors :
   \text{Litter}_{i} &\sim \text{N} (\mu_{\text{Litter}_i}, \sigma_{\text{Litter}_{i}}) \nonumber 
 \end{align}
 
-Variables means estimations at site $i$ ($\mu_{i}$) included overstory treatments ($\text{Cutpartial}_i$, $\text{Cutclear}_i$) and block random effect ($\alpha_{\text{Block}}$) as linear predictors. 
+Springtail biomass and environnemental variables estimations are drawn from Normal distributions where means estimations at site $i$ ($\mu_{i}$) included overstory treatments ($\text{Cutpartial}_i$, $\text{Cutclear}_i$) and block random effect ($\alpha_{\text{Block}}$) as linear predictors. 
 Estimations of $\mu_{\text{Springtail}_i}$ also accounted for latent occupancy state of salamanders and both carabids groups ($z_{Salamander}$, $z_{SCarabid.comp}$, $z_{Carabid.prey}$ ). 
+We assumed vague normal priors for overstory treatments, latent occupancy states, $\text{N}(0, \sigma = 10)$ and block random effects $\text{N}(0, \sigma_{Block})$ 
+where $\sigma_{Block}$ is drawn form uniform distribution $\text{U}(0, 50)$. 
 The $\beta$ coefficients represent the weights assigned to each explanatory in the linear predictor.
-Due to heteroscedasticity with $\text{Springtail}$, $\text{CWD}$ and $\text{Canopy}$, we allowed each overstory groups $j$ to have their own variances for those variables ($\sigma_j \sim \text{U}(0,150)$) :
+Due to heteroscedasticity with $\text{Springtail}$, $\text{CWD}$ and $\text{Canopy}$, we allowed each overstory groups $j$ to have their own variances ($\sigma_j \sim \text{U}(0,150)$) :
 
 \begin{align}
   \mu_{\text{Springtail}_i} &= \beta_{0[\text{Springtail}]} + \beta_{\text{Cutpartial}[\text{Springtail}]} \times \text{Cutpartial}_i + \nonumber\\
@@ -353,67 +357,61 @@ Due to heteroscedasticity with $\text{Springtail}$, $\text{CWD}$ and $\text{Cano
 \end{align}
 
 
-Analysis was performed with a Bayesian approach and parameters were estimated using Markov chain Monte Carlo (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 \citep{lunnBUGSProjectEvolution2009,kellnerJagsUIWrapperRjags2024,rcoreteamLanguageEnvironmentStatistical2020}.
-We applied non-informative priors to all parameters by using normal distribution $\text{Normal}(\mu = 0, \sigma^2 = 100$) and uniform distribution $\text{U}(0,1)$ as $\beta$ estimates. 
+Analysis was performed with a Bayesian approach and parameters were estimated using Markov chain Monte Carlo (MCMC) with JAGS 4.3.0 include in the jagsUI package in R 4.3.1 \citep{lunnBUGSProjectEvolution2009,kellnerJagsUIWrapperRjags2024,rcoreteamLanguageEnvironmentStatistical2020}. 
 We ran the model with five chains, 200,000 iterations each \citep{gelmanUnderstandingPredictiveInformation2014}. A burn-in period of 75,000 iterations was used and a thinning rate of 5 was applied. 
-We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic.
+We verified the convergence of MCMC chains by examining trace plots, posterior density plots, and applying the Brooks-Gelman-Rubin statistic. 
+The JAGS model code is available in Table
 
 \clearpage
-
-
 
 \section*{Results}
 \label{sec:results1}
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:results1}}
 
-\subsection*{Environmental variables}
-\label{subsec:ResEnv}
-\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResEnv}} 
 
-Environmental variables usually differ between forest cutting treatments and control conditions. We found that total cutting treatments have significantly less CWD compared to partial cutting (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
-Canopy openness in the total cut treatment was higher than in partial cuts and treatments (Figure \ref{fig:envar} B, Table \ref{tab:overstoryenvar}). 
-Conversely, sites with total cutting show the lowest litter depths, followed by partial cutting treatments, in contrast to control sites (Figure \ref{fig:envar} C, Table \ref{tab:overstoryenvar}).
+\subsection*{Soil fauna}
+\label{subsec:taxa}
+\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:taxa}} 
 
-\vspace{0.5cm}
+Model diagnostics indicated that the chain lengths were sufficient, as the Brooks-Gelman-Rubin statistic was below 1.1. 
+Trace plot analysis revealed that all chains had converged towards similar values, and none of the ratios of MCMC error to posterior standard deviation exceeded 5\%.
+
+\vspace{10pt}
 
 \begin{figure}[ht]
-  \centering
-  \includegraphics[scale=0.50]{fig_envar.png}
-  \caption[Environmental variables estimations with a potential effect soil species within two different overstory treatments and control.]
-  {Environmental variables estimations with a potential effect soil species within two different overstory treatments and control 
-  during the summer 2022 in the Portneuf Wildlife Reserve, Quebec, Canada. Error bars denote 95\% credible intervals around estimates.}
-  \label{fig:envar}
-\end{figure}
+	\centering
+	\includegraphics[scale=0.60]{fig_sem_res2.png}
+	\caption[Results from structural equation modeling analysis revealing effects of overstory treatments on coarse woody debris volume,
+  canopy openness, litter depth, salamander occupancy, carabid occupancy, and springtail biomass.]
+  {Results from structural equation modeling analysis revealing effects of overstory treatments on coarse woody debris volume,
+  canopy openness, litter depth, salamander occupancy, carabid occupancy, and springtail biomass, in the Portneuf Wildlife Reserve, 
+  Quebec, Canada. Bold arrows denotes significant effects of an explanatory variable on a response variable, 
+  while gray arrows indicate no discernible effects. Values displayed above the bold arrows represent average differences between posterior distributions of two overstory groups. 
+  Overstory groups consist of partial-cut (PC) and clear-cut (CC) treatments along with control groups (C).
+  Estimates marked with one asterisk (*) indicate a 90\% credible interval (CI) that excludes 0, 
+  whereas estimates marked with two asterisks (**) indicate a 95\% CI excluding 0. C, CC, PC. }
+	\label{fig:SEMres}
+\end{figure}  
 
-\vspace{0.5cm}
+%%%%%%%%%%% début
 
-\begin{table}[ht]
-  \centering
-  \caption[Differences between overstory treatments on environmental variables that could effect occupancy of fauna on the forest soil.]
-  {Differences between overstory treatments on environmental variables that could effect occupancy of fauna on the forest soil during the summer 2022 in the Portneuf Wildlife Reserve,
-  Quebec, Canada.}
-  \label{tab:overstoryenvar}
-  \begin{tabular}{lllll} 
-      \hline
-      &&&&95\% Bayesian \\
-      Variable&Unit& Comparison & Estimate &  credible interval \\ [0.5ex] 
-      \hline
-      Coarse woody debris &m\up{3}& Partial vs control & \hspace{1mm}0.02 & [-1.01, 1.06] \\ 
-                 && Clear vs control  & -0.77 & [-1.79, 0.23] \\ 
-                          && Clear vs partial  & -0.79 & [-1.15, -0.43] \\
-      Canopy openness     &\%& Partial vs control & \hspace{1mm}6.49 & [1.97, 11.02] \\ 
-                      && Clear vs control  & \hspace{1mm}64.19 & [51.39, 77.06] \\ 
-                          && Clear vs partial  & \hspace{1mm}57.69 & [44.61, 70.76] \\ 
-      Litter depth        &cm& Partial vs control & -1.54 & [-2.44, -0.65] \\ 
-                      && Clear vs control  & -3.39 & [-4.28, -2.50] \\ 
-                          && Clear vs partial  & -1.85 & [-2.57, -1.12] \\       
-      \hline
-      \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean number with 95\%} \\
-      \multicolumn{5}{l}{credible intervals, where an interval excluding 0 indicates a difference between groups.} \\
-  \end{tabular}
-\end{table}
 
-\vspace{0.5cm}
+%%%%%%%%%%% fin
+
+\vspace{10pt}
+
+The average salamander observation per survey was 8 individuals with a range of 17 salamanders, during the summer 2022.
+We captured 189 carabids belonging to 30 species, with 49 carabids found in the partial-cut treatments, 105 in the clear-cuts, and 35 in the control sites (Table \ref{tab:carabid}). 
+We collected 468 springtails representing 12 families, with 219 springtails collected from partial-cut treatments, 131 from clear-cuts, and 118 from the control areas (Table \ref{tab:springtail}). 
+The average springtail biomass collected per overstory treatments was 24.3 $\mu$g (SD = 18.2 $\mu$g), 56.8 $\mu$g (SD = 78.0 $\mu$g), and 31.1 $\mu$g (SD = 52.8 $\mu$g) in the partial-cut treatments, clear-cuts and control sites, respectively.
+
+The effects of overstory treatments on habitat selection by species groups were generally not significant. 
+Salamander occupancy probability was marginally lower in sites subjected to clear-cutting compared to those with partial-cutting (90\% CI : [-0.74, -0.07], Figure \ref{fig:pcin}, Table \ref{tab:overstorysp}). 
+However, these two groups did not differ from the control sites. 
+Occupancy probability for both carabid groups, as well as the springtail biomass, did not vary significantly between the overstory treatments and control sites (Table \ref{tab:overstorysp}). 
+Overall, the presence of salamanders had no significant impact on the occupancy probabilities of carabids representing prey for salamanders and we did not observe significant effects of either salamanders or carabids on springtail biomass (Table \ref{tab:overstorysp}).
+
+\vspace{10pt}
 
 \begin{table}[ht]
   \centering
@@ -427,18 +425,18 @@ Conversely, sites with total cutting show the lowest litter depths, followed by 
       &&&&95\% Bayesian \\
       Variable&Unit& Comparison & Estimate &  credible interval \\ [0.5ex] 
       \hline     
-      Salamander occupancy          &probability& Partial vs control & \hspace{1mm}0.07 & [-0.29, 0.45] \\ 
-             && Clear vs control  & -0.38 & [-0.75, 0.11] \\ 
+      Salamander           &probability& Partial vs control & \hspace{1mm}0.07 & [-0.29, 0.45] \\ 
+      occupancy       && Clear vs control  & -0.38 & [-0.75, 0.11] \\ 
                           && Clear vs partial  & -0.45 & [-0.74, -0.07]$^{a}$ \\       
-      Carabid$_{competitor}$ occupancy &probability& Partial vs control & -0.12 & [-0.35, 0.15] \\
-             && Clear vs control  & -0.06 & [-0.29, 0.20] \\ 
+      Carabid$_{competitor}$ &probability& Partial vs control & -0.12 & [-0.35, 0.15] \\
+      occupancy       && Clear vs control  & -0.06 & [-0.29, 0.20] \\ 
                           && Clear vs partial  & \hspace{1mm}0.06 & [-0.19, 0.30] \\ 
-      Carabid$_{prey}$ occupancy    &logit& Partial vs control & \hspace{1mm}3.31 & [-10.12, 17.72] \\
-                   && Clear vs control  & \hspace{1mm}10.19 & [-4.15, 24.45] \\ 
+      Carabid$_{prey}$    &logit& Partial vs control & \hspace{1mm}3.31 & [-10.12, 17.72] \\
+      occupancy             && Clear vs control  & \hspace{1mm}10.19 & [-4.15, 24.45] \\ 
                           && Clear vs partial  & \hspace{1mm}6.88 & [-12.81, 23.42] \\  
                           && Salamander        & -2.20 & [-17.15, 16.59] \\  
-      Springtail biomass          &logit& Partial vs control & \hspace{1mm}8.11 & [-9.38, 25.40] \\
-                   && Clear vs control  & \hspace{1mm}2.11 & [-13.98, 18.11] \\ 
+      Springtail          &$\mu$g& Partial vs control & \hspace{1mm}8.11 & [-9.38, 25.40] \\
+      biomass             && Clear vs control  & \hspace{1mm}2.11 & [-13.98, 18.11] \\ 
                           && Clear vs partial  & -6.00 & [-29.09, 17.26] \\  
                           && Salamander        & \hspace{1mm}6.80 & [-10.43, 23.26] \\ 
                           && Carabid$_{competitor}$      & \hspace{1mm}0.56 & [-16.75, 17.66] \\ 
@@ -450,30 +448,8 @@ Conversely, sites with total cutting show the lowest litter depths, followed by 
   \end{tabular}
 \end{table}
 
-\vspace{2ex}
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[scale=0.60]{fig_sem_res2.png}
-	\caption[Theoretical model illustrating the anticipated relationships between overstory treatments, environmental variables and species groups.]
-  {Theoretical model illustrating the anticipated relationships between overstory treatments, coarse woody debris volume, canopy opensess, litter depth,
-   salamanders occupancy, carabids occupancy, and springtail biomass in the Portneuf Wildlife Reserve, Quebec, Canada. 
-   Each arrow indicates the direction of a potential effect, from an explanatory variable to a response variable.}
-	\label{fig:SEMres}
-	\end{figure}  
-
-\vspace{0.5cm}
-
-
-
-\subsection*{Soil fauna}
-\label{subsec:taxa}
-\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:taxa}} 
-
-During the summer of 2021, we observed a total of 31 salamanders: 17 individuals in the partial cut treatments, 6 in the clearcuts, and 8 in the control sites. 
-We captured 189 carabids belonging to 30 species, with 49 carabids found in the partial cut treatments, 105 in the clearcuts, and 35 in the control sites (Table \ref{tab:carabid}). 
-We collected 468 springtails representing 12 families, with 219 springtails collected from partial cut treatments, 131 from clearcuts, and 118 from the control areas (Table \ref{tab:springtail}). 
-The biomass of springtails collected amounted to 1364 $\mu$g, 747 $\mu$g, and 292 $\mu$g in the partial cut treatments, clearcuts, and control sites, respectively.
+\clearpage
 
 \begin{figure}[ht]
   \centering
@@ -484,18 +460,12 @@ The biomass of springtails collected amounted to 1364 $\mu$g, 747 $\mu$g, and 29
   \label{fig:pcin}
 \end{figure}
 
-\vspace{0.5cm}
+\vspace{10pt}
 
-The effects of overstory treatments on habitat selection by species groups were generally limitied.
-The probability of salamander occupancy was marginally lower in sites subjected to clear-cutting compared to those with partial cutting (Figure \ref{fig:pcin}, Table \ref{tab:overstory}). 
-However, these two groups did not differ from the control sites.
-The probability of occupancy for both groups of carabids, as well as the springtail biomass, did not vary significantly between the overstory treatments and control sites. 
-Overall, the presence of salamanders did not significantly affect the probability of occupancy of carabids representing prey for salamanders and springtail biomass was not significantly affected by the presence of salamanders or carabids. \\
-Precipitation had a positive effects on both carabid groups detection (Table \ref{tab:detection}). 
-The model diagnostics indicate that the chain lengths are sufficient, as the Brooks-Gelman-Rubin statistic is below 1.1.
-Trace plot analysis reveals that all chains have converged towards similar values, and none of the ratios of MCMC error to posterior standard deviation exceed 5\%.
+We did not observed significant impacts of CWD and precipitation level on salamander detection probabilities. 
+However, the precipitation level had a positive effect on detection probability for both small carabids (95\% CI : [0.59, 1.77]) and large carabid (95\% CI : [0.70, 3.23]) (Table \ref{tab:detection}). 
+CWD had no significant impact on carabids detection probabilities.
 
-\vspace{0.5cm}
 
 \begin{table}[ht]
   \centering
@@ -521,6 +491,59 @@ Trace plot analysis reveals that all chains have converged towards similar value
       \multicolumn{4}{l}{a difference between groups.} \\
   \end{tabular}
 \end{table}
+
+
+\subsection*{Environmental variables}
+\label{subsec:ResEnv}
+\phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResEnv}} 
+
+Environmental variables usually differed between forest cutting treatments and control conditions. 
+We found that clear-cutting treatments had significantly less CWD compared to partial-cutting (95\% CI : [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
+However, these both treatments did not differ from the control sites. 
+Canopy openness was significantly higher in both the partial-cut (95\% CI : [1.97, 11.02]) and clear-cut treatments (95\% CI : [51.39, 77.06]) when compared 
+to the control sites, with the clear-cuts having a greater percentage of openness than the partial-cuts (95\% CI : [44.61, 70.76], Figure \ref{fig:envar} B, Table \ref{tab:overstoryenvar}). 
+Conversely, litter depth was lower in both the partial-cut (95\% CI : [-2.44, -0.65]) and clear-cut treatments (95\% CI : [-4.28, -2.50]) compared to the controls, 
+with the depth being lower in the clear-cuts than in the partial-cuts (95\% CI : [-2.57, -1.12], Figure \ref{fig:envar} C, Table \ref{tab:overstoryenvar}).
+
+\vspace{10pt}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[scale=0.23]{fig_envar2.png}
+  \caption[Environmental variables estimations with a potential effect soil species within two different overstory treatments and control.]
+  {Environmental variables with a potential effect soil species estimations within two different overstory treatments and control 
+  during the summer 2022 in the Portneuf Wildlife Reserve, Quebec, Canada. Error bars denote 95\% credible intervals around estimates.}
+  \label{fig:envar}
+\end{figure}
+
+\begin{table}[ht]
+  \centering
+  \caption[Differences between overstory treatments on environmental variables that could effect habitat selection of fauna on the forest soil.]
+  {Differences between overstory treatments on environmental variables that could effect habitat selection of fauna on the forest soil during the summer 2022 in the Portneuf Wildlife Reserve,
+  Quebec, Canada.}
+  \label{tab:overstoryenvar}
+  \begin{tabular}{lllll} 
+      \hline
+      &&&&95\% Bayesian \\
+      Variable&Unit& Comparison & Estimate &  credible interval \\ [0.5ex] 
+      \hline
+      Coarse woody debris &m\up{3}& Partial vs control & \hspace{1mm}0.02 & [-1.01, 1.06] \\ 
+                 && Clear vs control  & -0.77 & [-1.79, 0.23] \\ 
+                          && Clear vs partial  & -0.79 & [-1.15, -0.43] \\
+      Canopy openness     &\%& Partial vs control & \hspace{1mm}6.49 & [1.97, 11.02] \\ 
+                      && Clear vs control  & \hspace{1mm}64.19 & [51.39, 77.06] \\ 
+                          && Clear vs partial  & \hspace{1mm}57.69 & [44.61, 70.76] \\ 
+      Litter depth        &cm& Partial vs control & -1.54 & [-2.44, -0.65] \\ 
+                      && Clear vs control  & -3.39 & [-4.28, -2.50] \\ 
+                          && Clear vs partial  & -1.85 & [-2.57, -1.12] \\       
+      \hline
+      \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean number with 95\%} \\
+      \multicolumn{5}{l}{credible intervals, where an interval excluding 0 indicates a difference between groups.} \\
+  \end{tabular}
+\end{table}
+
+
+
 
 \clearpage
 
