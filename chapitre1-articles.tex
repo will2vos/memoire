@@ -93,16 +93,21 @@ This group of species is commonly used in studies focusing on the effects of env
 
 These three taxa are relevant to study the impact of silvicultural treatments as their sensitivity to environmental changes and trophic relationships enable the analysis of disturbance effects on soil fauna dynamics.
 Several studies have already studied the effects of those treatments on soil fauna.
-However, most of them have only focused on the direct impacts of disturbances for one or more species groups, neglecting the existing relationships between environmental variables and species groups \citep{josephIntegratingOccupancyModels2016,Kudrin2023metaanalysiseffects,Pollierer2021Diversityfunctional}. 
-It is essential to have a better comprehension of the effects those treatments, their propagation within the ecological network and their repercussions on soil organism communities.
+However, most of them have only focused on the direct impacts of disturbances for one or more species group, neglecting the existing relationships between environmental variables and species groups \citep{josephIntegratingOccupancyModels2016,Kudrin2023metaanalysiseffects,Pollierer2021Diversityfunctional}. 
+It is essential to have a better comprehension of those treatments effects, their propagation within the ecological network and their repercussions on soil organism communities.
+Ultimately, this knowledge acquisition will provide useful tools to facilitate sustainable forest management.
 
-Our study aims to understand how silvicultural treatments, conducted in an assisted tree migration context, affect the dynamics of forest soil ecosystems. 
-Specifically, our objective is to measure the effects of overstory treatments on soil fauna and environmental variables.
-We first hypothesized that overstory treatments would change the habitat use of soil fauna, propagating through the trophic network (Figure \ref*{fig:SEM}). 
-As a result, the harvests initially affect habitat use by salamanders and large ground beetles, followed by modifications in habitat selection for small ground beetles, and ultimately affecting springtail biomass.
-Our second hypothesis suggested that overstory treatments could act as a variable representing changes in environmental conditions, such as litter depth, canopy openness and coarse woody debris (CWD). 
-As a result, more intense overstory treatments would decrease litter depth and CWD, as a consequence of reduced accumulation of leaves and woody debris on the forest floor, and increase canopy openness. 
-Ultimately, this knowledge acquisition will provide tools to facilitate sustainable forest management.
+Our study aims to understand how silvicultural practices, conducted in an assisted tree migration context, affect the dynamics of forest soil ecosystems. 
+The objectives associated with this aim are firstly to measure the impact of overstory treatments on habitat use by soil fauna, and secondly to compare overstory 
+treatments and environmental variables that influence habitat use by soil fauna.
+Regarding our first objective, we hypothesized that overstory treatments result in a modification of habitat use by soil fauna and propagate 
+through the trophic network. Specifically, the harvests initially affect habitat use by salamanders and large ground beetles, 
+followed by modifications in habitat selection for small ground beetles, and ultimately affecting springtail biomass.
+The hypothesis associated with our second objective suggested that environmental variables, favorable to habitat use by taxa, fluctuate according to 
+the intensity of forest harvests. Therefore, overstory treatments can be used as a variable encompassing changes in environmental conditions.
+As a result, more intense treatments would decrease litter depth and CWD, as a consequence of reduced accumulation of leaves and woody debris on the forest floor, 
+and increase canopy openness. 
+
 
 \section*{Material and methods}
 \label{sec:matmet1}
@@ -199,7 +204,7 @@ Blocks were visited in a random sequence to reduce effects of time of day and ob
 	\label{fig:blockSU}
 	\end{figure}  
 
-  \vspace{0.5cm}
+\vspace{0.5cm}
 
 
 \subsection*{Environmental variables}
@@ -208,7 +213,8 @@ Blocks were visited in a random sequence to reduce effects of time of day and ob
 
 In each sampling unit, we measured several environmental variables that could affect occupancy probability.
 CWD and litter depth play a crucial role in habitat use for salamanders, ground beetles and springtails as
-they serve for protection, feeding and maintain suitable temperature and humidity \citep{birdChangesSoilLitter2004,groverInfluenceCoverMoisture1998a,harmonEcologyCoarseWoody1986,koivula.LeafLitterSmallscale1999,mckennyEffectsStructuralComplexity2006,patrickEffectsExperimentalForestry2006a}. \\
+they serve for feeding and protection  \citep{birdChangesSoilLitter2004,groverInfluenceCoverMoisture1998a,harmonEcologyCoarseWoody1986,koivula.LeafLitterSmallscale1999,mckennyEffectsStructuralComplexity2006,patrickEffectsExperimentalForestry2006a}. \\
+Salamanders also utilize CWD as shelter to maintain suitable temperature and moisture levels during dry periods \citep{groverInfluenceCoverMoisture1998a,Jaeger1980MicrohabitatsTerrestrial,patrickEffectsExperimentalForestry2006a}
 We used 400 m\up2 plots centered inside every sampling unit to estimate CWD (20 m $\times$  20 m)(\citealp{methotGuideInventaireEchantillonnage2014}). 
 We only selected CWD with a basal diameter greater than or equal to 9 cm and a length greater than or equal to 1 m.
 Subsequently, we measured the basal diameter, the apical diameter, and length of CWD with a tree caliper.
@@ -228,9 +234,6 @@ Measurements were conducted at the center of all sampling units using a spherica
 We took four measurements per sampling unit, oriented toward each of the four cardinal points, and computed the mean as an estimate of canopy openness in each sampling unit.
 
 We collected data for air temperature, air humidity and precipitation levels during the summer 2022.
-
-(sources + décrire)
-
 Two compact weather stations (Em50 Digital Decagon Data Logger, Part \#40800, Meter Group Inc., USA), were used inside both overstory treatments.
 Each weather station was equipped with a probe measuring temperature, air humidity, and atmospheric pressure, 1.30 m above the ground (VP-4 Sensor (Temp/RH/Barometer), Part \#40023). 
 Rain gauges were installed in the clear-cut treatments to monitor precipitation levels.
@@ -243,13 +246,38 @@ These variables fluctuate on a daily basis, affecting species activity and, cons
 \label{subsec:analyses}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:analyses}} 
 
+% Expliquer pourquoi d'un coté on regarde les variables emvironnementales et pourquoi de l'utre on regarde les espèces
+% POurquoi ne pas intégré les varable du sol avec les espèces
+% Expliquer comment les les modèles d'occupation et les GLM sont inclus dans le SEM comment il sont intgrer
+% expliquer dans les methodes les analyses de comparaison entre coupe forestière et variables environnementales
+% préciser que l'enseble de test sont fait avec le SEM
+
 \subsubsection{Structural equations models} 
 
-To assess the effects of overstory treatments on the site occupancy (hypothesis 1.1) and environmental variables (hypothesis 1.2), we used a structural equation models (SEM) 
-combining occupancy and linear mixed models \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
-SEM are employed to analyze complex relationships among observed and latent variables to investigate multicausal ecological processes \citep{graceStructuralEquationModeling2008}.
-Structural equation models use multiples equations to describe the relationships between variables and estimate parameters.
-We used this framework to measure direct and indirect processes that influence species occurrence by considering interrelationships between treatments, taxa and environmental variables (Figure \ref*{fig:SEM}).
+To assess the effects of overstory treatments on the habitat use (hypothesis 1.1) and the relationship between overstory treatments and environmental variables (hypothesis 2.1), 
+we employed a structural equation models (SEM) combining occupancy models and linear mixed models (LMM) \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
+This approach enables us to test both hypotheses within the same analysis using the same data and method, thereby reducing estimation variations.
+One part of the SEM was designed to evaluate the direct and indirect effects of overstory treatments on taxa (Figure \ref*{fig:SEM}), 
+while another section focused on studying the variations in environmental variables across different overstory treatments. 
+SEM are employed to analyze complex relationships among observed and latent variables (unobserved but inferred from observed data) to investigate multicausal ecological processes \citep{graceStructuralEquationModeling2008}.
+
+We combined occupancy models with SEM to measure the impact of overstory treatments on the occupancy probabilities of salamanders and ground beetles. 
+Occupancy models allow accounting for imperfect detection since salamanders and ground beetles are cryptic species \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}.
+This method use repeated surveys to estimate the presence probabilities of species and the probability of detecting them if they are present, 
+leading to an estimation of the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
+
+By combining SEM and occupancy models, the occupancy probability estimated from the occupancy models becomes a latent variable in the SEM. 
+The SEM then explores how the explanatory variables directly and indirectly affect this latent occupancy variable.
+This approach enables us to investigate complex relationships influencing the presence of salamanders and ground beetles 
+while addressing the issue of imperfect detection.
+
+LMM were incorporated into the SEM to estimate parameters of springtail biomass and environmental variables.
+LMM allows us to account for random variations of blocks, enhancing model accuracy. 
+Those models can handle data with hierarchical structures and can estimate the amount of variation due to fixed effects while also accounting for 
+random effects.
+
+
+
 
 \begin{figure}[ht]
 	\centering
@@ -263,9 +291,6 @@ We used this framework to measure direct and indirect processes that influence s
 
 \subsubsection{Occupancy models} 
 
-We combined occupancy models to SEM to assess the impact of overstory treatments on the occupancy probabilities of salamanders and ground beetles.
-Occupancy models allow us to account for imperfect detection of species since salamanders and ground beetles are cryptic species \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}.
-Occupancy modeling uses repeated surveys to estimate detection probabilities and estimate the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
 
 To estimate the occupancy probabilities of salamanders and ground beetles, we used the observed detection at site $i$ during survey $j$, 
 represented by $\text{Salamander}_{ij}$, $\text{Carabid.comp}_{ij}$ and $\text{Carabid.prey}_{ij}$. Observed detection followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as parameter, 
