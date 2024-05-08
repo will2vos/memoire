@@ -42,8 +42,8 @@ et de la forêt, Université Laval, Québec, QC G1V 0A6, Canada. \\
 Due to their ecosystem services and economic values, forests play a predominant role on a global scale \citep{Balvanera2006Quantifyingevidence}. 
 Within terrestrial ecosystems, they maintain significant biodiversity and act as regulators of biogeochemical factors \citep{Pawson2013Plantationforests}. 
 However, the reality of climate change poses urgent challenges for the sustainability of current forests \citep{McKenney2009Climatechange,Messier2022Warningnatural,Seidl2017Forestdisturbances,Trumbore2015Foresthealth}. 
-Despite international commitments to reduce greenhouse gas emissions, climate projections predict a global temperature exceeding 1.5 \up{o}C above pre-industrial temperatures \citep{Matthews2022Currentglobal}. 
-Canada is particularly vulnerable to this warming, due to its northern latitudes \citep{Alo2008Potentialfuture,Bush2019Canadachanging} and forests in eastern North America will be particularly affected by this disruption \citep{Park2014Canboreal,Mahony2017closerlook,Messier2022Warningnatural,Sittaro2017Treerange}. 
+Despite international commitments to reduce greenhouse gas emissions, climate projections predict a global temperature exceeding 1.5 \up{o}C above preindustrial temperatures \citep{Matthews2022Currentglobal}. 
+Canada is particularly vulnerable to this warming, due to its northern latitudes \citep{Alo2008Potentialfuture,Bush2019Canadachanging} and forests in Eastern North America will be particularly affected by this disruption \citep{Park2014Canboreal,Mahony2017closerlook,Messier2022Warningnatural,Sittaro2017Treerange}. 
 Various studies have predicted lengthening and intensification of drought periods, an increase in wildfires and a higher presence of biotic disturbances \citep{Gatti2021Amazoniacarbon,Heidari2021Effectsclimate,Joyce2013Climatechange,Parmesan2007Influencesspecies}. 
 Additionally, shifts in phenology and plant distribution are expected \citep{Aitken2008Adaptationmigration,Chuine2010Whydoes,Gray2013Trackingsuitable,Zhu2012Failuremigrate}. 
 However, climate changes are occurring more rapidly than trees ability to adapt or migrate \citep{Aitken2008Adaptationmigration,Harrison2020Plantcommunity,Loarie2009velocityclimate,Messier2022Warningnatural,Williams2013Preparingclimate,Vitt2010Assistedmigration}, 
@@ -92,7 +92,7 @@ Springtails also represent a food source for several species of arachnids, beetl
 This group of species is commonly used in studies focusing on the effects of environmental changes on forest soils and mesofauna \citep{farskaManagementIntensityAffects2014,rousseauWoodyBiomassRemoval2019,Salmon2008Relationshipssoil}.
 
 These three taxa are relevant to study the impact of silvicultural treatments as their sensitivity to environmental changes and trophic relationships enable the analysis of disturbance effects on soil fauna dynamics.
-Several studies have already studied the effects of those treatments on soil fauna.
+Several papers have already studied the effects of those treatments on soil fauna.
 However, most of them have only focused on the direct impacts of disturbances for one or more species group, neglecting the existing relationships between environmental variables and species groups \citep{josephIntegratingOccupancyModels2016,Kudrin2023metaanalysiseffects,Pollierer2021Diversityfunctional}. 
 It is essential to have a better comprehension of those treatments effects, their propagation within the ecological network and their repercussions on soil organism communities.
 Ultimately, this knowledge acquisition will provide useful tools to facilitate sustainable forest management.
@@ -108,6 +108,7 @@ the intensity of forest harvests. Therefore, overstory treatments can be used as
 As a result, more intense treatments would decrease litter depth and CWD, as a consequence of reduced accumulation of leaves and woody debris on the forest floor, 
 and increase canopy openness. 
 
+%% est ce que je parles de CWD, litter et canopy dans l'intro
 
 \section*{Material and methods}
 \label{sec:matmet1}
@@ -246,40 +247,35 @@ These variables fluctuate on a daily basis, affecting species activity and, cons
 \label{subsec:analyses}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:analyses}} 
 
-% Expliquer pourquoi d'un coté on regarde les variables emvironnementales et pourquoi de l'utre on regarde les espèces
-% POurquoi ne pas intégré les varable du sol avec les espèces
-% Expliquer comment les les modèles d'occupation et les GLM sont inclus dans le SEM comment il sont intgrer
 % expliquer dans les methodes les analyses de comparaison entre coupe forestière et variables environnementales
-% préciser que l'enseble de test sont fait avec le SEM
 
 \subsubsection{Structural equations models} 
 
 To assess the effects of overstory treatments on the habitat use (hypothesis 1.1) and the relationship between overstory treatments and environmental variables (hypothesis 2.1), 
 we employed a structural equation models (SEM) combining occupancy models and linear mixed models (LMM) \citep{graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016,mackenzieOccupancyEstimationModeling2006a}.
-This approach enables us to test both hypotheses within the same analysis using the same data and method, thereby reducing estimation variations.
+This approach enables us to test both hypotheses within one analysis using the same data and method, thereby reducing estimation variations.
 One part of the SEM was designed to evaluate the direct and indirect effects of overstory treatments on taxa (Figure \ref*{fig:SEM}), 
 while another section focused on studying the variations in environmental variables across different overstory treatments. 
 SEM are employed to analyze complex relationships among observed and latent variables (unobserved but inferred from observed data) to investigate multicausal ecological processes \citep{graceStructuralEquationModeling2008}.
 
-We combined occupancy models with SEM to measure the impact of overstory treatments on the occupancy probabilities of salamanders and ground beetles. 
+We combined occupancy models with SEM to measure the impact of overstory treatments on the presence probabilities of salamanders and ground beetles. 
 Occupancy models allow accounting for imperfect detection since salamanders and ground beetles are cryptic species \citep{baileyEstimatingSiteOccupancy2004,spiersEstimatingSpeciesMisclassification2022}.
 This method use repeated surveys to estimate the presence probabilities of species and the probability of detecting them if they are present, 
 leading to an estimation of the species true occupancy \citep{mackenzieEstimatingSiteOccupancy2002,mazerolleMakingGreatLeaps2007}.
-
 By combining SEM and occupancy models, the occupancy probability estimated from the occupancy models becomes a latent variable in the SEM. 
 The SEM then explores how the explanatory variables directly and indirectly affect this latent occupancy variable.
 This approach enables us to investigate complex relationships influencing the presence of salamanders and ground beetles 
 while addressing the issue of imperfect detection.
 
-LMM were incorporated into the SEM to estimate parameters of springtail biomass and environmental variables.
-LMM allows us to account for random variations of blocks, enhancing model accuracy. 
+LMM were combined with SEM to estimate the effect overstory treatments on springtail biomass and environmental variables.
+For springtails, incorporating LMM into a SEM enabled us to use the estimated occupancy probabilities 
+to measure the direct and indirect effects of the presence of salamanders or ground beetles on springtail biomass. 
+Also, LMM allows us to account for random variations of blocks, enhancing model accuracy. 
 Those models can handle data with hierarchical structures and can estimate the amount of variation due to fixed effects while also accounting for 
-random effects.
+random effects \citep{Bolker2009Generalizedlinear}.
 
 
-
-
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.55]{fig_sem.png}
 	\caption[Theoretical model illustrating the anticipated relationships between overstory treatments, environmental variables and species groups.]
@@ -462,9 +458,9 @@ Trace plot analysis revealed that all chains had converged towards similar value
 	\centering
 	\includegraphics[scale=0.60]{fig_sem_res3.png}
 	\caption[Results from structural equation modeling analysis revealing effects of overstory treatments on coarse woody debris volume,
-  canopy openness, litter depth, salamander occupancy, carabid occupancy, and springtail biomass.]
+  canopy openness, litter depth, salamander occupancy, ground beetle occupancy, and springtail biomass.]
   {Results from SEM analysis showing effects of overstory treatments on CWD, 
-  canopy openness, litter depth, salamander occupancy, carabid occupancy, and springtail biomass in the Portneuf Wildlife Reserve, 
+  canopy openness, litter depth, salamander occupancy, ground beetle occupancy, and springtail biomass in the Portneuf Wildlife Reserve, 
   Quebec, Canada. Bold arrows represent significant effects, while gray arrows indicate no discernible effects. 
   Values above bold arrows represent average differences between posterior distributions of two overstory groups: 
   partial-cut (PC), clear-cut (CC), and control (C). Estimates marked with one asterisk (*) 
