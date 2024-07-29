@@ -366,14 +366,15 @@ a block random effect ($\alpha_{\text{Block}}$), as well as the latent occupancy
   &\alpha_{\text{Block}[\text{Springtail}]_{\text{Block}_i}} \nonumber
 \end{align}
 
+
 Again, we assumed vague normal priors for the coefficients $\text{N}(0, \sigma = \sqrt{10})$. 
 We used $\text{N}(0, \alpha_{Block})$ priors for the block random effects, where $\alpha_{Block})$ is drawn from a uniform distribution $\text{U}(0, 50)$. 
+
 
 \begin{align}
   \mu_{\text{CWD}_i} &= \beta_{0[\text{CWD}]} + \beta_{\text{Cutpartial}[\text{CWD}]} \times \text{Cutpartial}_{i} + \nonumber\\
   & \beta_{\text{Cutclear}[\text{CWD}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{CWD}]_{\text{block}_i}} 
 \end{align}
-
 
 \begin{align}
   \mu_{\text{Canopy}_i} &= \beta_{0[\text{Canopy}]} + \beta_{\text{Cutpartial}[\text{Canopy}]} \times \text{Cutpartial}_{i} + \nonumber \\
