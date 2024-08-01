@@ -398,7 +398,7 @@ We used $\text{N}(0, \alpha_{Block})$ priors for the block random effects, where
 \label{subsec:taxa}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:taxa}} 
 
-Model diagnostics indicated that the chain lengths were sufficient, as the Brooks-Gelman-Rubin statistic was below 1.1. 
+Model diagnostics indicated that the chains were of sufficient length, as the Brooks-Gelman-Rubin statistic was below 1.04. 
 Trace plot analysis revealed that all chains had converged towards similar values, and none of the ratios of MCMC error to posterior standard deviation exceeded 5\%.
 
 \vspace{10pt}
@@ -413,7 +413,8 @@ Trace plot analysis revealed that all chains had converged towards similar value
   Quebec, Canada. Bold arrows represent significant effects, while gray arrows indicate no discernible effects. 
   Values above bold arrows represent average differences between posterior distributions of two overstory groups: 
   partial-cut (PC), clear-cut (CC), and control (C). Estimates marked with one asterisk (*) 
-  indicate a 90\% credible interval (CI) excluding 0, while estimates marked with two asterisks (**) indicate a 95\% CI excluding 0.}
+  indicate a 90\% credible interval (CI) excluding 0, while estimates marked with two asterisks (**) indicate a 95\% CI excluding 0. 
+  Note that the large and small carabid categories are based on salamander gape size.}
 	\label{fig:SEMres}
 \end{figure}  
 
@@ -424,20 +425,20 @@ We captured 189 ground beetles belonging to 30 species, with 49 ground beetles f
 We collected 468 springtails representing 12 families, with 219 springtails collected from partial-cut treatments, 131 from clear-cuts, and 118 from the control areas (Table \ref{tab:springtail}). 
 The average springtail biomass collected per overstory treatments was 24.3 $\mu$g (SD = 18.2 $\mu$g), 56.8 $\mu$g (SD = 78.0 $\mu$g), and 31.1 $\mu$g (SD = 52.8 $\mu$g) in the partial-cut treatments, clear-cuts and control sites, respectively.
 
-The effects of overstory treatments on habitat selection by species groups were generally not significant. 
+Habitat use by the different species groups generally did not vary across the overstory treatments. 
 Salamander occupancy probability was marginally lower in sites subjected to clear-cutting compared to those with partial-cutting (90\% CI : [-0.74, -0.07], Figure \ref{fig:pcin}, Table \ref{tab:overstorysp}). 
 However, these two groups did not differ from the control sites. 
-Occupancy probability for both carabid groups and the springtail biomass did not vary significantly between the overstory treatments and control sites (Table \ref{tab:overstorysp}). 
-Overall, the presence of salamanders had no significant impact on the occupancy probabilities of ground beetles representing prey for salamanders, and we did not observe significant effects of either salamanders or ground beetles on springtail biomass (Table \ref{tab:overstorysp}).
+Occupancy probability for each carabid group and the springtail biomass did not vary between the overstory treatments and control sites (Table \ref{tab:overstorysp}). 
+Furthermore, the occupancy probabilities of small ground beetles (salamander prey) did not vary with the presence of salamanders. 
+Similarly, the biomass of springtails did not vary with the presence of salamanders, large ground beetles or small ground beetles (Table \ref{tab:overstorysp}).
 
 \vspace{10pt}
 
 \begin{table}[ht]
   \centering
-  \caption[Differences between overstory treatments on the forest soil fauna.]
-  {Differences between overstory treatments on salamander occupancy, both ground beetle groups occupancy and springtail biomass. 
-  This table also shows the estimated effect of salamander's presence on ground beetles from the salamanders prey group occupancy 
-  and the effects of salamanders and both ground beetle groups presence on springtail biomass, during the summer 2022 in the Portneuf Wildlife Reserve, Quebec, Canada.}
+  \caption[Contrasts between overstory treatments for salamander occupancy, ground beetle occupancy, and springtail biomass.]
+  {Contrasts between overstory treatments for salamander occupancy, ground beetle occupancy, and springtail biomass, during the summer 2022 in the Portneuf Wildlife Reserve, Quebec, Canada. 
+  This table also shows the estimated effect of interactions between different groups: salamander presence on small and large ground beetles and the effects of the presence of salamanders and both ground beetle groups on springtail biomass.}
   \label{tab:overstorysp}
   \begin{tabular}{lllll} 
       \hline
@@ -461,7 +462,7 @@ Overall, the presence of salamanders had no significant impact on the occupancy 
                           && Carabid$_{competitor}$      & \hspace{1mm}0.56 & [-16.75, 17.66] \\ 
                           && Carabid$_{prey}$      & \hspace{1mm}7.62 & [-8.93, 24.09] \\ 
       \hline
-      \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean number with 95\%} \\
+      \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of posterior mean with 95\%} \\
       \multicolumn{5}{l}{credible intervals, where an interval excluding 0 indicates a difference between groups.} \\
       \multicolumn{5}{l}{$^{a}$Marginal difference based on 90\% Bayesian credible interval excluding 0}
   \end{tabular}
@@ -481,15 +482,14 @@ Overall, the presence of salamanders had no significant impact on the occupancy 
 
 \vspace{10pt}
 
-We did not observe significant impacts of CWD and precipitation level on salamander detection probabilities. 
-However, the precipitation level had a positive effect on detection probability for both small ground beetles (95\% CI : [0.59, 1.77]) and large carabid (95\% CI : [0.70, 3.23]) (Table \ref{tab:detection}). 
-CWD had no significant impact on ground beetle detection probabilities.
-
+We did not observe significant impacts of CWD volume and precipitation level on salamander detection probabilities. 
+However, the precipitation level had a positive effect on detection probability for small ground beetles (95\% CI : [0.59, 1.77]) and large ground beetles (95\% CI : [0.70, 3.23]) (Table \ref{tab:detection}). 
+Detection probabilities of ground beetles did not vary with the volume of CWD.
 
 \begin{table}[ht]
   \centering
-  \caption[Estimated effects of coarse woody debris and precipitation level on detection probabilities of salamanders and both ground beetle groups.]
-  {Estimated effects of coarse woody debris and precipitation level on detection probabilities of salamanders and both ground beetle groups, during the summer 2022 in the Portneuf Wildlife Reserve,  Quebec, Canada.}
+  \caption[Estimated effects of coarse woody debris and precipitation level on detection probabilities of salamanders and both ground beetles.]
+  {Estimated effects of coarse woody debris and precipitation level on detection probabilities of salamanders and both ground beetles, during the summer 2022 in the Portneuf Wildlife Reserve,  Quebec, Canada.}
   \label{tab:detection}
   \begin{tabular}{lllll} 
       \hline
@@ -505,8 +505,8 @@ CWD had no significant impact on ground beetle detection probabilities.
                           & Carabid$_{prey}$        & \hspace{1mm}0.27 & [-0.74, 1.37] \\   
 
       \hline
-      \multicolumn{4}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean} \\
-      \multicolumn{4}{l}{number with 95\% credible intervals, where an interval excluding 0 indicates} \\
+      \multicolumn{4}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of posterior mean} \\
+      \multicolumn{4}{l}{with 95\% credible intervals, where an interval excluding 0 indicates} \\
       \multicolumn{4}{l}{a difference between groups.} \\
   \end{tabular}
 \end{table}
@@ -516,20 +516,22 @@ CWD had no significant impact on ground beetle detection probabilities.
 \label{subsec:ResEnv}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResEnv}} 
 
-Environmental variables usually differed between overstory treatments and control conditions. 
-We found that clear-cutting treatments had significantly less CWD compared to partial-cutting (95\% CI : [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
-However, these both treatments did not differ from the control sites. 
+Environmental variables usually differed between overstory treatments and control conditions.
+We found that clear-cutting treatments had significantly less CWD compared to partial-cutting
+(95\% CI : [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
+However, these treatments did not differ from the control sites. 
 Canopy openness was significantly higher in both the partial-cut (95\% CI : [1.97, 11.02]) and clear-cut treatments (95\% CI : [51.39, 77.06]) when compared 
-to the control sites, with the clear-cuts having a greater percentage of openness than the partial-cuts (95\% CI : [44.61, 70.76], Figure \ref{fig:envar} B, Table \ref{tab:overstoryenvar}). 
-Conversely, litter depth was lower in both the partial-cut (95\% CI : [-2.44, -0.65]) and clear-cut treatments (95\% CI : [-4.28, -2.50]) compared to the controls, 
-with the depth being lower in the clear-cuts than in the partial-cuts (95\% CI : [-2.57, -1.12], Figure \ref{fig:envar} C, Table \ref{tab:overstoryenvar}).
+to the control sites, with the clear-cuts being more open than the partial-cuts (95\% CI : [44.61, 70.76], Figure \ref{fig:envar} B, Table \ref{tab:overstoryenvar}). 
+In contrast, litter depth was lower in both the partial-cut (95\% CI : [-2.44, -0.65]) and clear-cut treatments (95\% CI : [-4.28, -2.50]) compared to the controls, 
+with the litter being shallower in the clear-cuts than in the partial-cuts (95\% CI : [-2.57, -1.12], Figure \ref{fig:envar} C, Table \ref{tab:overstoryenvar}).
+
 
 \vspace{10pt}
 
 \begin{figure}[ht]
   \centering
   \includegraphics[scale=0.23]{fig_envar2.png}
-  \caption[Environmental variables estimations with a potential effect on soil species within two different overstory treatments and control.]
+  \caption[Environmental variables with a potential effect on soil species within two different overstory treatments and control.]
   {Environmental variables with a potential effect on soil species estimations within two different overstory treatments and control 
   during the summer 2022 in the Portneuf Wildlife Reserve, Quebec, Canada. Error bars denote 95\% credible intervals around estimates.}
   \label{fig:envar}
@@ -537,8 +539,8 @@ with the depth being lower in the clear-cuts than in the partial-cuts (95\% CI :
 
 \begin{table}[ht]
   \centering
-  \caption[Differences between overstory treatments on environmental variables that could affect habitat selection of fauna on the forest soil.]
-  {Differences between overstory treatments on environmental variables that could affect habitat selection of fauna on the forest soil during the summer 2022 in the Portneuf Wildlife Reserve,
+  \caption[Contrasts between overstory treatments for environmental variables that could affect habitat selection of fauna on the forest soil.]
+  {Contrasts between overstory treatments for environmental variables that could affect habitat use of fauna on the forest soil during the summer 2022 in the Portneuf Wildlife Reserve,
   Quebec, Canada.}
   \label{tab:overstoryenvar}
   \begin{tabular}{lllll} 
@@ -556,7 +558,7 @@ with the depth being lower in the clear-cuts than in the partial-cuts (95\% CI :
                       && Clear vs control  & -3.39 & [-4.28, -2.50] \\ 
                           && Clear vs partial  & -1.85 & [-2.57, -1.12] \\       
       \hline
-      \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of mean number with 95\%} \\
+      \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of posterior mean with 95\%} \\
       \multicolumn{5}{l}{credible intervals, where an interval excluding 0 indicates a difference between groups.} \\
   \end{tabular}
 \end{table}
