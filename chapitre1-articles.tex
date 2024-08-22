@@ -162,9 +162,9 @@ We extracted springtail communities directly related to the ecology of salamande
 Soil and litter from the same unit were pooled in Ziploc\up{\texttrademark{}} bags and stored in a cooler at ca. 4 °C \citep{chauvatChangesSoilFaunal2011a,rousseauForestFloorMesofauna2018}, providing 60 samples during each of the four sampling periods.
 We placed each sample in an individual Tullgren dry-funnel for springtail extraction within 48 h after collection \citep{rusekBiodiversityCollembolaTheir1998,wuCompositionSpatiotemporalVariation2014,rousseauForestFloorMesofauna2018}. 
 The extraction process lasted six days with a gradual temperature increase (25 °C to 50 °C) \citep{raymond-leonardSpringtailCommunityStructure2018a}.
-Springtails were separated from other invertebrates and preserved in 75\% alcohol \citep{wuCompositionSpatiotemporalVariation2014}.
-Identification at the family level was done with a ZEISS SteREO Discovery.V12 binocular microscope and a Leitz orthoplan phase-contrast fluorescent trinocular microscope using \cite{bellingerChecklistCollembolaWorld1996} identification keys. 
-Following identification, springtails within a sample were pooled and dried in a freeze dryer (Labconco FreeZone Bulk tray dryer 78060 series) for 24 hours. 
+Springtails were separated from other invertebrates, pooled by sampling unit and preserved in 75\% alcohol \citep{wuCompositionSpatiotemporalVariation2014}.
+Identification at the family level for all individuals was done with a ZEISS SteREO Discovery.V12 binocular microscope and a Leitz orthoplan phase-contrast fluorescent trinocular microscope using \cite{bellingerChecklistCollembolaWorld1996} identification keys. 
+Following identification, springtails within each sample were dried in a freeze dryer (Labconco FreeZone Bulk tray dryer 78060 series) for 24 hours. 
 We determined the total dry biomass of springtails in each sample with a micro balance (Sartorius Cubis\up{\texttrademark{}} MSA3.6P-000-DM).
 
 \pagebreak
@@ -227,12 +227,18 @@ These variables fluctuate on a daily basis, affecting species activity and, cons
 \subsubsection{Structural equations models} 
 
 To assess the effects of overstory treatments on habitat use by soil fauna (hypothesis 1.1) and the relationship between overstory treatments 
-and environmental variables (hypothesis 2.1), we employed a structural equation model (SEM) combining occupancy models and linear mixed models (LMM) \citep{mackenzieOccupancyEstimationModeling2006a,graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016}.
+and environmental variables (hypothesis 2.1), we employed a structural equation model (SEM) combining occupancy models and linear mixed models \citep{mackenzieOccupancyEstimationModeling2006a,graceSpecificationStructuralEquation2010,josephIntegratingOccupancyModels2016}.
 This approach enabled us to test both hypotheses within one analysis. 
-One part of the SEM was designed to evaluate the direct and indirect effects of overstory treatments on taxa (Figure \ref*{fig:SEM}), 
-while other components focused on the variations in environmental variables across different overstory treatments. 
 
-Some components of our SEM consisted of occupancy models to quantify the impact of overstory treatments on the occupancy (presence) probabilities of salamanders and ground beetles. 
+One part of the SEM focused on the variations in environmental variables across different overstory treatments. 
+Specifically, we estimated the effects of partial-cut and clear-cut on coarse woody debris volume, canopy openness and litter depth. 
+The other part of the SEM was designed to evaluate the direct and indirect effects of overstory treatments on taxa (Figure \ref*{fig:SEM}). 
+We presumed that partial-cut and clear-cut will directly impact each taxon, while salamander occupancy will influence small ground beetle occupancy and springtail biomass. 
+We aslo suggested that both ground beetle groups will affect springtails biomass.
+
+Some components of the SEM consisted of linear mixed models to estimate the effect overstory treatments on environmental variables and springtail biomass. 
+The component of the model predicting springtail biomass also included the latent occupancy state of salamanders and ground beetles to measure the impact of these groups on springtails. 
+Other components of our SEM consisted of occupancy models to quantify the impact of overstory treatments on the occupancy (presence) probabilities of salamanders and ground beetles. 
 Occupancy models estimate the presence of species difficult to detect after accounting for imperfect detection probability \citep{mackenzieEstimatingSiteOccupancy2002,baileyEstimatingSiteOccupancy2004,mazerolleMakingGreatLeaps2007,spiersEstimatingSpeciesMisclassification2022}. 
 The data type required to distinguish between occupancy and detection probabilities consists of repeated visits at a series of sites 
 (here, 4 visits at the sampling units). Specifically, a detection history is constructed for each site, 
@@ -240,17 +246,16 @@ using 1 to denote the detection of the species on a given visit and 0 to non-det
 For example, the detection history 0010 at a site would indicate that the species was detected at the site on the third visit, but not detected during the first, 
 second, and fourth visits. 
 
-Other components of the SEM consisted of linear mixed models to estimate the effect overstory treatments on springtail biomass. 
-The component of the model predicting springtail biomass included the latent occupancy state of salamanders and ground beetles to measure the impact of these groups on springtails. 
-We formulated the SEM using a Bayesian framework, which we describe in Table S1. 
+We formulated the SEM using a Bayesian framework, which we describe in Table \ref*{ann:SEM_script}. 
 Parameters were estimated using Markov chain Monte Carlo (MCMC) with JAGS 4.3.0 included in the jagsUI package in R 4.3.1 \citep{lunnBUGSProjectEvolution2009,rcoreteamLanguageEnvironmentStatistical2020,kellnerJagsUIWrapperRjags2024}. 
 We ran the model with five chains and 200,000 iterations each \citep{gelmanUnderstandingPredictiveInformation2014}. 
 The first 75,000 iterations were used as burn-in and we used a thinning rate of 5. 
 We assessed convergence of MCMC chains by examining trace plots, posterior density plots, and using the Brooks-Gelman-Rubin statistic. 
 The JAGS model code is available in Table \ref{ann:SEM_script}.
 
+\vspace{10pt}
 
-\begin{figure}[ht!]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.55]{fig_sem.png}
 	\caption[Theoretical model illustrating the anticipated relationships between overstory treatments, environmental variables and species groups.]
@@ -260,117 +265,6 @@ The JAGS model code is available in Table \ref{ann:SEM_script}.
    Note that the large and small carabid categories are based on salamander gape size.}
 	\label{fig:SEM}
 \end{figure} 
-
-\subsubsection{Occupancy model component} 
-
-
-The occupancy models of salamanders and ground beetles used the observed detections and non-detections at site $i$ during survey $j$, 
-represented by $\text{Salamander}_{ij}$, $\text{Large.carabids}_{ij}$ and $\text{Small.carabids}_{ij}$. These detections and non-detections followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as the success parameter, 
-where $z_{i}$ represents the latent occupancy state of a given species group at site $i$ and $p_{ij}$ represents the probability of detecting the same species group at site $i$ during survey $j$ :
-
-
-\begin{align}
-  \text{Salamander}_{ij} &\sim \text{Bernoulli}(z_{\text{Salamander}_i} \times p_{\text{Salamander}_{ij}}) \nonumber \\
-  \text{Large.carabids}_{ij} &\sim \text{Bernoulli}(z_{\text{Large.carabids}_i} \times p_{\text{Large.carabids}_{ij}})  \\
-  \text{Small.carabids}_{ij} &\sim \text{Bernoulli}(z_{\text{Small.carabids}_i} \times p_{\text{Small.carabids}_{ij}}) \nonumber
-\end{align}
-
-
-The latent occupancy state of salamanders and large ground beetles at a site ($z_{i}$) followed a Bernoulli distribution 
-with probability of occupancy ($\psi$) of the given species for a given harvest treatment (control, partial cut, clearcut):
-
-
-\begin{align}
-  z_{\text{Salamander}_i} &\sim \text{Bernoulli}(\psi_{\text{Salamander}_{\text{Treat}_i}}) \nonumber \\
-  z_{\text{Large.carabids}_i} &\sim \text{Bernoulli}(\psi_{\text{Large.carabids}_{\text{Treat}_i}})
-\end{align}
-
-
-We used uniform distribution priors ($\text{U}(0, 1)$) for the occupancy probabilities of salamanders and large ground beetles in a given treatment. 
-
-For small ground beetles, the latent occupancy state was drawn from a Bernoulli distribution, where the occupancy probability ($\psi_{Small.carabids_{i}}$) 
-depended on salamander latent occupancy ($z_{\text{Salamander}_i}$) and overstory treatments (control as reference):
-
-
-\begin{align}
-  \text{logit}(\psi_{\text{Small.carabids}_i}) &= \beta_{0[\text{Small.carabids}]} + \beta_{z_{\text{Salamander}}[\text{Small.carabids}]} \times z_{\text{Salamander}_i} + \nonumber \\
-  &\beta_{\text{Cutpartial}[\text{Small.carabids}]} \times \text{Cutpartial}_i + \\
-  &\beta_{\text{Cutclear}[\text{Small.carabids}]} \times \text{Cutclear}_i \nonumber
-\end{align}
-
-We assumed vague normal priors for the $\beta$ parameters, $\text{N}(0, \sigma = \sqrt{10})$. 
-We allowed the detection probability of a given species groups ($\text{logit}(p_{ij})$) with the volume of coarse woody debris ($\text{CWD}_i$) and the precipitation levels 
-($\text{Precipitation}_{ij}$) as explanatory variables, and a block random effect ($\alpha_{Block}$) to reflect the experimental design:
-
-
-\begin{align}
-  \text{logit}(p_{\text{Salamander}_{ij}}) &= \alpha_{0[\text{Salamander}]} + \alpha_{\text{CWD}[\text{Salamander}]} \times \text{CWD}_i + \nonumber \\
-  &\alpha_{\text{Precipitation}[\text{Salamander}]} \times \text{Precipitation}_{ij} + \alpha_{\text{Block}[\text{Salamander}]_{\text{Block}_i}} \nonumber
-\end{align}
-
-\begin{align}
-  \text{logit}(p_{\text{Large.carabids}_{ij}}) &= \alpha_{0[\text{Large.carabids}]} + \alpha_{\text{CWD}[\text{Large.carabids}]} \times \text{CWD}_i + \\
-  &\alpha_{\text{Precipitation}[\text{Large.carabids}]} \times \text{Precipitation}_{ij} + \alpha_{\text{Block}[\text{Large.carabids}]_{\text{Block}_i}} \nonumber 
-\end{align}
-
-\begin{align}
-  \text{logit}(p_{\text{Small.carabids}_{ij}}) &= \alpha_{0[\text{Small.carabids}]} + \alpha_{\text{CWD}[\text{Small.carabids}]} \times \text{CWD}_i + \nonumber \\
-  &\alpha_{\text{Precipitation}[\text{Small.carabids}]} \times \text{Precipitation}_{ij} + \alpha_{\text{Block}[\text{Small.carabids}]_{\text{Block}_i}} \nonumber 
-\end{align}
-
-
-We used vague normal priors for CWD and precipitation levels $\text{N}(0, \sigma = \sqrt{10})$. 
-The priors for block random effects were $\text{N}(0, \alpha_{Block})$, where $\alpha_{Block}$ was drawn from a uniform distribution $\text{U}(0, 10)$. 
-Precipitation was highly correlated with air temperature and relative humidity. 
-For this reason, we did not include these two variables in our models.
-
-
-\subsubsection{Linear mixed model component} 
-
-We used linear mixed models to assess how overstory treatments affect springtail biomass ($\text{Springtail}_{i}$) and 
-environmental variables ($\text{CWD}_{i}$, $\text{Canopy}_{i}$, $\text{Litter}_{i}$) at site $i$ :
-
-\begin{align}
-  \text{Springtail}_{i} &\sim \text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}}) \nonumber \\
-  \text{CWD}_{i} &\sim \text{N} (\mu_{\text{CWD}_i}, \sigma_{\text{CWD}_{\text{Group}_i}}) \\
-  \text{Canopy}_{i} &\sim \text{N} (\mu_{\text{Canopy}_i}, \sigma_{\text{Canopy}_{\text{Group}_i}}) \nonumber \\
-  \text{Litter}_{i} &\sim \text{N} (\mu_{\text{Litter}_i}, \sigma_{\text{Litter}_{i}}) \nonumber 
-\end{align}
-
-Due to heteroscedasticity in the Springtail biomass, we allowed each treatment group $j$ to have their own variances ($\sigma_j \sim \text{U}(0,150)$). 
-Springtail biomass was drawn from a normal distribution $\text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}})$, where $\sigma_{\text{Springtail}_{\text{Group}_i}}$ denotes the 
-residual variance of a given treatment group and ($\mu_{i}$) corresponds to the linear predictor including overstory treatments ($\text{Cutpartial}_i$, $\text{Cutclear}_i$), 
-a block random effect ($\alpha_{\text{Block}}$), as well as the latent occupancy state of salamanders and of each ground beetle group 
-($z_{Salamander}$, $z_{Large.carabids}$, $z_{Small.carabids}$):
-
-
-\begin{align}
-  \mu_{\text{Springtail}_i} &= \beta_{0[\text{Springtail}]} + \beta_{\text{Cutpartial}[\text{Springtail}]} \times \text{Cutpartial}_i + \nonumber\\
-  &\beta_{\text{Cutclear}[Springtail]} \times \text{Cutclear}_i + \beta_{z_{\text{Salamander}}[\text{Springtail}]} \times z_{Salamander} +  \nonumber\\
-  &\beta_{z_{\text{Small.carabids}}[\text{Springtail}]} \times z_{Small.carabids} + \beta_{z_{\text{Large.carabids}}[\text{Springtail}]} \times z_{Large.carabids} + \nonumber\\
-  &\alpha_{\text{Block}[\text{Springtail}]_{\text{Block}_i}} \nonumber
-\end{align}
-
-
-Again, we assumed vague normal priors for the coefficients $\text{N}(0, \sigma = \sqrt{10})$. 
-We used $\text{N}(0, \alpha_{Block})$ priors for the block random effects, where $\alpha_{Block})$ is drawn from a uniform distribution $\text{U}(0, 50)$. 
-
-
-\begin{align}
-  \mu_{\text{CWD}_i} &= \beta_{0[\text{CWD}]} + \beta_{\text{Cutpartial}[\text{CWD}]} \times \text{Cutpartial}_{i} + \nonumber\\
-  & \beta_{\text{Cutclear}[\text{CWD}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{CWD}]_{\text{block}_i}} 
-\end{align}
-
-\begin{align}
-  \mu_{\text{Canopy}_i} &= \beta_{0[\text{Canopy}]} + \beta_{\text{Cutpartial}[\text{Canopy}]} \times \text{Cutpartial}_{i} + \nonumber \\
-  & \beta_{\text{Cutclear}[\text{Canopy}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Canopy}]_{\text{block}_i}} \nonumber
-\end{align}
-
-\begin{align}
-  \mu_{\text{Litter}_i} &= \beta_{0[\text{Litter}]} + \beta_{\text{Cutpartial}[\text{Litter}]} \times \text{Cutpartial}_{i} + \nonumber\\
-  & \beta_{\text{Cutclear}[\text{Litter}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Litter}]_{\text{block}_i}} \nonumber
-\end{align}
-
 
 \clearpage
 
