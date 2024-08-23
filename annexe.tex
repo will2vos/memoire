@@ -82,13 +82,63 @@
 \section{Structural equation models}
 
 
-\begin{table}[ht!]
-\caption[Equations used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) and ground beetle occupancy, springtail biomass and environmental variables that could effect soil fauna habitat selection.]
-{JAGS code used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) and ground beetle occupancy, springtail biomass and environmental variables that could effect soil fauna habitat selection in Portneuf Wildlife Reserve, Québec, Canada.}
-\label{ann:SEM_equation}
+\begin{table}[h!]
+\caption[Specification of the linear mixed model components used to estimate impact of overstory treatments on environmental variables that could effect soil fauna habitat selection.]
+{Specification of the linear mixed model components used to estimate impact of overstory treatments on environmental variables that could effect soil fauna habitat selection in Portneuf Wildlife Reserve, Québec, Canada.}
+\label{ann:SEM_Env_eq}
 \end{table}
 
-\subsubsection{Occupancy model component} 
+We used linear mixed models to assess how overstory treatments affect springtail biomass ($\text{Springtail}_{i}$) and 
+environmental variables ($\text{CWD}_{i}$, $\text{Canopy}_{i}$, $\text{Litter}_{i}$) at site $i$ :
+
+\begin{align}
+  \text{Springtail}_{i} &\sim \text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}}) \nonumber \\
+  \text{CWD}_{i} &\sim \text{N} (\mu_{\text{CWD}_i}, \sigma_{\text{CWD}_{\text{Group}_i}}) \\
+  \text{Canopy}_{i} &\sim \text{N} (\mu_{\text{Canopy}_i}, \sigma_{\text{Canopy}_{\text{Group}_i}}) \nonumber \\
+  \text{Litter}_{i} &\sim \text{N} (\mu_{\text{Litter}_i}, \sigma_{\text{Litter}_{i}}) \nonumber 
+\end{align}
+
+Due to heteroscedasticity in the Springtail biomass, we allowed each treatment group $j$ to have their own variances ($\sigma_j \sim \text{U}(0,150)$). 
+Springtail biomass was drawn from a normal distribution $\text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}})$, where $\sigma_{\text{Springtail}_{\text{Group}_i}}$ denotes the 
+residual variance of a given treatment group and ($\mu_{i}$) corresponds to the linear predictor including overstory treatments ($\text{Cutpartial}_i$, $\text{Cutclear}_i$), 
+a block random effect ($\alpha_{\text{Block}}$), as well as the latent occupancy state of salamanders and of each ground beetle group 
+($z_{Salamander}$, $z_{Large.carabids}$, $z_{Small.carabids}$):
+
+
+\begin{align}
+  \mu_{\text{Springtail}_i} &= \beta_{0[\text{Springtail}]} + \beta_{\text{Cutpartial}[\text{Springtail}]} \times \text{Cutpartial}_i + \nonumber\\
+  &\beta_{\text{Cutclear}[Springtail]} \times \text{Cutclear}_i + \beta_{z_{\text{Salamander}}[\text{Springtail}]} \times z_{Salamander} +  \nonumber\\
+  &\beta_{z_{\text{Small.carabids}}[\text{Springtail}]} \times z_{Small.carabids} + \beta_{z_{\text{Large.carabids}}[\text{Springtail}]} \times z_{Large.carabids} + \nonumber\\
+  &\alpha_{\text{Block}[\text{Springtail}]_{\text{Block}_i}} \nonumber
+\end{align}
+
+
+Again, we assumed vague normal priors for the coefficients $\text{N}(0, \sigma = \sqrt{10})$. 
+We used $\text{N}(0, \alpha_{Block})$ priors for the block random effects, where $\alpha_{Block})$ is drawn from a uniform distribution $\text{U}(0, 50)$. 
+
+
+\begin{align}
+  \mu_{\text{CWD}_i} &= \beta_{0[\text{CWD}]} + \beta_{\text{Cutpartial}[\text{CWD}]} \times \text{Cutpartial}_{i} + \nonumber\\
+  & \beta_{\text{Cutclear}[\text{CWD}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{CWD}]_{\text{block}_i}} 
+\end{align}
+
+\begin{align}
+  \mu_{\text{Canopy}_i} &= \beta_{0[\text{Canopy}]} + \beta_{\text{Cutpartial}[\text{Canopy}]} \times \text{Cutpartial}_{i} + \nonumber \\
+  & \beta_{\text{Cutclear}[\text{Canopy}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Canopy}]_{\text{block}_i}} \nonumber
+\end{align}
+
+\begin{align}
+  \mu_{\text{Litter}_i} &= \beta_{0[\text{Litter}]} + \beta_{\text{Cutpartial}[\text{Litter}]} \times \text{Cutpartial}_{i} + \nonumber\\
+  & \beta_{\text{Cutclear}[\text{Litter}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Litter}]_{\text{block}_i}} \nonumber
+\end{align}
+
+\vspace{10pt}
+
+\begin{table}[h!]
+   \caption[Specification of the occupancy model and linear mixed model components used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) occupancy, ground beetle occupancy and springtail biomass.]
+   {Specification of the occupancy model and linear mixed model components used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) occupancy, ground beetle occupancy and springtail biomass in Portneuf Wildlife Reserve, Québec, Canada.}
+   \label{ann:SEM_Sp_eq}
+   \end{table}
 
 The occupancy models of salamanders and ground beetles used the observed detections and non-detections at site $i$ during survey $j$, 
 represented by $\text{Salamander}_{ij}$, $\text{Large.carabids}_{ij}$ and $\text{Small.carabids}_{ij}$. These detections and non-detections followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as the success parameter, 
@@ -150,55 +200,8 @@ The priors for block random effects were $\text{N}(0, \alpha_{Block})$, where $\
 Precipitation was highly correlated with air temperature and relative humidity. 
 For this reason, we did not include these two variables in our models.
 
-
-\subsubsection{Linear mixed model component} 
-
-We used linear mixed models to assess how overstory treatments affect springtail biomass ($\text{Springtail}_{i}$) and 
-environmental variables ($\text{CWD}_{i}$, $\text{Canopy}_{i}$, $\text{Litter}_{i}$) at site $i$ :
-
-\begin{align}
-  \text{Springtail}_{i} &\sim \text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}}) \nonumber \\
-  \text{CWD}_{i} &\sim \text{N} (\mu_{\text{CWD}_i}, \sigma_{\text{CWD}_{\text{Group}_i}}) \\
-  \text{Canopy}_{i} &\sim \text{N} (\mu_{\text{Canopy}_i}, \sigma_{\text{Canopy}_{\text{Group}_i}}) \nonumber \\
-  \text{Litter}_{i} &\sim \text{N} (\mu_{\text{Litter}_i}, \sigma_{\text{Litter}_{i}}) \nonumber 
-\end{align}
-
-Due to heteroscedasticity in the Springtail biomass, we allowed each treatment group $j$ to have their own variances ($\sigma_j \sim \text{U}(0,150)$). 
-Springtail biomass was drawn from a normal distribution $\text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}})$, where $\sigma_{\text{Springtail}_{\text{Group}_i}}$ denotes the 
-residual variance of a given treatment group and ($\mu_{i}$) corresponds to the linear predictor including overstory treatments ($\text{Cutpartial}_i$, $\text{Cutclear}_i$), 
-a block random effect ($\alpha_{\text{Block}}$), as well as the latent occupancy state of salamanders and of each ground beetle group 
-($z_{Salamander}$, $z_{Large.carabids}$, $z_{Small.carabids}$):
-
-
-\begin{align}
-  \mu_{\text{Springtail}_i} &= \beta_{0[\text{Springtail}]} + \beta_{\text{Cutpartial}[\text{Springtail}]} \times \text{Cutpartial}_i + \nonumber\\
-  &\beta_{\text{Cutclear}[Springtail]} \times \text{Cutclear}_i + \beta_{z_{\text{Salamander}}[\text{Springtail}]} \times z_{Salamander} +  \nonumber\\
-  &\beta_{z_{\text{Small.carabids}}[\text{Springtail}]} \times z_{Small.carabids} + \beta_{z_{\text{Large.carabids}}[\text{Springtail}]} \times z_{Large.carabids} + \nonumber\\
-  &\alpha_{\text{Block}[\text{Springtail}]_{\text{Block}_i}} \nonumber
-\end{align}
-
-
-Again, we assumed vague normal priors for the coefficients $\text{N}(0, \sigma = \sqrt{10})$. 
-We used $\text{N}(0, \alpha_{Block})$ priors for the block random effects, where $\alpha_{Block})$ is drawn from a uniform distribution $\text{U}(0, 50)$. 
-
-
-\begin{align}
-  \mu_{\text{CWD}_i} &= \beta_{0[\text{CWD}]} + \beta_{\text{Cutpartial}[\text{CWD}]} \times \text{Cutpartial}_{i} + \nonumber\\
-  & \beta_{\text{Cutclear}[\text{CWD}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{CWD}]_{\text{block}_i}} 
-\end{align}
-
-\begin{align}
-  \mu_{\text{Canopy}_i} &= \beta_{0[\text{Canopy}]} + \beta_{\text{Cutpartial}[\text{Canopy}]} \times \text{Cutpartial}_{i} + \nonumber \\
-  & \beta_{\text{Cutclear}[\text{Canopy}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Canopy}]_{\text{block}_i}} \nonumber
-\end{align}
-
-\begin{align}
-  \mu_{\text{Litter}_i} &= \beta_{0[\text{Litter}]} + \beta_{\text{Cutpartial}[\text{Litter}]} \times \text{Cutpartial}_{i} + \nonumber\\
-  & \beta_{\text{Cutclear}[\text{Litter}]} \times \text{Cutclear}_{i} + \alpha_{\text{Block}[\text{Litter}]_{\text{block}_i}} \nonumber
-\end{align}
-
-
 \clearpage
+
 
 \begin{table}[ht]
 \caption[JAGS code used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) and ground beetle occupancy, springtail biomass and environmental variables that could effect soil fauna habitat selection.]
