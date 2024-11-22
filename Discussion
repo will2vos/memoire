@@ -1,0 +1,1069 @@
+
+Le but de l'étude est de comprendre comment les traitements sylvicoles, effectués dans un contexte de migration assistée, 
+affecte la dynamique des écosystèmes du sol forestier. 
+
+Les objectifs qui s’y rattachaient étaient de quantifier l'effet des traitements de coupes forestières sur les variables environnementales qui influencent l'utilisation de l'habitat par la faune du sol 
+et de mesurer l'impact des coupes forestières sur l'utilisation de l'habitat par la faune du sol.
+
+Notre hypothèse pour le premier objectif soutenait que les variables environnementales favorables à l'utilisation de l'habitat par les espèces fluctuent 
+en fonction de l'intensité des coupes forestières. Ainsi, les traitements de coupes forestières constituent une variable englobant 
+les changements de conditions environnementales.
+
+Notre hypothèse lier à notre deuxième objectif stipulait que les traitements de coupe forestière entraînent une modification de l'utilisation de l'habitat 
+par la faune du sol et se propage à travers le réseau trophique. Spécifiquement, les coupes affectent l'utilisation de l'habitat par les salamandres et 
+les grands carabes (compétiteurs de salamandres), ce qui modifie ensuite la sélection d'habitat des petits carabes (proies de salamandres), 
+puis enfin des collemboles (proies de grands carabes et salamandres).
+
+
+
+Les effets des traitements sur les salamandres semble varier à l'echelle temporelle en effet \cite{Ochs2022Responseterrestrial} n'a pas trouvé d'effet des coupe total sur l'abondance relative des salamandres 
+durant les trois première années après la recolte ce qui diffère de l'étude menait par \cite{deMaynadier1995relationshipforest}. 
+
+En revanche Ochs2022Responseterrestrial a observer une diminution significative de l'abondance relative des salamandres durant la période de 4-6 ans après la récoltes sans récupérer durant la période de 7-11 ans post-récolte.
+La réponse tardive à l'exploitation forestière suggère que les salamandres pourraient mettre quelques années avant de montrer des réactions perceptibles à cette perturbation \citep{Ochs2022Responseterrestrial}
+
+Macneil and Williams (2014) reported a negative effect of clearcuts and patch cuts on plethodontid salamanders in the first 2–3 years after harvest at the HEE. 
+We attribute the lack of such effects in the current study to differing analytical approaches. 
+We used negative binomial mixed models within a BACI design, whereas Macneil and Williams (2014) used linear mixed models on square-root transformed count data with post-hoc tests and N-mixture models.
+
+Macneil:
+Many studies find that clearcuts negatively impact salamander abundance at the local scale \citep{Petranka1993Effectstimber,Herbeck1999PlethodontidSalamander,Grialou2000effectsforest}
+while \citep{Renken2004EffectsForest} found no such effect at the landscape scale. 
+
+
+La différence observé dans la probabilité d'occupation entre les coupes totale et les coupes partielle peut être attribuable à la différence dans la qualité d'habitat.
+
+
+Bien que notre effet soit marginale, cette observation concorde avec ce que l'on retrouve dans la litératture . 
+Plusieurs études ont ainsi noté une absence de différence entre les témoins et les coupe partielle sur l'abondance des salamandre \citep{McKenny2006Effectsstructural,Mazerolle2021Woodlandsalamander,Ochs2022Responseterrestrial}. 
+
+D'autres études ont observé une réduction de l'abondance relative des salamandres dans les coupes partielles juste après la première phase de récolte \citep{Harpole1999Effectsseven,Knapp2003Initialeffects,Morneault2004effectshelterwood}
+Cependant, au moins une étude a montré que ces effets ne durent que peu de temps (moins de 5 ans) \citep{Morneault2004effectshelterwood}. 
+
+Macneil and Williams (2014) reported a negative effect of clearcuts and patch cuts on plethodontid salamanders in the first 2–3 years after harvest at the HEE. 
+We attribute the lack of such effects in the current study to differing analytical approaches. 
+We used negative binomial mixed models within a BACI design, whereas Macneil and Williams (2014) used linear mixed models on square-root transformed count data with post-hoc tests and N-mixture models.
+
+Macneil:
+Many studies find that clearcuts negatively impact salamander abundance at the local scale \citep{Petranka1993Effectstimber,Herbeck1999PlethodontidSalamander,Grialou2000effectsforest}
+while \citep{Renken2004EffectsForest} found no such effect at the landscape scale. 
+
+Nolet 2014: 
+Tilghman, Ramee, and Marsh (2012) observed that populations generally recovered as the forest regenerated, 
+while Homyack and Haas  (2009) observed no recovery 13 years after harvesting following the
+
+
+Demaynadier:
+effet negative des coupe total sur l'abondance des salamandresPlusieurs études ont ainsi observé une relation positive entre l'abondance des salamandre cendrée et le couvert de la canopé ainsi qu'un effet immédiat de la réduction de la couverture de la canopée sur l'abondance les salamandres cendrées \citep{Knapp2003Initialeffects,Otto2014ComparingPopulation,Mossman2019Twosalamander}.
+
+La perte de CWD que l'on retrouve dans les traitement de coupe totale réduit ainsi le temps que les salamandres passent à la surface du sol pour se nourrir et se reproduire en plus d'augmenter les risque de déssication \citep{Peterman2014Spatialvariation,Achat2015Quantifyingconsequences,Peele2017Effectswoody}
+
+
+La différence observé entre les coupe total et les coupe partielle peut être attribuable aux fait les traitements de coupe partielle ont une meilleurs capacité de retention d'attribut favorable a l'utilisation d'habitat apr les salamandre.
+Les travaux précédents ont montré que la rétention accrue de la couverture du couvert forestier comme dans les coupes partielle peut entraîner des densités relatives plus élevées de salamandres 
+comparativement aux traitements équiennes comme les coupe totale qui éliminent une plus grande quantité de couvert forestier \citep{Hocking2013Effectsexperimental,Harper2015Impactforestry,Mahoney2016Woodlandsalamander}. 
+
+Une plus grande rétention du couvert forestier limite la quantité de rayonnement solaire atteignant le sol, ce qui permet de maintenir des microclimats humide et frais, compatibles avec la physiologie des salamandres \citep{Homyack2011Energeticssurfaceactive}
+En raison de leur respiration cutanée le salamandre cendrée sont plus a risque de déssication quand elle sont exposé a un environnement plus chaud et sec. 
+La présence de refuge temporaire comme le débris ligneux et autre microstrucutre joue ainsi un rôle prédominant dans leur écologie puisuq'il permette au salamandre de se maintenir a la surface la ou elle s'alimente . 
+
+
+En ce qui concerne les coupe totale, plusieurs étude on observé un effet négatif des coupe totale sur l'abondance des salamandre ce qui rejoind notre observation \citep{Cantrell2013Shortterm}.
+
+Nos résultats montre que le traitement de coupe partielle ne présente pas de différence pour la probabilité d'occupation des salamandre par rappport au témoins 
+mais qu'en revanche la probabilité d'occupation est plus élevé que dans les traitement de coupe totale.
+
+Bien que notre effet soit marginale, cette observation concorde avec ce que l'on retrouve dans la litératture . 
+Plusieurs études ont ainsi noté une absence de différence entre les témoins et les coupe partielle sur l'abondance des salamandre \citep{McKenny2006Effectsstructural,Mazerolle2021Woodlandsalamander,Ochs2022Responseterrestrial}. 
+
+D'autres études ont observé une réduction de l'abondance relative des salamandres dans les coupes partielles juste après la première phase de récolte \citep{Harpole1999Effectsseven,Knapp2003Initialeffects,Morneault2004effectshelterwood}
+Cependant, au moins une étude a montré que ces effets ne durent que peu de temps (moins de 5 ans) \citep{Morneault2004effectshelterwood}. 
+
+La différence entre les coupe partielle et les coupe totale s'expliquerais essentiellement par la capacité des coupes partielle a préserver des attributs environnementaux favorable à l'utilisation de l'habitat par la salamandre.
+Plusieurs étude on ainsi observé que les coupe partielle permetté de maintenir des charactéristique d'habitat propice au maintient de l'abondance des salamandre dans le milieu. 
+Cette capacité des coupe partielle a préservé l'utillisation de l'habitat pas les salamandre serait nottament du a la capacité des coupes partielle a préservé plusieurs types d'attributs forestiers.
+
+
+
+
+Habitat change following clear-cutting dramatically changes the composition of carabid assemblages: species restricted to mature forests disappear and open-habitat species invade, while habitat generalists survive at least in the short term.
+Carabid diversity can probably best be maintained if forest management mimics natural processes, maintains natural structures and includes the natural composition of vegetation and other structural elements.
+
+Il est possible que la probabilité d'occupation reste similaire entre les milieux mais que la composition spécifique change avec la transition de milieux.
+C'est un peux ce que \cite{Kudrin2023metaanalysiseffects} on observé dans leur étude avec une abondance et une richesse spécifique similaire entre les traitements de coupe mais un changement dans la composition spécidifque.
+Ainsi des espèces favorable au milieu fermer viennent a disparaitre pour laisser place a une colonisation par les espèces recherchant des milieux ouvert.
+
+Staab:
+Indeed, relationships between large body size and threat or decline have been shown for several insect taxa including moths 32, 
+ground beetles (Nolte2019Habitatspecialization)
+
+The conducted meta-analysis indicates that the richness of predatory invertebrates responds positively to harvesting. 
+This trend is mainly due to actively moving Coleoptera and Araneae, which can increase their richness in harvesting sites through active colonization of newly formed habitats [30,31].
+
+% différence entre les groupe de carabes pour l'effet des coupes
+importance de la taille des indivius face au déclin
+
+The effect of harvesting is dependent on body size the negative effect is increased with a decrease in the size group. Feeding type also impacts on the effects of harvesting (abundance Qm = 0.1; p = 0.892 and richness Qm = 6.3; p = 0.012) but only in the case of richness (Figure 3). kudrin
+
+Body size is a fundamental trait that determines numerous physiological and life history parameters of an organism [39–41]. 
+The conducted meta-analysis shows that as the size of invertebrates decreases, the negative impact of harvesting on soil fauna becomes more pronounced (Figure 3). 
+In our opinion, one of the reasons for this dependence may be the limited dispersal ability of small-bodied soil fauna [42–44]. 
+Small soil invertebrates have a reduced ability to actively avoid unfavorable points and/or colonize disturbed plots from adjacent undisturbed areas or refuges compared to actively moving groups of macrofauna [45–47]. 
+For instance, oribatid mites are highly limited in their dispersal ability, even over distances of only several centimeters [48], whereas ground beetles are able to cover hundreds of meters [49]. kudrin
+
+The behavior of P. cinereus is strongly constrained by thermal and hydric conditions (Heatwole, 1962; Spotila, 1972; Feder, 1983; Keen, 1984; Grover, 1998).
+
+La présence de litière forestière, qui favorise également les salamandres, pourrait contribuer à la différence de probabilité d'occupation observée entre les deux types de coupes. 
+Dans notre étude, la profondeur de la litière était significativement plus élevée dans les coupes partielles que dans les coupes totales. 
+Il est donc probable que le maintien de la litière joue un rôle important dans la capacité des salamandres à se maintenir dans l'habitat après les coupes \citep{Tilghman2012Metaanalysiseffects}.
+\cite{Ash1997DisappearanceReturn} ont ainsi observé un retour à l'abondance d'avant coupe, chez les salamandre cendrée, 4-6 ans après l'applications d'une coupe total et ont associé ce retour a la réapparition de la litière. 
+Plusieurs recherche ont estimé que le rétablissement des salamandres après une coupe totale peut prendre plusieurs décénnies \citep{Homyack2013Effectsrepeatedstand,Ochs2022Responseterrestrial}. 
+
+Bien que notre étude se soit déroulé 5 ans apèrs l'application des coupes, il est intérressant de noter que l'impacte des coupes sur les salamandres semble également varier en fonction du temps.
+Dans leur étude, \cite{Ochs2022Responseterrestrial} n'ont pas trouvé d'effet des coupes totales sur l'abondance relative des salamandres durant les trois première années après la recolte.
+En revanche, les auteurs ont observé une diminution significative de l'abondance relative des salamandres durant la période de 4-6 ans après la récoltes sans récupérer durant la période de 7-11 ans post-récolte.
+\cite{Ochs2022Responseterrestrial} suggère que la réponse tardive des salamandres à l'exploitation forestière pourraient être expliqué par la présence de débris ligneux, durant les première années, ce qui permettrait aux salamandre de subsister à court terme le temps que le débris ligneux se décompose. 
+La réponse a court terme semble toutefois varier en fonction de l'étude puisque d'autres recherches relatent une diminution de l'abondance des salamandres durant les trois première années suivant une coupe \citep{deMaynadier1995relationshipforest,Macneil2014Effectstimber}
+
+%
+
+
+\cite{Kudrin2023metaanalysiseffects} n'ont ainsi pas observé d'effet des coupes partielles sur l'abondance des coléoptères et des collemboles.
+Toutefois les auteurs ont observé noté une diminution de l'abondance des deux groupes dans les coupes totales. 
+
+L'ouverture du couvert forestier est reconnue pour avoir un effet positif sur la richesse spécifique et la diversité taxonomique des carabes \citep{Kudrin2023metaanalysiseffects}.
+Ce constat est principalment explicable par la création de nouveaux habitats lors des coupes totales et la capacité des carabes a se déplacer rapidement \citep{Niemela2007effectsforestry}. 
+Nous supponsons que l'absence de changement dans la probabilite d'occupations serait du au fait qu'il n'y ai pas de changement dans la présence de carabes en générale mais plutôt dans la composition taxonomique.
+Par exemple, l'application de coupe total amène la formation de nouveau habitat et entraine une diminution des espèces associer au milieu fermer et une colonisation par les espèces favorisant les milieu ouvert \citep{Niemela2007effectsforestry,Pohl2007Rovebeetles}
+
+L'étude observe aussi une augmentation de la richesse spécifique des coleoptère dans les traitement de coupe totale mais pas dans les traitement de coupes partielle. 
+
+Les coupe totale on un effet négatif sur l'abondance des espèces forestières \citep{Werner2000Effectsforest,Niemela2007effectsforestry,Kudrin2023metaanalysiseffects}
+Cependant ces espèces peuvent être retrouvé dans un habitat ouvert suite a une coupe \citep{Koivula2002Alternativeharvesting}.
+Il peut s'agir par exemple d'individus provenent d'une forest mature collé mitoyen au milieu ouvert \citep{Spence1996Northernforestry,Koivula2002Alternativeharvesting}.
+Il est également possible, pour certaine espèce forestière plus tolérante au perturbation naturel, de survire dans des zone de coupe totale \citep{Niemela2007effectsforestry}
+En revanche les espèces associé au milieu ouvert disparaisse rapidement au moment ou la canopé se referme, soit 20 a 30 ans après l'application d'une coupes totale, et sont remplacé par les espèces forestière \citep{Niemela1996importancesmallscale,Koivula2002Alternativeharvesting}. 
+Les forêt fermé représente des environenment hostile pour de nombresue espèce de carabes et seuelement un faible nombre d'espèces 
+
+
+Les forêt fermé représente un environnement plutôt hostile pour de nombreuses espèces de carabes, car seules quelques espèces parviennent à y prospérer \citep{Koivula2002Borealcarabidbeetle}
+On retrouve ainsi une plus faible richesse spécifique en milieu forestier mais pas nécéssairement une plus faible densité. 
+For carabids, therefore, boreal forests may be an adversity or A-selected environment (Greenslade 1983) with low species richness (but not necessarily low densities). 
+
+Niemela2007effectsforestry
+open-habitat species do not colonise large forest stands (Helio  la  et al. 2001), and secondly, the majority of forest species are assumed to survive in the clear-cut sites adjacent to mature forest stands.
+The retained old forest stands should include specific structural features (Werner and Raffa 2000). These include coarse woody debris (Work et al. 2004) that is an important habitat for many carabids (Pearce et al. 2003; Koivula et al. 2005).
+In this review we showed that there are, broadly speaking, three types of carabid beetle responses to forestry practices. 
+In strongly managed stands, such as clear-cuts, (1) open-habitat species appear and increase in abundance 
+(but disappear when the canopy closes ca. 20–30 years later); (2) forest generalists persist throughout the clear-cut originated succession; 
+and (3) species requiring mature closed-canopy forests are affected negatively by management and may not recover within several decades. 
+The latter group further seems to consist of two recovery types: (a) the majority of forest-specialist species tend to recover following logging. 
+This view is supported by the low forest carabid abundances during the first ca. 20–30 years of clear-cut originated succession followed by an increase later on (30–60 years; Koivula et al. 2002), but (b) several species show poor or no re-colonisation even after tens of years after the harvesting event (Niemela  et al. 1993a).
+As there are more open-habitat species that colonise clear-cuts than there are forest species disappearing from them (Niemela  et al. 1988, 1993a, b; Koivula 2002a, b), species richness tends to increase following clear-cutting or other major forestry practices. Modern forestry creates clear-cuts suitable for open-habitat and disturbance-tolerant species, and consequently these are the ‘winners’ in intensively managed forest landscapes today. Also forest-habitat generalists (species found in different types and ages of forest) appear to be thriving. 
+From a conservation point of view, species requiring mature closed-canopy forest are of concern.
+
+Magura 2005
+Koivula et al. (1999) showed that artificial leaf-litter addition increased the habitat heterogeneity and affected the carabid assemblage structure by increasing the total carabid abundance
+Results of the repeated measures ANOVA showed that leaf-litter addition altered the microclimatic conditions of the plots. The ground temperature was significantly lower in the leaf litter plots compared to the control plots (Table 1). There was significantly more prey in the leaf-litter plots than in the control (Table 1; repeated measures ANOVA). Similarly, the carabid larvae were significantly more numerous in the leaf-litter plots than in the control plots (Table 1; repeated measures ANOVA).
+The total number of individuals was higher in the leaf-litter plots than in the control plots in both years.
+
+Heliola2001Distributioncarabidspecies 
+richness was significantly higher in the clearcut than in the forest fragments, (2) clearcuts hosted many open-habitat species, which increased overall species richness in these sites, (3) carabid assemblages in the edges were more similar to forest assemblages than to those found in the clearcuts, (4) no edge specialists were found, and (5) open-habitat species did not penetrate into the forest fragments from the clearcut.
+There were no statistically significant differences in carabid species abundance between the traditionally clearcut sites and the retention tree cutting.
+According to Scheffe’s post hoc test, species richness was significantly higher in the clearcuts than in the forest interiors and edges, whereas species richness in edges and forest interiors did not differ
+In the RDA ordination, almost every carabid species was located left of the origin, indicating that most of the species were positively associated 
+with habitat variables in the clearcut (Fig. 5). 
+For instance, Pterostichus adstrictus and P. oblongopunctatus correlated highly positively with logging residue and needle litter. 
+Thus, it is possible that some carabid species benefit from the increased structural elements on the forest floor following clearcutting. 
+In contrast, forest specialist species were located in the lower part of the ordination space. These species (e.g., C. hortensis and C. caraboides) 
+did not correlate with variables associated with clearcuts, but they correlated positively with, for instance, the cover of forest mosses, 
+Vaccinium dwarf shrubs, and the amount of large spruce trees.
+
+Koivula.1999Leaflitter
+The significant infiuence of leaf litter on carabid abundance can be attributable to both abiotic factors (microenvironmental eonditions. especially humidity and temperature), and biotic ones (ehanges in niche structure, improved food supply).
+la présence de littière augmente l'abondance des carabes mais ne semble pas avoir d'effet sur la richesse et la diversité spécifique.
+
+Humidity, temperature, light, and physieal and ehemicai qualities of soil can have an effect on their distribution patterns (Thiele 1977. Lindroth 1985)
+Also interspecific interactions such as competition, predation and parasitism can greatly influence the distribution of carabid beetles and food available to them (Sergeeva 1994)
+However, abiotie factors are probably more important than biotic ones in determining distribution patterns (e.g, Thiele 1964).
+The amount of food is one of the most important biotic factors affecting carabid distributions (Thiele 1977. Niemela 1993a. Sergeeva 1994).
+Many species-specific characteristics, sueh as feeding behavior, may be related to species distribution in association to leaf litter.
+In the soil samples taken from the humus layer oi our study plots, there were more springtails in the litter than in the control plots,
+ith the numbers of springtails. but not with those of mites. A similar positive correlation between pitfall catches oi carabids and springtails was reported by Niemela et al. (1986).
+Leaf-litter microhabitat seems to be favorable for some species (e,g. C. micropterus.. P. oblongopunctatus and C. carahoides). but not for some others (e,g. N. biguttatus). At a forest-stand level, this probably leads to different aggregation patterns of different carabid species.
+The importance of microhabitiil differences, such as litter depth, was found lo be imporlant in explaining carabid abundance in a field experiment in Canada (Niemela et al. 1997).
+
+\cite{Kudrin2023metaanalysiseffects} ont observé qu'il n'y avait pas de différence dans l'abondance des collemboles dans les traitement de coupe partielles mais que ce groupes d'espèces subissait un déclin de 24\% dans les traitements de coupes totales.
+L'auteur a aussi observé augmentation de la richesse spécifique des collemboles dans les deux types de coupes, toutefois cette augmentation n'était pas significative dans les traitement de coupe totale.
+
+diminution abondance des collemboles dans coupe "total", augmentation de l'abondance des carabes.
+Our results suggested some impacts of disturbance on leaf litter decomposition through changes in faunal communities.
+Total abundance or occurrence of vascular plants, springtails, oribatid mites, macrodetritivores and mosses decreased significantly with increasing intensity of disturbance. 
+These groups were almost absent in the high intensity treatment.
+
+Laigle2021Directindirect
+The abundance of ground beetles was the highest in the low intensity treatment, but was not significantly different between the mature forest and the high intensity treatment.
+...ground beetles without wings, both preferring shade and moist habitat (Figure 4E, F)
+In the low intensity treatment, where the soil was moderately exposed, and woody debris were the most abundant, rove beetles with long elytron and ground beetles with wings were more frequent (Figure 4D, E).
+It was also associated with runner spiders and carnivorous ground beetles (Figure 4F, E).
+
+In the mature forest, we found higher abundance of hemiedaphic springtails
+This could explain the extremely low abundance of the slug Arion sp. in the disturbance treatments (Getz 1959). 
+We also observed lower abundances of springtail and oribatid mite species, both having low dispersal abilities (Rousseau and others 2019), 
+in the intense disturbance treatments compared to the mature forest (Rousseau and others 2018).
+Mesofaunal communities were found to be highly sensitive to intensive soil disturbance.
+In contrast, mobile predators, such as several species of spiders and ground beetles, benefit from the resources provided by the pioneer conditions/early successional stages and moderate mineral soil exposure.
+Dispersal ability is an important factor for the colonization of disturbed areas for several taxonomic groups including ground beetles (Simons and others 2016)
+Laigle2021Directindirect
+Hemiedaphic springtails are commonly found in thick forest floors (Farska ́ and others 2013; Salmon and others 2014) and are therefore more likely to be affected by soil disturbance 
+compared to epiedaphic species which can better tolerate disturbed and xeric habitats (Makkonen and others 2011; Bokhorst and others 2012; Rousseau and others 2019).
+
+Raymond-Leonard2020Deadwood :
+Our results demonstrate that deadwood retention across Quebec, Canada could potentially bring habitat and resources for 74 springtail species irrespective of whether they are saproxylic or not.
+
+Rousseau2018Forestfloor
+Previous shortterm studies (1–5 years after treatment) in North American boreal forests have demonstrated that whole-tree biomass harvesting compared to stem-only removal leads 
+to lower density and species richness as well as compositional changes in Collembola and Oribatida communities (Bird and Chatarpaul, 1986; Battigelli et al., 2004)
+Our results suggest that observed changes in forest floor mesofauna may be linked to the loss of epiedaphic (surface-dwelling) species, particularly Oribatida. 
+Our study demonstrated that two years after biomass removal and soil disturbance, Collembola and Oribatida communities differed from uncut forest.
+Our results suggest that observed changes in forest floor mesofauna may be linked to the loss of epiedaphic (surface-dwelling) species, particularly Oribatida. 
+Our short-term study suggests that the loss of forest floor microhabitats (loss of organic cover including ground vegetation, mosses and woody debris) and lower moisture and nutrient richness measured after harvesting and along the biomass removal gradient may be drivers of these observed changes.
+The use of Tullgren-funnel extractors as opposed to Macfadyen highgradient extractors, used in many of the aforementioned studies and known to be more efficient (Krantz and Walter, 2009), could explain these differences as well as the sampling of different soil profiles and inherent site-specific conditions.
+We observed several well-known and primarily epiedaphic (surfacedwelling) families of Oribatida (Euphthiracaridae and Crotoniidae) and Collembola (Katiannidae and Sminthuridae) in unharvested control plots, but not in harvested plots.
+In control plots, we observed in overall more abundant, richer and compositionally different communities for both taxa in mosses than in the soil strata. 
+These differences support the idea that mosses provide a complex microhabitat for mesofauna with essential food resources and favourable (moist, cool and stable) abiotic conditions (Åström et al., 2005; Salmane and Brumelis, 2008; Lindo and Gonzalez, 2010)
+Rousseau2018Forestfloor
+Spring and summer differences in vertical stratification of Collembola and Oribatida density and biomass (Fig. 2) in the uncut control could have been due to migration from the moss stratum to the organic soil of some abundant species (e.g. F. nivalis, O. nova). 
+Such behaviour enables mesofauna to avoid harsh conditions during drier periods (Addison and Barber 1997, Huhta and Hänninen, 2001).
+We also showed a relationship between woody debris and mesofauna (Figs. 3 and 4) as shown previously in other studies (Addison, 2006; Siira-Pietikäinen et al., 2008; Malmström, 2012a). 
+
+Lindo2004Forestfloora
+Densities of microarthropod suborders were lower in the strip-cut corridors of the deciduous stands and significantly lower in the suborder Oribatida (oribatid mites).
+Microarthropods play an important role in regulating rates of decomposition and nutrient cycling via interactions with the microbial community (Seastedt 1984)
+Reductions in forest floor microarthropods following forest harvest have been attributed to decreases in organic matter, litter input, microbial biomass (Huhta et al. 1967; Bird and Chatarpaul 1986; Marra and Edmonds 1998), and soil pore space (Vlug and Borden 1973; Battigelli 2000) and to changes in microclimate (Abbott et al. 1980; Seastedt and Crossley 1981; Marra and Edmonds 1998) that occur following harvesting disturbance.
+Reductions in forest floor microarthropods following forest harvest have been attributed to decreases in organic matter, litter input, microbial biomass (Huhta et al. 1967; Bird and Chatarpaul 1986; Marra and Edmonds 1998), and soil pore space (Vlug and Borden 1973; Battigelli 2000) and to changes in microclimate (Abbott et al. 1980; Seastedt and Crossley 1981; Marra and Edmonds 1998) that occur following harvesting disturbance.
+Lower abundances of microarthropods following harvesting in the corridors may be related to compaction of the forest floor. 
+Compaction associated with the harvesting process can significantly increase soil bulk density and reduce the soil pore space that is inhabited by microarthropods (Startsev et al. 1998).
+
+Lindo2004Forestfloora
+
+Collembolans, in contrast, are considered rselected organisms — with high fecundity, rapid development, and fast generation turnover rates, which allow Collembola populations to recover quickly from disturbance (Marshall 2000).
+Increases in the relative abundance of arthropleonid Collembola corroborate results found in other studies (Bird and Chatarpaul 1986; Blair and Crossley 1988).
+A reduction in forest floor microarthropods following harvesting is likely due to a combination of factors, including a decrease in food availability (organic matter, microbial biomass) and compaction.
+
+des ressource alimentaire tels que les débris de bois ou la litière, la biomass fongique \citep{Baath1995Microbialcommunity}.
+Les collemboles, sont considérés comme des organismes de type r — caractérisés par une forte fécondité, un développement rapide et un renouvellement rapide des générations, ce qui permet aux populations de collemboles de se rétablir rapidement après une perturbation \citep{Marshall2000Impactsforest}.
+
+Les collemboles sont considérés comme des organismes avec une fécondité élevée, un développement rapide et un renouvellement rapide des générations, leur permettant de se rétablir rapidement après une perturbation \citep{Marshall2000Impactsforest}.
+
+traitement de coupe forestièere peuvent aussi produire un apport important de nourriture 
+Marshall2000Impactsforest
+Others, such as collembolans, with many parthenogenic species, respond quickly to the increased availability of food, including dead roots and other debris, left on-site from harvesting (Addison and Barber, 1997).
+Among the Collembola, Isotomiella minor and Protaphorura parvicornis (Addison and Barber, 1997) and Anuro phorus septentrionalis and Ballistura libra (Seta»la» and Marshall, 1994) were more abundant in clearcuts than in the uncut forest blocks.
+However, Addison and Barber (1997) found fewer species of collembolans and carabid beetles in clearcuts compared to shelterwoods.
+
+Notre étude montre que la biomasse des collemboles ne semble être affecté par les différents traitements de coupe.
+Cette abence d'effet diffère de ce qui est habituellement observé puisqu'on observe généralement une diminution de l'abondance des collemboles avec une intensification des perturbations \citep{Lindo2004Forestfloora,Laigle2021Directindirect,Kudrin2023metaanalysiseffects}. 
+En revanche, l'absence d'effet entre les coupe partielle est les témoins semble refléter ce qui est généralement observé dans la littérature \citep{Kudrin2023metaanalysiseffects}.
+
+La diminution habituellement observé chez les collemboles suite a une récolte forestièere sont souvent associé à la compaction des sols, à la perte de micro-habitat tel que le débris ligneux, 
+la disparition de la couverture organiques, et la baisse d'humidité ainsi que de nutriments \citep{Bird1986Effectwholetree,Baath1995Microbialcommunity,Lindo2004Forestfloora,rousseauForestFloorMesofauna2018}. 
+
+La réponse des collemboles aux traitements peux varier selon le type de communauté \citep{Raymond-Leonard2018Springtailcommunity}.
+
+Les collemboles hémiédaphique sont par exemple plus associé au sol des forêt mature et sont ainsi plus souvent affecté lors des coupes forestière \citep{Laigle2021Directindirect}.
+À l'inverse, les espèces épiédaphiques tolère un plus haut niveau de perturbation ainsi que des habitats xéric \citep{Makkonen2011Traitsexplain,Rousseau2019Woodybiomass}. 
+Toutefois, ce dernier groupes est plus sensible a la diminution de la littière qui représente pour eux une ressource alimentaire importante \citep{rousseauForestFloorMesofauna2018}. 
+
+Malgré la forte sensibilité des collemboles perturbation du sol, l'augmentation de débris et de racine morte suite a un traitement de coupe forestière peux également avoir comme effet d'augmenter 
+la densité des populations durant le première années suivant une coupes \citep{Bird1986Effectwholetree,Marshall2000Impactsforest}. 
+\cite{Huhta1976Effectsclearcutting} ont ainsi observé une hausse de la densité et de la biomasse des collemboles durant les premières années suivant une coupe totale.
+Les auteurs on observer un retour à une biomasse normale 6 ans après la coupe.
+De plus, la rétention d'une partie du volume de débris ligneux dans les coupes totales pourrait expliquer le maintien des communautés de collemboles \citep{Rousseau2018Forestfloor}. 
+Le débris ligneux peut constituer un habitat et une ressource alimentaire pour les collemboles, même pour les espèces non saproxyliques \citep{Raymond-Leonard2020Deadwood}.
+
+% effets mesuré
+On observe que les traitement de coupe partielle on un meilleurs capacité de rétention de débris ligneux comparativement au coupe totale. 
+Le volume de bris ligneux est ainsi signifactivement plus faible dans les traitement de coupe totale par rapport au coupe partielle. 
+Cependant nous n'avons pas observé de différence significative entre les témoins par rapport aux deux traitements de coupes. 
+
+
+Les traitements de coupe partielle permettent souvent le maintient d'un plus grand volume de débris ligneux comparativement à d'autres types de traitement sylvicoles \citep{Nolet2018Comparingeffects}.
+
+
+Mazerolle2021Woodlandsalamander a observé que les traitement de coupe totale possédé un plus grand volume de débris ligneux que les témoins 
+mais que pour la même charactéristique il n'y avait pas de différence entre le témoins et les traitement de coupe partielle ou entre coupe partielle et coupe totale.
+
+En revanche pour les débris ligneux avec une décompositiona avancée, le volume était plus faible dans les traitement de coupe partielle et totale comparativement au témoins. 
+
+En général, les amphibiens réagissent négativement aux récoltes forestières (par ex., Petranka et al., 1993; deMaynadier et Hunter, 1995; Semlitsch et al., 2009), 
+et la rétention de bois mort a été proposée comme technique de gestion forestière pour atténuer ces effets négatifs (par ex., McKenny et al., 2006). 
+utilisable par les amphibiens en raison de la petite taille des morceaux ou d’un stade de décomposition insuffisant, 
+
+Cependant, le bois mort récemment abattu peut ne pas être utilisable par les amphibiens en raison de la petite taille des morceaux ou d’un stade de décomposition insuffisant, 
+n’offrant pas de refuges humides adéquats (Petranka et al., 1994; Kluber et al., 2009; Davis et al., 2010). 
+L’utilisation limitée du bois mort de faible qualité par les amphibiens immédiatement après la coupe suggère que la dynamique temporelle de l'ajout et de la disponibilité de bois mort 
+devrait être prise en compte dans les évaluations des relations amphibiens-bois mort dans les paysages gérés.
+
+Major factors influencing use of down wood appear to be decay state, tree species, and size of piece. Groups of species respond differently to these factors. \citep{Bunnell2010woodbiodiversity}
+nonvertebrates exploit the entire range of decay.
+As decay progresses, capacity of the wood to retain moisture increases and groups with a preference for moister environments become more abundant.
+
+Par ailleurs, une expérience en enclos a montré que les crapauds d’Amérique (A. americanus) et les grenouilles vertes et des bois (L. clamitans et Lithobates sylvaticus) 
+présentaient une perte d’eau réduite et des taux de mortalité plus faibles dans les sites de récolte avec des tas de broussailles que dans ceux sans tas de broussailles (Rittenhouse et al., 2008). 
+Les niveaux d'humidité du sol dans les sites avec broussailles étaient plus élevés que dans les coupes à blanc et les crêtes boisées, 
+appuyant l’idée que la rétention de bois mort peut atténuer les changements de microclimat du sol dans les 1-2 ans suivant la coupe (Rittenhouse et al., 2008).
+
+Études des effets du bois mort sur les amphibiens terrestres  
+Les études qui ont évalué la réponse des pléthodontidés aux récoltes forestières soulignent l’importance du bois mort pour les amphibiens terrestres 
+(par ex., Petranka et al., 1994; Morneault et al., 2004; McKenny et al., 2006; Kluber et al., 2008). Par exemple, Petranka et al. (1994) ont montré que le nombre de salamandres terrestres augmentait 
+avec la quantité de bois mort bien décomposé (c’est-à-dire de classes de décomposition 3-5) dans les parcelles sèches, mais pas dans les parcelles humides. Ce résultat suggère 
+que la rétention de bois mort peut être plus efficace dans les zones où l'humidité est limitée ou lorsque les niveaux d'humidité du sol modifient les avantages marginaux apportés par le bois mort. 
+
+Morneault et al. (2004) ont trouvé des corrélations élevées entre le nombre de salamandres et la disponibilité de bois mort avant le traitement de récolte, mais pas après, suggérant que 
+le faible diamètre du bois restant après la récolte expliquait l’absence de réponse observée. D'autres études ont rapporté des associations positives entre les décomptes de salamandres et 
+la quantité ou le volume de bois mort (Dupuis et al., 1995; Butts et McComb, 2000; McKenny et al., 2006; Rundio et Olson, 2007).
+
+McKenny et al. (2006) ont constaté que l'abondance estimée de salamandres était positivement liée à la densité de bois plus décomposé (classes de décomposition 3-5), 
+mais pas de bois moins décomposé (classes de décomposition 1-2), et également au volume de bois mort (toutes classes de décomposition), dans des unités de récolte âgées d’un an. 
+Dans une étude BACI (avant-après-contrôle-impact) dans le nord-ouest du Pacifique, Rundio et Olson (2007) ont observé des taux de capture post-récolte plus faibles de salamandres terrestres 
+dans des sites à faible volume de bois mort, mais pas dans ceux à volume élevé de bois mort.
+
+La quantité de bois mort et les associations avec les populations d’amphibiens dans les paysages intensivement utilisés.  
+L’historique des perturbations, qu’elles soient naturelles ou anthropiques, détermine la distribution et l'abondance spatiotemporelle du bois mort (McCarthy et Bailey, 1994; Spies, 1998; Jonsson et al., 2011), 
+mais les événements d’accumulation supplémentaires sont relativement limités, sauf si des arbres morts sur pied (chicots) sont retenus ou si la mortalité des arbres sur 
+pied survient (Spies et al., 1988; Norden et al., 2004; Garber et al., 2005). En l’absence de mortalité des arbres sur pied, l'abondance de bois mort dans les forêts équiennes suit 
+généralement une séquence chronologique en forme de U (Spies et al., 1988). Ainsi, les jeunes peuplements forestiers contiennent généralement plus de bois mort que les peuplements de croissance 
+secondaire (par ex., Idol et al., 2001; Rittenhouse et al., 2012). Cependant, de nombreux morceaux de bois mort récents ne sont pas suffisamment décomposés, ou sont trop petits pour être utilisés 
+par les amphibiens (Petranka et al., 1994; Herbeck et Larsen, 1999; Owens et al., 2008).
+
+Le bois mort est généralement le plus abondant immédiatement après la récolte (McCarthy et Bailey, 1994; Idol et al., 2001; Moroni, 2006), et il est probable que les bénéfices écologiques 
+pour les amphibiens soient les plus élevés durant cette période. Alternativement, le principal avantage écologique du bois mort pourrait ne se manifester que lorsque 
+le bois atteint des stades de décomposition plus avancés ou que les populations d’amphibiens se sont rétablies des événements de récolte. 
+Par exemple, Owens et al. (2008) ont émis l’hypothèse que l’absence de bois mort décomposé pourrait expliquer l'absence de différence entre les captures de salamandres dans 
+les sites avec ajout de bois mort comparés aux sites sans manipulation de bois mort.
+
+La production de biomasse pourrait exacerber les effets de la récolte forestière sur les amphibiens, car l’élimination du bois mort diminuerait encore plus une offre déjà 
+limitée de refuges ligneux (Bunnell et al., 1999; Rudolphi et Gustafsson, 2005; Walmsley et Godbold, 2010). Le retrait cumulatif du bois mort sur plusieurs rotations de récolte pourrait 
+amplifier les impacts sur les populations d’amphibiens terrestres. De plus, les efforts de gestion axés sur la production de biomasse pourraient entraîner des monocultures forestières 
+récoltées à des intervalles plus courts que ceux des rotations traditionnelles. L'augmentation de la fréquence des récoltes d’arbres vivants pourrait nuire à la viabilité à long terme des amphibiens, 
+car certaines populations prennent plus de 40 ans pour retrouver leurs niveaux antérieurs à la récolte (Petranka et al., 1993; Homyack et Haas, 2009; voir aussi Ash, 1997).
+
+Notre revue a montré que la rétention de bois mort peut atténuer les effets initiaux de la récolte forestière. Cependant, il manque des données pour indiquer si le bois mort atténue 
+effectivement les impacts à long terme de la récolte forestière.
+
+Generally, amphibians respond negatively to timber harvesting (e.g., Petranka et al., 1993; deMaynadier and Hunter, 1995; Semlitsch et al., 2009) and wood retention has been proposed as a forest management technique for ameliorating negative effects (e.g., McKenny et al., 2006;
+However, recent felled DWM may not be usable by amphibians because small piece sizes or insufficient decay stage do not provide adequate moist refugia (Petranka et al., 1994; Kluber et al., 2009; Davis et al., 2010)
+Limited use of low quality DWM by amphibians immediately following harvest suggests that temporal dynamics of downed wood additions and availability should be considered in assessments of amphibian-DWM relationships in managed landscapes.
+However, an enclosure experiment demonstrated that American toads (A. americanus) and green and wood frogs (L. clamitans and Lithobates sylvaticus) exhibited reduced water loss and lower mortality rates at harvest sites with retained brushpiles than in sites with no brushpiles (Rittenhouse et al., 2008).
+Soil moisture levels at brushpile sites exceeded those of clearcuts and forested ridgetops, supporting the notion that DWM retention can mitigate changes to forest-floor microclimate in the first 1–2 years following harvest. Rittenhouse et al. (2008)
+Effects of downed wood on terrestrial amphibians
+Studies that assessed plethodontid response to timber harvest stressed the importance of DWM to terrestrial amphibians (e.g., Petranka et al., 1994; Morneault et al., 2004; McKenny et al., 2006; Kluber et al., 2008).
+For example, Petranka et al. (1994) showed that counts of terrestrial salamanders increased with amount of well-decayed (i.e., decay class 3–5) DWM in dry plots, but not wet plots. This result suggests that DWM retention may be more effective in areas where moisture is limiting or where soil moisture levels might alter marginal benefits provided by DWM.
+Finally, Morneault et al. (2004) found high correlations between salamander counts and DWM availability before harvest treatment, but not after. The authors suggest that small diameter of DWM remaining post-harvest was a plausible explanation for the lack of an observed response.
+Other studies reported positive associations between salamander counts and DWM quantity or volume (Dupuis et al., 1995; Butts and McComb, 2000; McKenny et al., 2006; Rundio and Olson, 2007).
+McKenny et al. (2006) found that estimated salamander abundance was positively related to the density of more-decayed (decay class 3–5), but not less-decayed DWM (decay class 1–2) and also related to DWM volume (all decay classes), in 1 year old harvest units. In a before-after-control-impact (BACI) study in the Pacific Northwest, Rundio and Olson (2007) observed lower, post-harvest capture rates of terrestrial salamanders at sites with low volume of DWM (quantities not provided), but not at sites with high volume of DWM.
+wood and associations with amphibian populations in intensively used landscapes. Disturbance history, whether natural or anthropogenic, determines spatial and temporal distribution and abundance of downed wood (McCarthy and Bailey, 1994; Spies, 1998; Jonsson et al., 2011), but additional accumulation events are relatively limited unless standing dead trees (i.e., snags) are retained or green tree mortality occurs (Spies et al., 1988; Norden et al., 2004; Garber et al., 2005). In the absence of green tree mortality, abundance of downed wood in even-aged forests typically follows a U-shaped chronosequence (Spies et al., 1988). Thus, young forest stands typically have greater quantities of downed wood than secondary growth stands (e.g., Idol et al., 2001; Rittenhouse et al., 2012). However, many of these new DWM pieces are not sufficiently decayed, or large enough, to be used by amphibians (Petranka et al., 1994; Herbeck and Larsen, 1999; Owens et al., 2008).
+
+Downed wood is typically most abundant immediately following harvest (McCarthy and Bailey, 1994; Idol et al., 2001; Moroni, 2006), and it seems likely that ecological benefits to amphibians should be greatest during this time period. Alternatively, the main ecological benefit of downed wood may not occur until DWM reaches more advanced decay stages or until amphibian populations have recovered from harvest events. For example, Owens et al. (2008) hypothesized that lack of decayed downed wood was a potential explanation for lack of difference between salamander captures at sites with DWM additions compared to sites where DWM was not manipulated.
+Biomass production may exacerbate effects of timber harvest on amphibians because DWM removal would further diminish an already limited supply of woody refugia ( Bunnell et al., 1999; Rudolphi and Gustafsson, 2005; Walmsley and Godbold, 2010). Cumulative removal of DWM over multiple harvest rotations could amplify impacts on terrestrial amphibian populations. Additionally, management efforts that target biomass production may result in forest monocultures harvested at shorter intervals than traditional timber harvest rotations. Increased harvest frequency of live-trees may impede the long-term viability of amphibians because some populations take >40 years to return to pre-harvest levels (Petranka et al., 1993; Homyack and Haas, 2009; but see Ash, 1997).
+Our review provided evidence that DWM retention can ameliorate initial effects of timber harvest. However, there is a lack of data to indicate whether DWM effectively mitigates long-term timber harvest impacts.
+
+Nos résultats suggère que les traitements de coupe partielle maintiennent un plus grand volume de débris ligneux comparativement aux coupes totales 5 ans après les opérations de coupes, ce qui concorde avec les observations faite dans des études similaires \citep{Nolet2018Comparingeffects,Ochs2022Responseterrestrial}.
+L'absence de différence entre les témoins et les coupes totales diffère toutefois de certains résultats observé dans la littérature on on observe un effet négatif des coupe totale sur le volume de débris ligneux \citep{Mazerolle2021Woodlandsalamander}. 
+
+Le volume de débris ligneux peut être plus abondant dans les traitement de coupe total durant les première années après une coupe forestière \citep{McCarthy1994Distributionabundance}.
+par exemple, \cite{Ochs2022Responseterrestrial} ont observé que le volume de débri ligneux était plus grand dans les coupe totale 0-3 ans après la récolte par apport au témoins 
+mais qu'il n'y avait pas de différence entre témoins et coupe totale de 4-6 ans  ou 7-11 ans après la récolte ce qui concorde avec notre résultat.
+Le présence de matière ligneuse dans un milieu un effet positif sur le conservation de la faune du sol a court terme en créant des zones de refuges, un microclimat et une source en nutriment favorable a la survie des amphibiens et des arthropodes \citep{Spotila1972Roletemperature,Huhta1976Effectsclearcutting,Ochs2022Responseterrestrial}.
+La rétention de bois mort est ainsi souvent proposée comme technique de gestion forestière pour atténuer les effets négatifs des coupes \citep{McKenny2006Effectsstructural}. 
+Toutefois, les bénéfice apportés se dissipe au fil du temps suite une dégradation progressif des débris, menant ainsi a une diminution des populations dans les milieux aux conditions non-favorable. 
+De plus, l'utilisation des débris ligneux par la faune du sol dépend principalement de degrée de décompositions, de l'essence d'arbre et de la taille des débris \citep{Bunnell2010woodbiodiversity}. 
+Le bois mort récemment abattu est cependant souvent caractérisé par une petite taille et avec un degrée de décomposition peu avancé, n’offrant ainsi pas de refuges humides adéquats pour certaines espèces notamment les amphibiens \citep{Petranka1994Effectstimber,Morneault2004effectshelterwood,Owens2008Amphibianreptile,Otto2013Amphibianresponse}. 
+Parrallèlement, \cite{Petranka1994Effectstimber} ont observé que la rétention de bois mort peut être plus efficace pour les salamandres dans les zones sèches comparativement aux milieu plus humides.
+Cela suggère un plus gros impactes du des débris ligneux dans les traitement de coupe totale puisque ces milieu possèdent des conditions plus difficile pour les espèces sensible au changement de température et d'humidité. 
+
+
+Le retrait du couvert augmente également la vitesse des vents, l'interception des précipitation. 
+ce qui diminureait l'impacte des coupes sur la faune du sol.
+
+La suppression du couvert forestier associée aux coupes totales peut augmenter les quantités de rayonnement solaire et de précipitations atteignant 
+la surface du sol, ce qui élève la température et l’humidité du sol, augmente ainsi la respiration hétérotrophe (Rh) 
+et réduit la productivité nette de l'écosystème (NEP) [105], [106] \citep{Keenan1993ecologicaleffects,Lindo2003Microbialbiomass}.
+
+Microclimate on the forest floor is highly sensitive to changes in canopy closure (Chen et al., 1999). 
+Loss of canopy cover typically results in more extreme environmental conditions across the open patches, such as temperature and solar radiation increases and soil moisture decreases (Chen et al., 1999).
+
+Messere1998Forestfloor
+pas de chanagement d'abondance dans les coupes par troué
+Plusieurs études se sont interressé è l'effets des charactéristique forestières comme le volume de débris ligneux, l'ouverture de la canopé et la profondeur de litière sur la faune du sol afin de diminuer l'impact de gestion forestière sur les communauté du sols \citep{Semlitsch2002Criticalelements,McKenny2006Effectsstructural}
+
+Otto2014ComparingPopulation a mesuré que la survie apparente des salamandre cendrée augmenté avec une fermture de la canopé et un volume de débris ligneux plus important mais que ces deux varibles ne semblaient en revanche pas affecter l'abondance. 
+
+% Effet des coupes sur CWD, impact sur le milieu et comment cela peu affecter la faune
+
+La perte des refuges suite à la récolte peut réduire la qualité de l'habitat pour la faune du sol \citep{Achat2015Quantifyingconsequences,Peele2017Effectswoody}.
+Further, the removal of surface refugia following harvesting can reduce habitat quality pour la faune du sol (Achat et al., 2015; Peele et al., 2017)
+Consequently, because woodland salamanders forage and breed at the forest floor surface, harsh surface conditions, soil compaction, and low levels of CWD can affect population dynamics (Peterman and Semlitsch, 2014).
+Greater amounts of CWD can also mitigate the negative effects of even-aged forest management by providing surface refugia that maintains suitable environmental conditions underneath logs and rocks and allows individuals to remain at the surface for longer periods of time (Grover, 1998; Moseley et al., 2009; Strojny and Hunter, 2009; Carusco, 2016).
+
+Mazerolle et al. (2021)  et margenau 2023 also found that BCI was higher in strip-cutting treatments, where there were greater amounts of early-stage decay, indicating that woodland salamander density and BCI responses can vary in relation to the amount of downed CWD present.
+Ecological forestry practices include retaining some preharvest downed CWD levels post-harvest because it provides important structure and habitat for an array of taxa, including woodland salamanders (Franklin et al., 2007).
+
+otto :
+Coarse woody debris provides ideal microhabitat conditions for P. cinereus and is an important structural component for salamander populations in harvested forests (e.g., McKenny et al., 2006; Owens et al., 2008).
+
+Staab :
+Species richness correlations were further negatively related to change in deadwood volume (-0.073 ± 0.036, p = 0.044) pour plusieurs groupe d'insectes
+
+Otto2013Amphibianresponse
+Generally, amphibians respond negatively to timber harvesting (e.g., Petranka et al., 1993; deMaynadier and Hunter, 1995; Semlitsch et al., 2009) and wood retention has been proposed as a forest management technique for ameliorating negative effects (e.g., McKenny et al., 2006;
+However, recent felled DWM may not be usable by amphibians because small piece sizes or insufficient decay stage do not provide adequate moist refugia (Petranka et al., 1994; Kluber et al., 2009; Davis et al., 2010)
+Limited use of low quality DWM by amphibians immediately following harvest suggests that temporal dynamics of downed wood additions and availability should be considered in assessments of amphibian-DWM relationships in managed landscapes.
+However, an enclosure experiment demonstrated that American toads (A. americanus) and green and wood frogs (L. clamitans and Lithobates sylvaticus) exhibited reduced water loss and lower mortality rates at harvest sites with retained brushpiles than in sites with no brushpiles (Rittenhouse et al., 2008).
+Soil moisture levels at brushpile sites exceeded those of clearcuts and forested ridgetops, supporting the notion that DWM retention can mitigate changes to forest-floor microclimate in the first 1–2 years following harvest. Rittenhouse et al. (2008)
+Effects of downed wood on terrestrial amphibians
+
+
+Jaeger1980Microhabitatsterrestrial
+deMaynadier1995relationshipforest
+Bunnell2010woodbiodiversitya
+Nolet2018Comparingeffects
+Raymond2017irregularshelterwood
+Otto2014ComparingPopulation
+
+La présence de débris ligneux 
+
+% Effet des coupes sur canope, impact sur le milieu et comment cela peu affecter la faune
+changement des condition en forêt
+Mazerolle 2021 : Overall, control treatments had greater basal area and litter depth as well as a lower degree of canopy openness and of soil compaction than irregular shelterwoods.
+Mazerolle 2021 : The control sites in our study had greater canopy cover, whereas shrub and herbaceous cover were highest in gap and strip treatments, consistent with previous studies (Nolet et al. 2018; Raymond and Bédard 2017).
+(Otto et al. 2014). For sites of 3600 m2,the authors observed a positive relationship between P. cinereus abundance and canopy cover 
+Previous research has focused on certain forest characteristics (e.g., overstory cover, coarse woody debris, leaf litter depth) and their influence on salamanders post-harvest in order to guide forest management (Semlitsch, 2002; McKenny et al., 2006).
+
+staab
+Species richness correlations were further negatively related to change in deadwood volume (-0.073 ± 0.036, p = 0.044), change in the proportion of non-native trees (-0.115 ± 0.042, p = 0.008), change in canopy openness (-0.130 ± 0.040, p = 0.002)
+abundance to change in canopy openness (-0.104 ± 0.042, p = 0.014) but positively related to tree diversity (0.103 ± 0.043, p = 0.017)
+For myceto-detritivores, species richness and biomass correlations were negatively related to change in the proportion of non-native trees. Myceto-detritivore richness correlations were, furthermore, negatively related to the change in canopy openness,
+Lastly, carnivore species richness correlations were negatively related to change in canopy openness. (insecte seulement)
+
+
+% Effet des coupes sur litter, impact sur le milieu et comment cela peu affecter la faune
+effet sur la disponibilité en nutriment
+Mazerolle 2021 : Overall, control treatments had greater basal area and litter depth as well as a lower degree of canopy openness and of soil compaction than irregular shelterwoods.
+Mazerolle 2021 : Clearcuts are typically conducted at large scales but are similar in nature to strip cuttings of a 10 m width in our study, which still had a lower litter depth than control sites 5–6 years after treatment.
+Previous research has focused on certain forest characteristics (e.g., overstory cover, coarse woody debris, leaf litter depth) and their influence on salamanders post-harvest in order to guide forest management (Semlitsch, 2002; McKenny et al., 2006).
+
+voit t-on des différence entre les coupe partielle et les coupe total , une coupe est t'elle meilleur que l'autre pour les gourpe taxonomique ou les variable environnementale?
+
+Previous research has focused on certain forest characteristics (e.g., overstory cover, coarse woody debris, leaf litter depth) and their influence on salamanders post-harvest in order to guide forest management (Semlitsch, 2002; McKenny et al., 2006).
+
+muscolo
+On recent decades, increasing emphasis has been placed on designing silvicultural treatments that mimic natural disturbance to restore forests in a natural way, preserving biodiversity and ecosystem function while optimizing harvest and yield (Lindenmayer and Franklin 2002; Abrari Vajari et al. 2012).
+
+Laigle2021Directindirect
+Our analyses suggested some indirect effects of environmental changes on the leaf litter decomposition. 
+Although higher temperature may accelerate metabolic rate (Brown and others 2004), 
+and thus increase litter decomposition rate in intact forest (Fierer and others 2005), 
+it may also increase surface evaporation, reducing leaf litter moisture, 
+thereby decrease microbial activity (Schimel and others 1999; Wan and others 2007; Butenschoen and others 2011).
+
+polliere
+In forests,  land-use and management practices have been shown to affect microbial community composition and the relative strengths of the fungal  and bacterial energy channel (Pollierer, Ferlian, & Scheu, 2015), presumably impacting Collembola community composition (Filser et al.,  2002).
+Salamon,  Scheu, and Schaefer (2008) found increased Collembola diversity with  forest age, especially in epedaphic species which presumably benefitted from the more pronounced herb layer in older forests, providing  more diverse food resources. In contrast, hemiedaphic species in the  latter study were mainly influenced by soil pH and soil water content. Abiotic factors, such as soil chemistry and humus form (Hågvar  & Abrahamsen, 1984; Loranger et al., 2001), as well as temperature  and moisture (Petersen, 2011) can exert strong effects on Collembola  community composition.
+However, thickness  of the litter layer that varies with forest type and management intensity can also have major effects on abundance (Badejo, Nathaniel, &  Tian, 1998) and community composition (Osler, Korycinska, & Cole,  2006) of soil mesofauna. Additionally, stability of Collembola communities is closely related to environmental conditions (Chernova  & Kuznetsova, 2000) and therefore may depend on between-year  variation of climate and associated abiotic factors such as moisture  and temperature. Bengtsson (1994) suggested that forest soil fauna  communities vary little between years unless they are subject to substantial environmental impact such as forest management. Therefore,  interannual fluctuations in Collembola community composition may  differ between forest types.
+
+The behavior of P. cinereus is strongly constrained by thermal and hydric conditions (Heatwole, 1962; Spotila, 1972; Feder, 1983; Keen, 1984; Grover, 1998).
+
+
+
+*P. cinereus* sélectionne ses proies en fonction de leur taille et de leur qualité nutritive et devient plus sélectif à mesure que la densité des proies préférées 
+(par exemple, les plus grosses) augmente (Jaeger et Barnard, 1981; Jaeger et Rubin, 1982). 
+De plus, *P. cinereus* cherche activement sur le sol forestier des proies de haute valeur calorique, 
+c’est-à-dire des proies plus grosses et à corps mou, lorsque les conditions microclimatiques sont favorables, 
+tandis qu’il reste caché pendant les périodes chaudes et sèches, où il a accès à moins de proies, et de taille plus réduite (Jaeger, 1980a,b, 1990; Jaeger et al., 1981, 1982). 
+Par conséquent, les réductions de la macrofaune par les salamandres devraient réduire la concurrence et promouvoir une augmentation des densités de collemboles (Walton et al., 2006).
+
+Il peut y avoir une forte motivation pour les mâles de *Plethodon cinereus* d’établir leurs territoires dans des zones riches en proies, 
+car les femelles pourraient évaluer la quantité ou la qualité des ressources en proies au sein des territoires des mâles (Walls et al., 1989; Jaeger et Wise, 1991; Karuzas et al., 2004). 
+Cependant, la sélection d’habitat en fonction de la densité de proies semble être une explication incomplète, 
+car elle ne permet pas de rendre compte des dynamiques similaires observées dans des expériences précédentes en enclos et en microcosmes (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+Ces études suggèrent que l’établissement d’un territoire par *P. cinereus* pourrait en fait favoriser une augmentation localisée de la densité de proies potentielles dans les territoires des salamandres. 
+Ainsi, des résultats comme ceux de Gabor (1995) pourraient refléter la création par *P. cinereus* d’une variation spatiale dans les densités d’invertébrés, plutôt qu’une réponse à une variation préexistante (Walton et Steckler, 2005).
+
+Dans plusieurs études, les augmentations de mésofaune microbivore et détritivore associées à la présence de salamandres incluent des taxons montrant 
+des réponses positives et sont corrélées à des effets négatifs sur les détritivores macrofauniques et/ou un prédateur intermédiaire (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+La présence des salamandres entraine une augmentation de la mesofaune microbivore et détrivitvore ainsi qu'une diminution des détritivores macrofaunique et des prédateur intermédiare 
+
+Dans la litière contenant une densité initiale élevée d’isopodes, de mille-pattes et de pseudoscorpions, Walton et al. (2006) 
+ont constaté qu’un seul *P. cinereus* était associé à une réduction significative de ces taxons, mais aussi à une augmentation de douze fois le nombre de 
+petits collemboles, par rapport aux microcosmes témoins sans salamandres. 
+En revanche, la présence de *P. cinereus* avait un effet légèrement négatif sur les mêmes taxons de collemboles dans les litières à faible densité initiale 
+d’isopodes, de mille-pattes et de pseudoscorpions.
+
+La capacité de *P. cinereus* à exclure les intrus de ses territoires pourrait diminuer avec l’épaisseur de la litière. 
+En retour, l’épaisseur de la litière pourrait influencer 
+(1) la pression de prédation globale exercée par les salamandres et les prédateurs d’arthropodes au sein des territoires des salamandres et 
+(2) la capacité de *P. cinereus* à sélectionner ses proies préférées. 
+*P. cinereus* établit des territoires d’alimentation qu’il défend contre les intrusions de congénères (Mathis et al., 1995). 
+De plus, *P. cinereus* défend également son territoire contre des prédateurs d’arthropodes susceptibles de lui faire concurrence pour 
+les ressources alimentaires (par exemple, les mille-pattes, les carabes et les araignées; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007).
+
+Cependant, la probabilité d’interactions entre *P. cinereus* et ses concurrents arthropodes pourrait augmenter avec l’épaisseur de la litière. 
+Des habitats complexes de litière de feuilles favorisent l’accumulation de prédateurs arthropodes (Langelotto et Denno, 2004, 2006). 
+La co-occurrence de multiples prédateurs arthropodes au sein d’un même territoire augmente la force de la régulation descendante des niveaux 
+trophiques inférieurs (Denno et al., 2002). 
+À mesure que l’épaisseur de la litière et le nombre de concurrents augmentent, l’efficacité de la défense territoriale de *P. cinereus* peut diminuer. 
+Dans cette perspective, les prédateurs arthropodes sont plus susceptibles de coexister avec les résidents de *P. cinereus* au printemps, 
+lorsque la litière est épaisse, augmentant ainsi la pression de prédation sur les proies de mésofaune (Fig. 7).
+
+Inversement, lorsque les volumes de litière sont faibles, comme en automne, *P. cinereus* peut être plus efficace pour exclure les prédateurs intraguildes 
+de ses territoires (Fig. 7). 
+Dans ce cas, les effets positifs des salamandres sur la mésofaune pourraient résulter de deux forces complémentaires : 
+(1) la réduction du nombre de prédateurs arthropodes dans les parcelles occupées par les salamandres et 
+(2) une augmentation de la pression de prédation dans les parcelles non occupées par les prédateurs arthropodes expulsés des territoires des salamandres.
+
+L’effet positif de l’humidité de la litière sur l’intensité des interactions observée pour plusieurs taxons de mésofaune est également cohérent avec 
+la territorialité intraguilde. La litière humide permet une plus longue activité en surface pour *P. cinereus* et peut-être une défense territoriale plus efficace.
+
+Les interactions entre *P. cinereus* et les prédateurs arthropodes peuvent également renforcer l’effet de l’épaisseur de la litière sur la sélection des proies. 
+Comme les coûts de défense territoriale augmentent avec l’épaisseur de la litière, *P. cinereus* pourrait devenir moins sélectif envers les grandes proies. 
+Jaeger et al. (1983) ont montré que les résidents de *P. cinereus* passent plus de temps en comportements agressifs et en morsures, 
+moins de temps à chercher de la nourriture, et deviennent moins sélectifs envers les grandes proies en réponse aux signaux d’intrus congénériques dans 
+leurs territoires.
+
+Une autre explication serait que *P. cinereus* choisit activement les parcelles en fonction des densités de proies déjà présentes, comme observé par Gabor (1995), 
+où les territoires des grands *P. cinereus* contenaient des densités de proies potentielles plus élevées que ceux des individus plus petits. 
+Cependant, cette sélection d'habitat basée sur la densité de proies ne peut expliquer entièrement les dynamiques similaires observées dans 
+des expériences précédentes en enclos et en microcosme (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+Ces études suggèrent que l'établissement d'un territoire par *P. cinereus* pourrait favoriser une augmentation localisée de la densité de proies potentielles. 
+Les salamandres sélectionnent leurs proies en fonction de la taille et de la qualité nutritionnelle et deviennent plus sélectives lorsque la densité de 
+proies plus grosses et plus nutritives augmente. 
+
+En résumé, les réductions de mésofaune par les salamandres devraient réduire la concurrence, favorisant ainsi les densités de Collemboles (Walton et al., 2006). 
+Dans certaines études, les augmentations de décomposeurs microbiens induites par les salamandres ont été associées à des effets négatifs sur les décomposeurs 
+macrofauniques et/ou un prédateur intermédiaire (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). Dans une litière avec de fortes densités 
+initiales d'isopodes, de mille-pattes et de pseudoscorpions, la présence d'un seul *P. cinereus* a entraîné des réductions significatives de ces taxons, 
+mais aussi une augmentation de 12 fois du nombre de petits Collemboles.
+
+Les milieux possédant une litière plus profonde attire généralement un plus grand nombre de compétiteurs et des proies plus nutritives pour les salamandres.
+C'est changement entraine une augmentation globale de la prédation sur la mésofaune et 
+
+Les salamandre sont connue pour avoir des comportement territoriaux envers les espèces compétitrice et avoir un plus grand attrait envers les proies de plus grande taille et plus nutritive.
+Dans plusieurs études, les augmentations de mésofaune microbivore et détritivore associées à la présence de salamandres incluent des taxons montrant 
+des réponses positives et sont corrélées à des effets négatifs sur les détritivores macrofauniques et/ou un prédateur intermédiaire (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+
+
+
+
+La présence d'une litière plus épaisse permet de maintenir un plus haut taux d'humidité favorable aux salamandres, augmentant ainsi leur temps d'activité à la surface pour se nourrir \citep{Seastedt1981MicroarthropodResponse,Ash1997DisappearanceReturn,Walton2013Topregulationlitter}. 
+À l'inverse, lorsque la profondeur de litière est faible le risque de dessication augmente pour les salamandres, ce qui limite leur temps d'activité pour s'alimenter.
+
+Dans les milieux avec une forte densité de proies, les salamandres favorise peuvent appliquer une préférence pour les proie plus nutritive. 
+Les salamandre cendrée sélectionne généralement des territoires possédant une densité élevé en proies nutritive.
+Les salamandre cendrée sont reconnue pour defendre leur territoire face à des compétiteurs de la même espèces ou des espèces d'invertébrés tels que les carabes. 
+Ainsi la présence des salamandres entraine généralement une diminution des détritivores macrofaunique et des prédateur intermédiare
+Ce comportement diminue globalement la préssion de prédation sur la mesofaune entrainenant une augmentation de la densité de la mesofaune tel que les  collemboles.
+Cependant, l'augmentation de masse de la litière amène généralement une augmentation de 
+une augmentation de la mesofaune microbivore et détrivitvore ainsi qu'
+Les salamandres on un comportement territoriale et défende leur territoire facon au intrus représentant une compétition, comme les carabes.
+Lorsque la litière est plus mince, ce micro habitat devient moins complexe et augmente les chances d'interaction entre les salamandre et les carabes.
+De plus, les conditions moins favorable augmentera la cooccurence des deux groupe sous les refuges comme les débris ligneux. 
+Les salamandre entraine une diminution des compétiteurs dans les milieux riches en compétiteurs, ce qui entraine une diminution de la prédation sur la mesofaune détritivore.
+À l'inverse, les salamandres dans milieux pauvre en compétition entrainer une diminution de la densité de la mésofaune comme les collemboles. 
+
+La présence d'une plus grand masse de lititère est souvent associé a une plus grande présence de prédateurs 
+
+
+L'augmentation de le profondeur de la litière favorise l'accumulation de prédateur d'arthropodes.
+Les salamandres cendrées établissent cependant des territoires d'alimentation et de microhabitat qu'elles défendent contre les intrusions de congénères et de prédateurs d'arthropodes susceptibles de leur faire concurrence pour les ressources alimentaires (Mathis et al., 1995; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007). 
+La capacité des salamandre à exclure les intrus de ses territoires diminue avec l’épaisseur de la litière. 
+
+la co-occurence de multiples prédateurs au sein d'un même territoire augmente la pressions de prédations sur les niveau trophique inférieurs (Denno et al., 2002). 
+L'augmentation de l'épaisseur de la litière et de nombre de compétiteur entraine une diminution de l'efficassité de défese des salamandres résidentes.
+cela augmente ainsi globalement la pression de prédations sur la mesofaune \citep{Walton2013Topregulationlitter}.
+Les salamandres sélectionne généralement ses proies en fonction de leur taille et de leur qualité nutritive et devient plus sélectif à mesure que la densité des proies préférées augmente. 
+
+
+Les salamandre favorise les proie plus nutritive et deviennent plus séléctive lorsque la densité de proie préférés augmente (Jaeger et Barnard, 1981; Jaeger et Rubin, 1982). 
+La réductions de la macrofaune par les salamandres réduit la concurrence et promouvoir une augmentation des densités de collemboles (Walton et al., 2006).
+La présence de salamandre amène une diminution des détritivores macrofauniques et/ou un prédateur intermédiaire ainsi qu'une augmentations de mésofaune microbivore et détritivore (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+À l'inverse l'effet des salamandres devient négatif sur la mesofaune lorsque le milieu possède une faible densité en macrofaune (Walton et al., 2006).
+La capacité des salamandre à exclure les intrus de ses territoires diminue avec l’épaisseur de la litière. 
+Une litière épaisse augmente la pression de prédation globale exercée par les salamandres et les prédateurs d’arthropodes au sein des territoires des salamandres et augmente la capacité des salamandres à sélectionner ses proies préférées. 
+Les salamandre cendrée établissent des territoires d’alimentation qu’elles défendent contre les intrusions de congénères et les prédateurs d’arthropodes susceptibles de lui faire concurrence pour les ressources alimentaires (Mathis et al., 1995, Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007).
+
+À l'inverse un volume de litère plus faible diminurait la présence de compétiteur et augmenterais l'efficassité de défence des salamandre augmente l'efficassité de défense des salamandre. 
+L'humidité de la litière agirait egalement sur ce processus puisqu'une litière humide permet aux salamandre d'allonger leur periode d'activité a la surface et ainsi d'augmenter leur efficassité de défense et de prédation.
+
+Les salamandres privilégient les proies les plus nutritives et deviennent plus sélectives lorsque la densité de leurs proies préférées augmente (Jaeger et Barnard, 1981; Jaeger et Rubin, 1982). 
+En réduisant les populations de macrofaune, elles diminuent la concurrence, ce qui favorise l’augmentation des densités de collemboles (Walton et al., 2006). 
+La présence des salamandres entraîne une diminution des détritivores macrofauniques et/ou d’un prédateur intermédiaire, ainsi qu'une augmentation de la mésofaune microbivore et détritivore (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+À l’inverse, l'effet des salamandres devient négatif sur la mésofaune lorsque le milieu présente une faible densité de macrofaune (Walton et al., 2006).
+
+La capacité des salamandres à exclure les intrus de leur territoire diminue avec l’épaisseur de la litière, 
+qui accroît globalement la pression de prédation exercée à la fois par les salamandres et les prédateurs d'arthropodes dans leurs territoires, 
+tout en augmentant leur capacité de sélection de proies préférées. 
+Les salamandres cendrées établissent des territoires d'alimentation qu'elles défendent contre les intrusions de congénères 
+et de prédateurs d'arthropodes susceptibles de leur faire concurrence pour les ressources alimentaires (Mathis et al., 1995; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007). 
+
+
+\cite{Walton2013Topregulationlitter} explique cette différence de résultat par des variations de masse de litière et d'humidité. 
+Les auteurs ont observé que l'effet des salamandres diminuait avec l'augmentation de la masse de litière, devenant négatif lorsque la litière était épaisse, alors qu'il devenait positif lorsque la litière était mince.
+
+
+%
+Les salamandre sont connue pour avoir des comoportement territoriaux et
+
+
+
+%%
+
+Walton 2013
+Statistically significant effects of salamander plot-occupancy on invertebrate densities were found for several taxa of mesofauna, including several Collembola taxa, oribatid mites, pseudoscorpions, and psocoptera.
+The magnitude and sign of salamander effects on invertebrate densities were predicted by seasonal and interannual variation in leaf litter mass and, to a lesser extent, litter moisture content.
+Salamander effects decreased with increasing litter mass and were more often negative when litter mass was high,
+whereas positive effects on invertebrate densities were more likely when litter mass was low.
+For several taxa, the positive effect of P. cinereus also increased with litter moisture.
+Moreover, the invertebrates affected by P. cinereus were among the most abundant mesofauna taxa and included groups known to have important effects on decomposition and nutrient cycling within the forest floor (e.g., oribatid mites and Collembolal; Swift et al., 1979; Seastedt, 1984; Moore et al., 1988).
+Hence, my findings support the hypothesized top-down, regulatory role for plethodontid salamanders within the terrestrial detrital food web (Burton and Likens, 1975a,b; Hairston, 1987; Davic and Welsh, 2004).
+For several taxa, the strongest negative effects of P. cinereus observed in the current study occurred in spring 2004 when litter mass achieved the experiment-wise maximum  (572.26 6 42.00 g dry litter  m2) and the leaf litter was relatively moist (60.26 6 0.97\% moisture content).
+However, studies that have sought to quantify the effects of terrestrial plethodontids on lower trophic levels have produced equivocal findings, including negative, positive, and no effect on invertebrate density.
+I found that the density and species composition of forest floor invertebrates differed between unrestricted, open plots occupied by the terrestrial salamander, P. cinereus, and plots not occupied by salamanders.
+Moreover, the invertebrates affected by P. cinereus were among the most abundant mesofauna taxa and included groups known to have important effects on decomposition and nutrient cycling within the forest floor (e.g., oribatid mites and Collembolal; Swift et al., 1979; Seastedt, 1984; Moore et al., 1988).
+Hence, my findings support the hypothesized top-down, regulatory role for plethodontid salamanders within the terrestrial detrital food web (Burton and Likens, 1975a,b; Hairston, 1987; Davic and Welsh, 2004).
+The negative effects of salamander occupancy were especially prominent in the spring, when the litter layer was thick.
+Thick litter retains moisture and buffers P. cinereus and litter invertebrates from desiccation (Seastedt and Crossley, 1981; Ash, 1995, 1997).
+eastedt and Crossley, 1981; Ash, 1995, 1997). 
+For several taxa, the strongest negative effects of P. cinereus observed in the current study occurred in spring 2004 when litter mass achieved the experiment-wise maximum  (572.26 6 42.00 g dry litter m2) and the leaf litter was relatively moist (60.26 6 0.97\% moisture content).
+In contrast, the same taxa that exhibited negative responses to P. cinereus in the spring often showed positive responses to P. cinereus when litter mass was low, especially in the fall (Fig. 6).
+Microclimatic constraint could be at work here as well, presuming the risk of desiccation was greater when the litter layer was thin, and, thereby, suppressed salamander foraging activity.
+Another alternative is that P. cinereus actively selected plots within which to establish territories based upon already existing high densities of prey. 
+This was Gabor’s (1995) interpretation of her observation that territories occupied by large P. cinereus contained higher densities of potential prey than the territories of smaller individuals. 
+There may be especially strong motivation for male P. cinereus to establish territories within prey-rich patches, since female P. cinereus may assess the quantity or quality of prey resources within male territories
+(Walls et al., 1989; Jaeger and Wise, 1991; Karuzas et al., 2004).
+
+However, habitat selection based upon prey density also seems to be an incomplete explanation, since it cannot account for dynamics remarkably similar to those reported here that have been observed in earlier experiments within enclosures and microcosms (Rooney et al., 2000; Walton and Steckler, 2005; Walton et al., 2006). 
+The results of those earlier studies suggest that the establishment of a territory by P. cinereus could, in fact, promote a localized increase in density of potential prey within salamander territories. 
+From this perspective, findings such as Gabor’s (1995) may have reflected the creation of spatial variation in invertebrate densities by P. cinereus, rather than a response of salamanders to existing variation (Walton and Steckler, 2005).
+Plethodon cinereus select prey on the basis of size and nutrient quality, and become more selective as density of preferred (e.g., larger, prey increases; Jaeger and Barnard, 1981; Jaeger and Rubin, 1982). 
+Further, P. cinereus actively forages on the forest floor seeking preferred prey of higher caloric content, i.e, larger, soft-bodied prey, when microclimatic conditions are favorable, whereas the salamanders remain under cover during warm, dry periods where they have access to fewer and smaller prey (Jaeger, 1980a,b, 1990; Jaeger et al., 1981, 1982).
+hence, salamander-mediated reductions of macrofauna should reduce competition and promote increased densities of Collembola (Walton et al., 2006)
+In several studies, salamander-mediated increases in mesofaunal microbi-detritivores, including taxa showing positive responses in the current study, were associated with negative effects upon macrofaunal detritivores and/or an intermediate predator (Rooney et al., 2000; Walton and Steckler, 2005; Walton et al., 2006).
+Within litter containing high initial densities of isopods, millipedes, and pseudoscorpions, Walton et al. (2006) found that the presence of a single P. cinereus was associated with significant reductions of those taxa, but also a 12-fold increase in small Collembola compared to control microcosms without salamanders.
+In contrast, the presence of P. cinereus had a slightly negative effect on the same Collembola taxa within litter with low initial densities of isopods, millipedes, and pseudoscorpions
+Specifically, the ability of P. cinereus to exclude intruders from their territories may decrease with increasing litter thickness. 
+In turn, litter thickness could influence (1) the overall predation pressure exerted by the salamanders and arthropod predators within salamander territories and (2) the ability of P. cinereus to select preferred prey.
+Plethodon cinereus establishes feeding territories, which they defend against intrusion from conspecifics (Mathis et al., 1995).
+addition, P. cinereus also defends its territory against arthropod predators that are likely to compete with salamanders for food resources (e.g., centipedes, carabid beetles, and spiders; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007)
+However, the likelihood of encounters between P. cinereus and arthropod competitors may increase with litter thickness. 
+
+Thick, structurally complex leaf litter habitats promote accumulation of arthropod predators (Langelotto and Denno, 2004, 2006).
+By allowing multiple arthropod predators to co-occur within the same location, structurally complex litter habitats enhance the strength of top-down regulation of lower trophic levels (Denno et al., 2002).
+With greater volume of territorial space to patrol and multiple arthropod competitors with which to contend, the efficiency of territorial defense by P. cinereus may decline. 
+From this perspective, arthropod predators would be more likely to co-occur within salamander territories with resident P. cinereus in spring when litter is thick and thereby increase overall predation pressure on mesofaunal prey (Fig. 7)
+Conversely, at lower litter volumes characteristic of the fall sampling periods, P. cinereus may be more effective at excluding intraguild predators from their territories (Fig. 7). 
+In this case, the positive effects of salamanders on mesofauna could arise from two complementary forces: 
+(1) the reduction of the number of arthropod predators within salamander-occupied plots and 
+(2) increased predation pressure in unoccupied plots from the arthropod predators that were expelled from salamander territories.
+The positive effect of litter moisture on interaction strength observed for several mesofaunal taxa was also consistent with intraguild territoriality. 
+Moist litter would permit longer surface activity for P. cinereus and, perhaps, more effective territorial defense.
+Interactions between P. cinereus and arthropod predators may also reinforce the effects of leaf litter thickness on prey selection by P. cinereus. 
+As the costs of territorial defense increase with increasing litter thickness, P. cinereus may become less selective for larger prey. Jaeger et al. (1983) demonstrated that resident P. cinereus spend more time in aggressive display and biting, less time foraging, and become less selective of larger prey in response to cues indicating conspecific intruders into their territories. 
+If territorial defense against arthropod predators incurs similar costs, then the ability of P. cinereus to select preferred prey is expected to decline as litter thickness and competition from arthropod predators increase.
+
+% Gotelli2006FoodWebModels
+the abundances of species in the food web were better predicted overall by trophic interaction models than by direct measures of habitat volume or the abundance of basal prey resources alone, or by models linking habitat volume partially or completely to food-web structure (Figure 2). Although a few taxa did show correlations with habitat volume (Figure 3C), the fit of the food-web models to the abundance data was worse when habitat volume linkages were included (Figure 2).
+
+Les abondances des espèces dans le réseau trophique étaient globalement mieux prédites par les modèles d’interactions trophiques que par 
+les mesures directes du volume d’habitat ou de l'abondance des ressources en proies de base seules, 
+ou par les modèles reliant partiellement ou totalement le volume d'habitat à la structure du réseau trophique (Figure 2). 
+Bien que quelques taxons aient montré des corrélations avec le volume d’habitat (Figure 3C), 
+l’ajustement des modèles de réseau trophique aux données d'abondance était moins bon lorsque les liens avec le volume d’habitat étaient inclus (Figure 2).
+
+
+In addition to Eastern Red-backed Salamanders, mesofaunal microbivores (mites and Collembola) are known to be among the mostabundant 
+organisms in temperate forest-floor systems (Swift et al. 1979) and are therefore probably important regulators of microbes.
+For example, plethodontid salamanders have been reported to decrease rates of decay (Wyman 1998; Best and Welsh 2014; this study)
+other cases have had no effect on litter decay (Walton and Steckler 2005; Homyack et al. 2010; Hocking and Babbitt 2014).
+
+L'impacte des salamandres sur la mesofaune semble dépendre de la densité de macrofaune dans le milieu.
+Les salamandres sont reconnue pour être des amphibiens qui établisse un territoire et le défende pour préserver les ressource alimentaires et les attribut de l'habitat (Mathis et al., 1995; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007 (Gall et al. 2003; Hickerson et al. 2004, 2012) ).. 
+De plus, les salamandres privilégient les proies les plus nutritives et deviennent plus sélectives lorsque la densité de leurs proies préférées augmente (Jaeger et Barnard, 1981; Jaeger et Rubin, 1982). 
+Dans une milieu plus riche en macrofaune la présence des salamandres entraine ainsi une diminution des détritivores macrofaunique et des prédateurs intermédiare, ce qui amène une augmentation de la mesofaune microbivore et détrivitvore (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+À l'inverse dans milieu pauvre en macrofaune la présence de salamandre aura un impactes négatif sur la mésofaune qui sera utilisé comme ressource alimentaire. 
+\cite{Walton2006Salamandersforestfloora} ont ainsi observé que la présence des salamandre était associé a la réduction isopodes, de mille-pattes et de pseudoscorpions dans une litière contenant une densité initiale élevée des ces taxons ainsi qu'une augmentation des collemboles.  
+A l'inverse, la présence des salamandres avait un effet légèrement négatif sur les collemboles dans les litières à faible densité initiale d’isopodes, de mille-pattes et de pseudoscorpions.
+
+
+Cependant \cite{Walton2013Topregulationlitter} suggère que la masse de litière peut influencer l'impacte des salamandres sur la mesofaune.
+Les auteurs ont observé que l'efficassité de prédation des salamandre diminué avec l'augmentation de masse de la litière.
+De plus, ces effets étaient plus souvent négatifs lorsque la masse de litière était élevée, alors qu'une litière mince amènerais effet positif sur les densités de la mesofaune.
+Un milieu avec une litière plus épaisse augmenterais la complexité du microhabitat ainsi que le nombre d'arthropodes compétiteurs des salamandres (Langelotto and Denno, 2004, 2006). 
+Cette augmentation entrainerais une diminution de l'efficassité de défense territoriale des salamandres en plus d'une augmentation globale de la prédation sur les niveau trophique inférieurs (Denno et al., 2002). 
+On observerait ainsi une diminution de la densité de mésofaune comme les collembole dans le milieux riche en litière \citep{Walton2013Topregulationlitter}. 
+À l'inverse un milieu avec une litière mince amélioré l'efficassité des salamandres a diminuer la compétions, diminuant ainsi la pression de prédation sur la mesofaune. 
+
+
+Par exemple, les csalamandres cendrée peuvent avoir des effets posit
+Par exemple Les salamandres cendrées peuvent avoir des effets positifs sur la densité de la mesofaune détritivores majeurs tel que les collemboles, 
+en réduisant le nombre des compétiteurs ou des prédateurs de collemboles (Wyman 1998; Walton et Steckler 2005; Walton et al. 2006). 
+Although previous studies suggest that the relationships between Plethodon cinereus and large arthropod predators is competitive (Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007) 
+Par exemple, Hickerson et al. (2012) ont rapporté des effets négatifs des salamandres cendrée sur certains prédateurs tels que les araignées et les mille-pattes, 
+mais avec des effets positifs sur les carabes. 
+Toutefois certaines études on démontré la relation de compétition a travers des comportement d'aggression entre les salamandres et les carabes \citep{Gall2003BehavioralInteractionsa}. 
+
+Eastern Red-backed Salamanders can have strong positive effects on the density of major microbi-detritivore taxa, especially Collembola, 
+a response that has been associated with salamander-mediated reductions of competitors or predators of Collembola (Wyman 1998; Walton and Steckler 2005; Walton et al. 2006).
+Although previous studies suggest that the relationships between Plethodon cinereus and large arthropod predators is competitive (Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007) 
+For example, Hickerson et al. (2012) reported negative effects of Eastern Red-backed Salamanders on some intraguild predators such as spiders and centipedes 
+but with positive effects on carabid beetles in unfenced field plots.
+Toutefois, certaine étude on démontrer la présence de compétition entre salamandre et carabes (Gall et al., 2003)
+
+Les salamandres cendrée peuvent avoir des effets fortement positifs sur la densité de taxons microbi-détritivores majeurs, 
+en particulier les collemboles, une réponse associée à la réduction par les salamandres des compétiteurs ou des prédateurs de collemboles (Wyman 1998; Walton et Steckler 2005; Walton et al. 2006). 
+Par exemple, Hickerson et al. (2012) ont rapporté des effets négatifs des salamandres à dos rouge sur certains prédateurs intraguildes tels que les araignées et les mille-pattes, mais avec des effets positifs sur les carabes dans des parcelles non clôturées.
+
+Although previous studies suggest that the relationships between Plethodon cinereus and large arthropod predators is competitive (Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007) 
+
+Plusieurs étude on souligne l'importance que peuvent avoir les changements environnementaux sur la faune du sol notamment à travers les relation dans la chaine trophique \citep{Gotelli2006FoodWebModels}. 
+Les salamandres cendrées sont reconnu comme étant des régulateurs importants des communautés d'invertébrés et de la décomposition de la matière organique sur le sol (Burton et Likens, 1975; Hairston, 1987; Wyman, 1998; Rooney et al., 2000; Walton, 2005; Walton et Steckler, 2005).
+
+Basé sur nos résultats, les perturbations causées par les coupes forestières ne semblent pas se propager à travers le réseau trophique, contrairement à ce que nous avions supposé, puisqu'aucun effet indirect n'a été mesuré. 
+Plus précisément, la biomasse des collemboles n'a pas été influencée par la probabilité d'occupation des salamandres et des carabes, et de même, 
+les carabes de petite taille ne semblent pas être impactés par la probabilité d'occupation des salamandres.
+
+Certaine étude on montrer une compétions entre les salamandre cendrée et les carabes \citep{Gall2003BehavioralInteractionsa}
+Certain étude on montrer un impacte positif des salamandre sur les carabes \citep{Hickerson2012Interactionsforestfloor}
+
+Plusieurs études se sont interressé à l'impacte écologique des salamandres sur les collemboles. 
+Les résultats obtenue varie cependant selon les études. 
+Plusieurs étude ont observé un impactes positif des salamandres cendrés sur la densité des collemboles (Rooney et al. 2000; Walton and Steckler 2005; Walton et al. 2006) 
+alors que d'autre étude ont observé un effet négatif \citep{Hickerson2017Easternredbacked}
+Certaine études n'ont mesuré aucun effet entre les deux taxons (e.g., Homyack et al. 2010; Hocking and Babbitt 2014). 
+
+
+L'impacte des salamandres sur la mesofaune semble dépendre de la densité de macrofaune dans le milieu.
+Les salamandres sont reconnue pour être des amphibiens qui établisse un territoire et le défende pour préserver les ressource alimentaires et les attribut de l'habitat (Mathis et al., 1995; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007 (Gall et al. 2003; Hickerson et al. 2004, 2012) ).. 
+De plus, les salamandres privilégient les proies les plus nutritives et deviennent plus sélectives lorsque la densité de leurs proies préférées augmente (Jaeger et Barnard, 1981; Jaeger et Rubin, 1982). 
+Dans une milieu plus riche en macrofaune la présence des salamandres entraine ainsi une diminution des détritivores macrofaunique et des prédateurs intermédiare, ce qui amène une augmentation de la mesofaune microbivore et détrivitvore (Rooney et al., 2000; Walton et Steckler, 2005; Walton et al., 2006). 
+À l'inverse dans milieu pauvre en macrofaune la présence de salamandre aura un impactes négatif sur la mésofaune qui sera utilisé comme ressource alimentaire. 
+\cite{Walton2006Salamandersforestfloora} ont ainsi observé que la présence des salamandre était associé a la réduction isopodes, de mille-pattes et de pseudoscorpions dans une litière contenant une densité initiale élevée des ces taxons ainsi qu'une augmentation des collemboles.  
+A l'inverse, la présence des salamandres avait un effet légèrement négatif sur les collemboles dans les litières à faible densité initiale d’isopodes, de mille-pattes et de pseudoscorpions.
+
+Cependant \cite{Walton2013Topregulationlitter} suggère que la masse de litière peut influencer l'impacte des salamandres sur la mesofaune.
+Les auteurs ont observé que l'efficassité de prédation des salamandre diminué avec l'augmentation de masse de la litière.
+De plus, ces effets étaient plus souvent négatifs lorsque la masse de litière était élevée, alors qu'une litière mince amènerais effet positif sur les densités de la mesofaune.
+Un milieu avec une litière plus épaisse augmenterais la complexité du microhabitat ainsi que le nombre d'arthropodes compétiteurs des salamandres (Langelotto and Denno, 2004, 2006). 
+Cette augmentation entrainerais une diminution de l'efficassité de défense territoriale des salamandres en plus d'une augmentation globale de la prédation sur les niveau trophique inférieurs (Denno et al., 2002). 
+On observerait ainsi une diminution de la densité de mésofaune comme les collembole dans le milieux riche en litière \citep{Walton2013Topregulationlitter}. 
+À l'inverse un milieu avec une litière mince amélioré l'efficassité des salamandres a diminuer la compétions, diminuant ainsi la pression de prédation sur la mesofaune. 
+
+L,impacte des salamandre 
+
+Walton (2005) observed reductions in excess of 30\% for some taxa, but this effect varies seasonally. 
+In open field plots salamander effects on litter invertebrate densities varied in magnitude and direction across taxa and also through time (Walton 2013).
+It has also been hypothesized that salamander predation in mesocosms increases numbers of mesofauna by reducing macrodetritivore competitors, 
+or by subsidizing microbial growth with accumulating salamander feces, or both (Walton and Steckler 2005).
+Finally, some studies have found little to no effect of Eastern Red-backed Salamanders on invertebrates or litter decay (e.g., Homyack et al. 2010; Hocking and Babbitt 2014).
+
+It has recently been suggested, however, that the discrepancies among study results examining the effects of predators in temperate forest-floor systems 
+might reflect biologically relevant dynamics caused by complex variation in environmental conditions (Best and Welsh 2014) 
+and seasonal litter/soil invertebrate composition (Walton 2013).
+For example, in late summer and autumn (prior to leaf fall), litter mass is low and the litter matrix is relatively simple. 
+During this period, the magnitude of top-down effects is hypothesized to be stronger than in the spring when leaf litter mass and complexity are high (Walton 2013).
+Resident salamanders that exclude guild members via behavioral interactions such as aggression (Gall et al. 2003; Hickerson et al. 2004, 2012) 
+might generate a net benefit for other arthropods that are not typically the preferred prey of territorial resident Eastern Red-backed Salamanders
+
+The diet of Eastern Red-backed Salamanders is well characterized (Maglia 1996; Adams and Rohlf 2000; Maerz et al. 2006) 
+and the preferred prey of this species consists largely of mites, Collembola, and other small, less-chitinous prey such as fly larvae (Jaeger 1990; Jaeger et al. 1995)
+For example, in plots in which salamanders were removed (SR), there were increases in spider abundance (Hickerson et al. 2012). 
+If spiders and salamanders share prey, and consume similar amounts, there might be little effect of the treatment application on invertebrate abundances.
+
+Secondly, we did not observe increased densities of Collembola, as hypothesized based on results from previous studies (Rooney et al. 2000; Walton and Steckler 2005; Walton et al. 2006). 
+
+
+% Hickerson2017Easternredbacked
+Eastern Red-backed Salamanders can have strong positive effects on the density of major microbi-detritivore taxa, especially Collembola, 
+a response that has been associated with salamander-mediated reductions of competitors or predators of Collembola (Wyman 1998; Walton and Steckler 2005; Walton et al. 2006).
+For example, Hickerson et al. (2012) reported negative effects of Eastern Red-backed Salamanders on some intraguild predators such as spiders and centipedes 
+but with positive effects on carabid beetles in unfenced field plots.
+
+% Wyman1998Experimentalassessment
+Salamander predation in enclosures signicantly reduced invertebrate numbers compared to control enclosures.
+Salamander predation also indirectly reduced rate of decomposition by between 11 and 17\%.
+No invertebrates between 5 and 7 mm, approximately the width of a salamander's mouth, were collected from leaf litter or humus from the six salamander treatment enclosures.
+Hairston (1987) suggested that predation by salamanders would increase the rate of decomposition because of a reduction in numbers of fungal and bacterial consumers My results reject this hypothesis because decomposition rate was reduced signiÆcantly in the presence of salamanders.
+
+
+% Gall2003BehavioralInteractionsa
+Both species are found under rocks, logs and leaves, and in the ground of damp wooded forests (Dillon and Dillon, 1961; Jaeger, 1980). 
+Both species forage nocturnally in the leaf litter for similar invertebrate prey and retreat to moist cover objects as the forest floor dries (Dillon and Dillon, 1961; Jaeger, 1980).
+Resident salamanders were significantly more aggressive toward other salamanders (P 5 0.0004) and beetles (P 5 0.023)
+
+% Hickerson2012Interactionsforestfloor
+In salamander removal plots spider abundance increased by 34\%, and carabid beetles decreased by 15\% relative to the control.
+Interaction strengths were strongest in the drier summer months when territorial predators were confined in spatially fixed microhabitats.
+a growing body of evidence suggests that terrestrial salamanders in the family Plethodontidae are important regulators of invertebrate communities and of decomposition of organic material on temperate forestfloors (Burton and Likens, 1975; Hairston, 1987; Wyman, 1998; Rooney et al., 2000; Walton, 2005; Walton and Steckler, 2005).
+but the diet of P. cinereus is well documented (Jaeger, 1990; Maglia, 1996; Adams and Rohlf, 2000; Anthony et al., 2008)
+Although previous studies suggest that the relationships between Plethodon cinereus and large arthropod predators is competitive (Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007) 
+rather than predatory, the ways in which the interactions function within the intricate forest-floor food web are unclear.
+Therefore, microhabitats under rocks and logs become refugia from desiccation for terrestrial amphibians and many arthropods (Jaeger, 1980b)
+Conversely, beetles (open circles) were negatively affected by centipedes but positively affected by salamanders. 
+The removal of salamanders had no significant effect on carabid beetle abundance (P 5 0.295, F 5 9.08), but there was a significant increase in carabid beetles in the centipede removal treatment (P , 0.0001, F 5 9.08, mean 5 1.35/plot) compared to controls (mean 5 0.915/plot, Fig. 2d).
+Salamanders had significant negative effects on spiders (sign test, P , 0.0001, z 5 25.67) and significant positive effects on beetles (sign test, P 5 0.019, z 5 2.33).
+Effects of salamanders on both beetles and on spiders were most evident in the summer months (Fig. 3b).
+The existing evidence on beetle – salamander interactions indicates that the salamander, Plethodon cinereus, and the carabid beetle, Platynus tenuicollis, are mutually territorial (Gall et al., 2003); 
+and, therefore, it is unlikely that salamanders and carabid beetles would be positively associated with each other.
+We found that, in summer, interaction strengths between salamanders and IG predators were of greater magnitude than in the spring and fall (Fig. 3b, points farthest from the zero line) 
+suggesting that competitive effects are strongest when salamanders are confined to microhabitat beneath cover objects. 
+During wetter periods, in the spring and fall, when salamanders forage widely in the complex microhabitat of the surrounding leaf litter and vegetation, their role may be more like that described by Rooney et al. (2006) 
+where predators regulate prey in fast chains before moving from those depleted chains to the chains that have experienced some degree of recovery.
+
+
+Effet obtenue:
+Notre schémas basé sur un effet top down n'a montré aucun effet des prédateurs sur les proies.
+Il n'y a pas eu de différence significative dans la probabilité d'occupation des carabes de petite taille par apport a la probabilité d'occupation des salamandres.
+Aussi, la probabiltié d'occupation des salamandre et des deux groupe de carabes n'a pas eu d'effet significatif sur la la biomasse des collemboles.
+
+Les coupes forestières ne semble donc pas avoir d'effet indirectes sur la probabiltié d'occupation des petite carabes et la biomasse des collemboles dans notre études.
+
+
+% Les effet attendu :
+
+
+oui : 
+
+-Wyman (1998) found that the Eastern Redbacked Salamander, Plethodon cinereus, in field enclosures reduced densities of several macroinvertebrate taxa in comparison to control enclosures lacking salamanders.
+During the first 2 yr of the experiment reported upon here, I recorded reductions of several mesofaunal taxa within plots occupied by P. cinereus in comparison to plots not occupied by the salamanders, 
+but I observed no effects of salamanders on macroinvertebrate taxa (Walton, 2005)
+
+Rooney et al. (2000), however, reported increases of Collembola in field enclosures with P. cinereus in contrast to control enclosures without salamanders, a result they attributed to salamander consumption of ants, a predator of Collembola.
+
+The presence of P. cinereus within microcosms was associated with reductions of macroinvertebrate detritivores (Walton and Steckler, 2005; Walton et al., 2006) and pseudoscorpions (Walton et al., 2006), 
+but also substantial increases among oribatid mites and several taxa of Collembola.
+In these cases, increases in mesofauna were attributed to indirect effects of salamander predation that mediated outcomes of competitive and predator–prey interactions among invertebrates within the microcosms. 
+Homyack et al. (2010) Homyack et al. (2010), however, reported no effects of P. cinereus on invertebrate densities during a 2yr experiment in field enclosures.
+
+As with terrestrial salamanders, the causes of this variation are not fully understood, but have been associated with complex interactions among precipitation, drainage properties of forest soils, and changes in Collembola behavior in response to hydric conditions and availability of fungal resources (Lawrence and Wise, 2004; Lensing and Wise, 2006; Schultz et al., 2006).
+P. cinereus also defends its territory against arthropod predators that are likely to compete with salamanders for food resources (e.g., centipedes, carabid beetles, and spiders; Gall et al., 2003; Hickerson et al., 2004; Anthony et al., 2007; Figura, 2007)
+Hickerson et al. (2012) found that the abundance of spiders increased under ceramic-plate ACOs from which P. cinereus had been removed, and P. cinereus abundance in creased under ACOs from which centipedes had been removed.
+
+Nous ne pouvons pas affirmé que l'impactes des coupes forestières se propage a travers le réseaux trophique puisque les salamandres 
+n'ont pas mesuré d'effet sur la probabilité d'occupation des carabes de petites taille et qu'il n'y a pas eu de changement significatif 
+dans la biomasse des collemboles en fonction de la probabilité d'occupation des salamandres ou des deux groupes de carabes. 
+
+Staab:
+population trends can be related to trophic level35, as top consumers are more sensitive towards environmental perturbations37,38, and as population sizes may be smaller at the top of the trophic pyramid39.
+Species at highest risk are often characterized by small population size, large body size and high trophic level1,35,36,38,53,79.
+Carnivores are typically more sensitive to environmental change38 and have  disproportionate local extinction risk60.
+
+
+% Staab:
+population trends can be related to trophic level35, as top consumers are more sensitive towards environmental perturbations37,38, and as population sizes may be smaller at the top of the trophic pyramid39.
+Species at highest risk are often characterized by small population size, large body size and high trophic level1,35,36,38,53,79.
+Carnivores are typically more sensitive to environmental change38 and have  disproportionate local extinction risk60.
+
+% Staab:
+population trends can be related to trophic level35, as top consumers are more sensitive towards environmental perturbations37,38, and as population sizes may be smaller at the top of the trophic pyramid39.
+Species at highest risk are often characterized by small population size, large body size and high trophic level1,35,36,38,53,79.
+Carnivores are typically more sensitive to environmental change38 and have  disproportionate local extinction risk60.
+
+% est ce qu'il y a une différence dans les communauté consommer par les salamandre qui expliquerais une augmentation et une diminution en même temps ?
+
+Hocking2013Effectsexperimental
+Litter decomposition is also likely influenced by the feeding behavior of microarthropods and their behavioral response to predation risk [40,52]. 
+For example, collembola, a primary prey item of red-backed salamanders, can decrease saprotrophic fungal biomass through direct grazing or increase fungal biomass by feeding preferentially on senescent fungal hyphae [53,54].
+Additionally, red-backed salamanders are known to prey on spiders and other litter-dwelling invertebrate predators and spiders also prey on amphibians [18].
+
+
+% effet des salamandres sur les petits carabes
+
+Hocking2013Effectsexperimental: 
+Across both experimental venues, we found no significant effect of red-backed salamanders on any of the ecosystem functions. 
+We also found no effect of salamanders on intraguild predator abundance (carabid beetles, centipedes, spiders).
+In addition to ecosystem functions, we did not observe an effect of salamander depletions on the abundances of spiders, centipedes, or carabid beetles. This is in contrast to Hickerson et al. [26] who showed that red-backed salamander depletion resulted increased spider counts and decreased carabid beetle counts.
+
+Hocking2013Effectsexperimental:
+Although researchers have predicted that woodland salamanders are important regulators of ecosystem functions [22,23], we found no evidence that red-backed salamanders affect litter or wood decomposition, 
+nitrogen cycling, acorn germination, herbivory, or the abundance of other litter predators.
+This is consistent with Homyack et al. [24] who did not find any effect of red-backed salamanders on oak or maple litter decomposition in a Virginia mixed-hardwood forest, 
+but in contrast to Wyman [13] who showed that red-backed salamanders lowered beech-dominated leaf litter decomposition rates by 11–17\%. 
+Homyack et al. [49] suggested the conflicting result with Wyman [13] may have been due to differences in litter type.
+Given this complexity, the effect of amphibians on decomposition is likely influenced by the relative importance of top-down predatory effects on the invertebrate community and the bottom-up effects 
+on available nutrients through ingestion and excretion [14]
+For example, the top-down effects of red-backed salamanders on the invertebrate community are known to depend on the community composition and habitat heterogenity [50,51], which suggests that the effects of salamanders on litter decomposition depends on the structural complexity of the environment and the biotic community.
+Given the complex dynamics of forest floor food webs and the variable effect of red-backed salamanders on invertebrates [32,51,55], the effects of salamanders on ecosystem functions should be expected to be highly variable even when top-down effects predominate.
+
+
+
+% Autre pertinenant :
+
+% taille des groupes:
+
+kudrin : 
+l'impacte négatif des coupes forestières est plus important sur les groupe taxonomique de petite tailles.
+Body size is a fundamental trait that determines numerous physiological and life history parameters of an organism [39–41]. 
+The conducted meta-analysis shows that as the size of invertebrates decreases, the negative impact of harvesting on soil fauna becomes more pronounced (Figure 3). 
+In our opinion, one of the reasons for this dependence may be the limited dispersal ability of small-bodied soil fauna [42–44]. 
+Small soil invertebrates have a reduced ability to actively avoid unfavorable points and/or colonize disturbed plots from adjacent undisturbed areas or refuges compared to actively moving groups of macrofauna [45–47]. 
+For instance, oribatid mites are highly limited in their dispersal ability, even over distances of only sever
+
+The diet of Eastern Red-backed Salamanders is well characterized (Maglia 1996; Adams and Rohlf 2000; Maerz et al. 2006) 
+and the preferred prey of this species consists largely of mites, Collembola, and other small, less-chitinous prey such as fly larvae (Jaeger 1990; Jaeger et al. 1995)
+
+% Hocking2013Effectsexperimental
+We also found no effect of salamanders on intraguild predator abundance (carabid beetles, centipedes, spiders).
+
+
+For example, a salamander may feed on predaceous mites that feed on fungivorous collembola, thereby indirectly increasing collembolan abundance, but the salamanders may also prey directly on collembola, directly offsetting the effects of preying on mites
+
+% Hocking2014Effectsredbacked
+For example, the top-down effects of red-backed salamanders on the invertebrate community are known to depend on the community composition and habitat heterogenity [50,51], 
+which suggests that the effects of salamanders on litter decomposition depends on the structural complexity of the environment and the biotic community.
+Given the complex dynamics of forest floor food webs and the variable effect of red-backed salamanders on invertebrates [32,51,55], 
+the effects of salamanders on ecosystem functions should be expected to be highly variable even when top-down effects predominate.
+
+Les différences entre les études pourraient également s'expliquer par des interactions entre les précipitations, les propriétés de drainage des sols forestiers 
+et les changements de comportement des collemboles en réponse aux conditions hydriques et à la disponibilité des ressources fongiques \citep{Lensing2006Predictedclimate,Shultz2006Effectsaltered}. 
+
+texte francais 
+
+L’impact des perturbations forestières sur les tendances des populations peut être étroitement lié au niveau trophique \citep{Gotelli2006FoodWebModels,Nolte2019Habitatspecialization}. 
+Les espèces les plus sensible aux perturbation se caractérisent généralement par une petite taille de population, une grande taille corporelle et un niveau trophique élevé \citep{Seibold2015Associationextinction,Nolte2019Habitatspecialization,Hagge2021Whatdoes}. 
+Les consommateurs au sommet de la chaine, tel que les salamandre, sont ainsi plus sensibles aux changements environnementaux.
+Il semble exister une dynamique complexe au sein des réseaux trophiques du sol forestier en lien avec l'occupation des salamandres \citep{Bailey2004Estimatingsite,Walton2006Salamandersforestfloor,Rooney2000impactsalamander}. 
+La diminution des populations de salamandres peut ainsi entraîner des modifications dans la composition des communautés du sol et altérer le fonctionnement des écosystèmes \citep{Hairston1987evolutioncompeting,Wyman1998Experimentalassessment,Rooney2000impactsalamander,Walton2005Contrastingeffects}.
+
+Cependant, dans notre étude, les perturbations causées par les coupes forestières ne semblent pas se propager à travers le réseau trophique, contrairement à notre hypothèse initiale, 
+puisqu’aucun effet indirect n’a été mesuré. 
+Plus précisément, les carabes de petite taille ne semblent pas être affectés par la probabilité d’occupation des salamandres, et la biomasse des collemboles n’a pas été influencée par la probabilité d’occupation des salamandres et des carabes.
+
+Plusieurs études ont néanmoins suggéré une relation complexe entre la salamandre cendrée et les arthropodes prédateurs \citep{Gall2003BehavioralInteractions,Walton2006Salamandersforestfloor,Hickerson2018Behavioralinteractions}. 
+La relation entre les salamandres et les carabes semble toutefois varier selon les études. 
+Par exemple, \cite{Gall2003BehavioralInteractionsa} et \cite{Ovaska1988Predatorybehavior} ont observé des comportements agressifs entre les deux taxons, tandis que \cite{Hickerson2012Interactionsforestfloor} ont rapporté un effet positif des salamandres cendrées sur l’abondance des carabes. 
+D’autres recherches n’ont, en revanche, constaté aucun effet des salamandres sur l’abondance des prédateurs intraguilde tels que les carabes, les centipèdes et les araignées \citep{Hocking2013Effectsexperimental}.
+Le fait que les salamandres et les carabes utilisent le même type d’habitat, consomment des ressources alimentaires similaires, dépendent de microhabitats communs et que les carabes peuvent faire partie du régime alimentaires des salamandres  
+suggère malgré tout des liens étroits entre les deux taxons \citep{Jaeger1980Microhabitatsterrestrial,Lovei1996Ecologybehavior}.
+
+Concernant la relation entre les salamandres et les collemboles, la présence des salamandres peut avoir des effets positifs sur la densité de la mésofaune détritivore 
+en réduisant le nombre de compétiteurs ou de prédateurs de collemboles dans leur habitat \citep{Wyman1998Experimentalassessment,Rooney2000impactsalamander,Walton2005Contrastingeffects,Walton2006Salamandersforestfloor}. 
+Les salamandres sont des amphibiens territoriaux qui défende leur habitat pour préserver les ressource alimentaires et les attribut favorable à leur survie \citep{Gall2003BehavioralInteractions,Hickerson2004Behavioralinteractions,Hickerson2012Interactionsforestfloor}
+Elles privilégient également les proies les plus nutritives et deviennent plus sélectives lorsque la densité de leurs proies préférées augmente \citep{Jaeger1981Foragingtactics,Jaeger1982ForagingTactics}.
+Par conséquent, la présence de salamandres entraîne une diminution des détritivores de la macrofaune et des prédateurs intermédiaires, ce qui favorise une augmentation de la mésofaune microbivore et détritivore \citep{Rooney2000impactsalamander,Walton2005Contrastingeffects,Walton2006Salamandersforestfloor}. 
+À l'inverse, dans les milieux où la densité de macrofaune est plus faible, la présence de salamandres semble avoir un impact négatif sur les collemboles, car la prédation sur la mésofaune y est accrue. 
+Par exemple, \cite{Walton2006Salamandersforestfloora} ont observé que la présence de salamandres était associée à une augmentation de collemboles, corrélée à une réduction des populations d'isopodes, de mille-pattes et de pseudoscorpions. 
+Toutefois, la présence de salamandres avait un effet légèrement négatif sur les collemboles dans les milieux où la densité initiale de macroinvertébrés était faible. 
+Ce résultat est appuyé par d'autres études qui ont également observé un impact négatif des salamandres sur la densité des collemboles \citep{Hickerson2017Easternredbacked}. 
+Enfin, certaines recherches, n’ont relevé aucun effet des salamandres sur la mésofaune ainsi que sur la décomposition de la matière organique, ce qui concorde avec nos observations \citep{Hocking2013Effectsexperimental,Hocking2014Effectsredbacked}.
+
+la régulation des salamandres sur les communautés d'invertébrés semblent dépendre en partie de la composition de cette communauté et de l'hétérogénéité de l'habitat \citep{MichaelWaltonSalamandersforestfloor2005,Walton2006Salamandersforestfloor,Walton2013Topregulationlitter,Best2014trophicrole}.
+Par exemple, \cite{Walton2013Topregulationlitter} a observé qu'une litière épaisse entraîne une augmentation du nombre de prédateurs invertébrés et une diminution de l'efficacité des salamandres à exclure les compétiteurs, 
+ce qui accroît la prédation globale sur la mésofaune. 
+Toutefois nos résultats n'appuie pas ces observations car malgré des différences significatives de profondeur de litière entre nos différents traitements de coupes, nous n’avons pas observé de variations au sein du réseau trophique.
+
+%%
+
+Notre étude à permis de valider que les variables environnementales favorables à l'utilisation de l'habitat par les espèces fluctuent en fonction de l'intensité des coupes forestières, 5 ans après les coupes. 
+De façcon générale, les changements des variables environnementales s'intensifies avec le niveau de perturbation associé aux coupes forestières.   
+Les traitements de coupes forestières constituent ainsi une variable englobant les changements de conditions environnementales. 
+Cependant, notre étude ne permet d'affirmer que les traitements de coupes forestières entraînent une modification de l'utilisation de l'habitat 
+par la faune du sol et que ces effets se propagent à travers le réseau trophique des salamandres vers les collemboles en passant par les carabes. 
+Nos résultats n’indiquent pas d’effet significatif des traitements de coupe sur ces trois groupes d’espèces étudiés, que ce soit de manière directe ou indirecte à travers les réseaux trophiques, 
+à l’exception des salamandres, pour lesquelles nous avons observé un effet direct marginal sur la probabilité d’occupation. 
+
+Globalement, les coupes totales présentent la plus grande ouverture de la canopée et la plus faible profondeur de litière, suivies par les traitements de coupes partielles. 
+Le volume de débris ligneux est également plus faible dans les coupes totales par rapport aux coupes partielles. 
+Cependant, aucune différence significative ne fut observée entre les témoins et les différents traitements de coupe pour cette variable.
+
+%
+Nos résultats indiquent que les coupes partielles maintiennent un volume de débris ligneux plus élevé que les coupes totales, ce qui est cohérent avec des études similaires \citep{Nolet2018Comparingeffects,Ochs2022Responseterrestrial}. 
+Toutefois, l’absence d'effet entre les témoins et les coupes totales contraste avec certains résultats de la littérature qui observe une réduction du volume de débris ligneux dans les traitements de coupe totale \citep{Mazerolle2021Woodlandsalamander}.
+Cette différence pourrait s'expliquer par la quantité variable de débris de bois laissés sur place après une coupe, ce qui pourrait augmenter temporairement la disponibilité de bois mort dans l'habitat au cours des premières années suivant l'intervention \citep{McCarthy1994Distributionabundance}. 
+Par exemple, \cite{Ochs2022Responseterrestrial} ont observé que le volume de débris ligneux était plus important dans les coupes totales dans les 0-3 ans suivant la coupe comparativement aux témoins, 
+toutefois il n’y avait plus de différence entre témoins et coupes totales à 4-6 ans ou 7-11 ans après la coupe. 
+La présence de débris ligneux à court terme favorise la conservation de la faune du sol en créant des refuges, un microclimat favorable et une source de nutriments favorisant la survie des amphibiens et des arthropodes \citep{spotilaRoleTemperatureWater1972,Huhta1976Effectsclearcutting,Seibold2021contributioninsects,Ochs2022Responseterrestrial}. 
+Ainsi, la rétention de bois mort est souvent proposée comme technique de gestion forestière pour atténuer les impacts négatifs des coupes \citep{McKenny2006Effectsstructural}. 
+Cependant, les bénéfices diminuent progressivement en raison de la dégradation du bois, ce qui entraîne une baisse des populations, à moyen et long terme, dans les milieux aux conditions défavorables. 
+Aussi, l’utilisation des débris ligneux par la faune du sol dépend principalement de leur degré de décomposition, de l’essence d’arbre et de la taille des débris \citep{Bunnell2010woodbiodiversity}. 
+Le bois mort fraîchement abattu se caractérise souvent par une petite taille et un faible niveau de décomposition, offrant peu de refuges humides adéquats pour certaines espèces, notamment les amphibiens \citep{Petranka1994Effectstimber,Morneault2004effectshelterwood,Owens2008Amphibianreptile,Otto2013Amphibianresponse}. 
+Par ailleurs, \cite{Petranka1994Effectstimber} ont constaté que la rétention de bois mort est plus bénéfique pour les salamandres dans les milieux secs que dans les milieux humides. 
+Cela suggère que les débris ligneux peuvent avoir un impact plus important dans les coupes totales, où les conditions sont plus exigeantes pour les espèces sensibles aux variations de température et d’humidité.
+%
+
+Nos résultats indique également que les traitement de coupe forestières ont un impacte négatif sur la profondeur de litière et que cette diminution suit l'intensité du traitement de coupe.
+Ces résultats rejoignent les constats faits dans plusieurs autres recherche \citep{Marshall2000Impactsforest,Mazerolle2021Woodlandsalamander}. 
+La diminution de profondeur peut provenir d'une absence de recrutement des feuilles après le retrait des tiges. 
+Elle peut également être expliquer par une accélération de rythme de décomposition associé l'ouverture du couvert permettant des condition abiotique plus chaude et une plus grande interception des précipitation \citep{Fierer2005LitterQuality,Butenschoen2011Interactiveeffects,Ameray2021Forestcarbon}. 
+La disparition de la litière peut affecter la faune du sol en entraînant notamment la perte d'un micro-habitat frais et humide \citep{spotilaRoleTemperatureWater1972,groverInfluenceCoverMoisture1998a,Niemela2007effectsforestry}. 
+Ce changement augmente le risque de déssication et de prédation sur les amphibiens et arthropodes, limitant ainsi le temps passé a la surface pour l'alimentation et la reproduction \citep{deMaynadier1995relationshipforest,koivula.LeafLitterSmallscale1999,Walton2013Topdownregulation}. 
+De plus, la perte de litière représente une diminution majeur de ressource alimentaire pour la communauté de décomposeurs, ce qui impacte à plus long terme la circulation du carbone et des nutriments dans les écosystèmes forestiers \citep{Handa2014Consequencesbiodiversity}.
+
+%
+
+La seconde hypothèse formulée dans notre étude supposait que les traitements de coupe forestière altéreraient l'utilisation de l'habitat par la faune du sol, avec des effets se propageant à 
+travers le réseau trophique, des prédateurs vers les proies. 
+Cependant, notre analyse n'a pas révélé d'effets significatifs des coupes, ni directement ni indirectement, sur les différents groupes d'espèces. 
+Ainsi, nos résultats ne permettent pas de valider cette hypothèse.
+
+Pour les salamandres, nous avons observé un effet marginal des traitements de coupe sur leur probabilité d'occupation. 
+La probabilité d'occupation était significativement plus élevée dans les zones de coupe partielle par rapport aux zones de coupe totale, 
+bien que les résultats des coupes partielles et totales ne diffèrent pas significativement des témoins.
+
+%
+Dans notre étude, la probabilité d'occupation des salamandres était plus élevée dans les sites de coupe partielle par rapport aux zones de coupe totale, 
+cependant cet effet était marganial. De plus, les traitements de coupes partielles et totales n'étaient pas significativement différents des témoins.
+
+Les coupes totales sont souvent perçues comme néfastes pour les populations de salamandres, mais leur impact varie largement selon les études \citep{Hocking2013Effectsexperimental,Chaudhary2016Impactforest}. 
+Certains travaux ont signalé une baisse de l'abondance des salamandres 4 à 6 ans après l'application de ce type de coupe \citep{Petranka1993Effectstimber,Herbeck1999PlethodontidSalamander,Grialou2000effectsforest,Macneil2014Effectstimber}. 
+D'autres publications, comme la nôtre, n'ont observé aucune différence significative entre les coupes totales et les témoins \citep{Renken2004EffectsForest,Mazerolle2021Woodlandsalamander}. 
+
+Notre étude concorde également avec la littérature en ce qui concerne l'absence d'effet des coupes partielles sur des salamandres, 5 ans après la récolte \citep{McKenny2006Effectsstructural,Mazerolle2021Woodlandsalamander,Ochs2022Responseterrestrial}. 
+Néanmoins, d'autres auteurs ont relevé une diminution de l'abondance de salamandres dans les coupes partielles durant les premières années post-récolte, bien que ces effets ne semblent pas persister au-delà des 5 premières années \citep{Harpole1999Effectsseven,Knapp2003Initialeffects,Morneault2004effectshelterwood}. 
+
+Nous pensons que l'effet marginal observé entre les coupes partielles et totales peut être expliquer par la capacité des coupes partielles à maintenir un milieu plus favorable aux salamandres. 
+Cette différence pourrait être liée à la rétention d'un volume important de débris ligneux dans les coupes partielles, 
+puisqu'il s'agit d'un élément important pour la survie des salamandres en raison de leur utilisation comme refuge lorsque les conditions environnementales deviennent défavorables \citep{Nolet2018Comparingeffects,Peterman2014Spatialvariation,Achat2015Quantifyingconsequences,Peele2017Effectswoody}.
+La présence de débris ligneux et autre microstructure permet aux salamandres de se maintenir à la surface pour se nourrir et se reproduire. 
+En se basant sur nos résultats, les traitements de coupes ont entrainés un effet similaire sur la probabilité d'occupation des salamandres et que sur le volume de débris ligneux.
+
+Le maintient du couvert forestier dans les coupes partielle et le retour rapide de la végétation de sous-étage associé à ce type de coupe, pourrait aussi expliquer la différence d'impact entre les coupes \citep{Raybuck2015silviculturalpractices}.
+En effet, leur présence limite la quantité de rayonnement solaire atteignant le sol et réduit la présence de vents extrême. 
+Ce permet de maintenir des microclimats humide et frais à la surface du sol, essentiel pour la respiration cutanée des salamandres et limitant ainsi leur dessiccation \citep{Homyack2011Energeticssurface}. 
+Des études antérieures ont ainsi montré que la rétention du couvert forestier favorise une plus grande densité de salamandres \citep{Hocking2013Effectsexperimental,Harper2015Impactforestry,Mahoney2016Woodlandsalamander}. 
+
+La présence de litière forestière, qui favorise également les salamandres, pourrait contribuer à la différence de probabilité d'occupation observée entre les deux types de coupes \citep{tilghmanMetaanalysisEffectsCanopy2012}.
+\cite{Ash1997DisappearanceReturn} ont observé un retour à l'abondance d'avant coupe, chez les salamandre cendrée, 4-6 ans après l'applications d'une coupe total et ont associé ce retour a la réapparition de la litière. 
+Toutefois la période de rétablissement des salamandres peut prendre parfois plusieurs décénnies \citep{Homyack2013Effectsrepeatedstand,Ochs2022Responseterrestrial}. 
+La profondeur de litière pourrait ainsi contribuer à expliquer la différence de probabilité d'occupation que nous observons entre les coupes puisque dans notre étude la profondeur de litière est significativement plus élevé dans les traitement de coupe partielle que dans ceux de coupe totale.
+
+Il est également intéressant de noter que l'effet des coupes sur les salamandres varie dans le temps. 
+Par exemple, \cite{Ochs2022Responseterrestrial} ont observé une absence d'effet des coupes totales sur l'abondance des salamandres durant les trois premières années post-récolte, 
+mais une diminution significative entre 4 et 6 ans après la coupe, sans rétablissement jusqu'à 11 ans. 
+Cependant, d'autres études ont constaté une diminution dès les premières années suivant une coupe \citep{deMaynadier1995relationshipforest,Macneil2014Effectstimber}. 
+La réponse à court terme pourrait être influencée par la disponibilité des débris ligneux, qui se décompose au fil du temps, affectant la capacité des salamandres à persister après une coupe totale \citep{Ochs2022Responseterrestrial}. 
+ %
+
+ % Many salamander species within the family Plethodontidae have completely terrestrial life-history strategies (i.e., lack aquatic larval stage; Petranka, 1998). Plethodontids lack lungs and must maintain skin moisture for dermal respiration (Spotila, 1972;)
+% Feder, 1983). Surface activity and physiological processes of terrestrial salamanders are greatly influenced by the availability of cool, moist refugia (Heatwole, 1960; Homyack et al., 2011), making them more prone to upland habitat disturbances. Negative effects of timber harvesting on terrestrial plethodontids are well-described (e.g., Petranka et al., 1993; Ash, 1997; Homyack and Haas, 2009), and our review identified 14 studies that investigated the role of DWM for ameliorating these effects (Table 1).
+
+D'après nos résultats les traitements de coupe forestière ne semble pas avoir d'impacte direct sur la probabilité d'occupation des carabes. 
+Toutefois, l'ouverture du couvert forestier est reconnue pour avoir un effet positif sur la richesse spécifique et la composition taxonomique \citep{Halme1993Carabidbeetles,Heliola2001Distributioncarabid,Koivula2002Alternativeharvesting}. 
+Ce constat est principalment explicable par la création de nouveaux habitats lors des coupes totales et la capacité des carabes a se déplacer rapidement \citep{Niemela2007effectsforestry}. 
+Les habitats ouverts, plus secs et chauds, tels que les coupes totales, sont favorisés par de nombreuses espèces généralement présentes dans les prairies et autres milieux similaires. 
+À l'inverse, les forêt fermées représentent un environnement plutôt hostile pour de nombreuses espèces de carabes et seules quelques espèces favorise les forêts fermées, sombres et fraîches \citep{Niemela1993Effectsclearcut,koivulaBorealCarabidbeetleColeoptera2002a}. 
+
+Les carabes sont ainsi souvent classés en fonction de leurs préférences d'habitat, généralement répartis en spécialistes des forêts, spécialistes des milieux ouverts, ou espèces généralistes \citep{Niemela2007effectsforestry}. 
+Les espèces des milieux ouverts ne tolèrent pas la fermeture du couvert forestier et disparaissent habituellement 20 à 30 ans après la coupe, lorsque la canopée se reforme \citep{Niemela1996importancesmallscale,Koivula2002Alternativeharvesting}. 
+En revanche, les spécialistes des milieux forestiers dépendent d'attributs spécifiques des forêts, tels que le climat ou la présence de microstructures tel que les débris ligneux grossiers \citep{Niemela1996importancesmallscale,Heliola2001Distributioncarabid,Koivula2002Alternativeharvesting,Work2004Standcomposition}. 
+
+La quantité de litière est également un facteur important pour l'abondance et la distribution des carabes en forêt \citep{koivula.LeafLitterSmallscale1999,Heliola2001Distributioncarabid,Magura2005ImpactsLeaflitter}. 
+Ces espèces peuvent parfois coloniser des milieux ouverts situés à proximité de vieux peuplements, comme c’est souvent le cas dans les zones de coupes totales \citep{Spence1996Northernforestry,Koivula2002Alternativeharvesting}. 
+Certaines espèces forestières, mieux adaptées aux perturbations naturelles, peuvent également survivre dans les milieux ouverts \citep{Niemela2007effectsforestry}. 
+Ainsi la probabilité qu'un milieu soit occupé par des carabes reste similaire après un coupe, toutefois il y a aurait un changement dans la composition et la richesse spécifique des milieu récoltés. 
+
+Certaines études ont également montré que la réponse des groupes d'espèces aux coupes forestières variait en fonction de leur taille. 
+Par exemple, \cite{Nolte2019Habitatspecialization} suggère que les carabes de grande taille sont plus susceptibles de connaître un déclin après les coupes forestières que les carabes de petite taille. 
+Cependant, nous n'avons pas observé de différence significative dans la probabilité d'occupation entre ces deux groupes de carabes. 
+
+%
