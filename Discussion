@@ -1067,3 +1067,45 @@ Par exemple, \cite{Nolte2019Habitatspecialization} suggère que les carabes de g
 Cependant, nous n'avons pas observé de différence significative dans la probabilité d'occupation entre ces deux groupes de carabes. 
 
 %
+
+Notre étude montre que la biomasse des collemboles ne semble pas être affectée par les différents traitements de récolte. 
+Ce constat diffère de ce qui est généralement observé, où une diminution de l’abondance des collemboles accompagne généralement une intensification des perturbations \citep{Lindo2004Forestfloor,Laigle2021Directindirect,Kudrin2023metaanalysiseffects}. 
+En revanche, l’absence d’effet entre les coupes partielles et les témoins semble refléter les résultats mesurés dans la littérature \citep{Kudrin2023metaanalysiseffects}. 
+
+La diminution habituellement observée dans les populations de collemboles après une récolte forestière est souvent associée à la compaction des sols, à la perte de micro-habitats comme les débris ligneux, 
+à la disparition de la couverture organique, ainsi qu’à une baisse de l'humidité et des nutriments \citep{Bird1986Effectwholetree,Baath1995Microbialcommunity,Lindo2004Forestfloor,rousseauForestFloorMesofauna2018}. 
+La réponse des collemboles aux traitements varie selon le type de communauté \citep{raymond-leonardSpringtailCommunityStructure2018a}. 
+Par exemple, les collemboles hémiedaphiques sont plus associés aux sols des forêts matures et sont davantage affectés par les coupes forestières \citep{Laigle2021Directindirect}. 
+À l'inverse, les espèces épiédaphiques tolèrent mieux les habitats xériques et les niveaux de perturbation élevés \citep{Makkonen2011Traitsexplain,rousseauWoodyBiomassRemoval2019}. 
+Cependant, ce dernier groupe reste sensible à la diminution de la litière, une ressource alimentaire importante pour ces espèces \citep{rousseauForestFloorMesofauna2018}. 
+
+Malgré leur sensibilité aux perturbations du sol, l’augmentation de débris ligneux et de racines mortes après une coupe forestière peut aussi stimuler la densité des populations de collemboles 
+au cours de la première année suivant la coupe \citep{Bird1986Effectwholetree,Marshall2000Impactsforest}. 
+Par exemple, \cite{Huhta1976Effectsclearcutting} ont observé une hausse de la densité et de la biomasse des collemboles dans les premières années suivant une coupe totale, 
+avec un retour à une biomasse normale six ans après. 
+Par ailleurs, la rétention d'une partie des débris ligneux dans les coupes totales pourrait contribuer au maintien des communautés de collemboles, 
+car ces débris constituent un habitat et une source de nourriture, même pour les espèces non saproxyliques \citep{rousseauForestFloorMesofauna2018,Raymond-Leonard2020Deadwood}.
+
+%
+
+Concernant l'ouverture de la canopé, les deux traitement de coupes indique une augmentation significative de l'ouverture de la canopé comparativement au témoins. 
+Toutefois, nos résultats indiquent une diminution majeure du couvert forestier dans les traitements de coupes totales comparativement aux coupes partielles, ce qui correspond aux résultats observé dans des études similaires \citep{Nolet2018Comparingeffects,Mazerolle2021Woodlandsalamander}. 
+Malgré le retrait de 50\% des tiges commerciales, les coupes partielle permettent de conserver une forte proportion de la canopé et pourraient ainsi maintenir des conditions environnementales proche de celles associés aux forêt mature. 
+L'ouverture importante de la canopé dans les coupes totale entraine des changements majeur au niveau du sol, comme l'augmentation des rayonnement solaires et la vitesse des vents, ce qui amène une hausse de température, une baisse de l'humidité ainsi qu'un assèchement de la litière \citep{Keenan1993ecologicaleffects,Chen1999MicroclimateForest,Lindo2003Microbialbiomass,Brooks2008Forestfloor}. 
+Ces changements amène une modification significative de la faune du sol, notamment en termes de composition, d'abondance et de richesse spécifique \citep{Staab2023Insectdecline}. 
+Cela favorise les espèces associées aux milieux ouverts et secs au détriment de celles préférant des conditions fraîches et humides \citep{Niemela2007effectsforestry,Ochs2022Responseterrestrial,Staab2023Insectdecline}.
+
+%
+
+
+Réécriture de l'introduction
+
+% Mise en contexte
+
+Les écosystème forestiers jouent un rôle essentiel dans la biosphère à travers leur rôle économique et leur valeur écosystèmiques en fournissant une multitude de produit et services \citep{Balvanera2006Quantifyingevidence}. 
+Leur présence permet de réguler les flux de nutriments et d'énergie, notamment à travers la séquestration du carbone, la régulation du climat, la rétention de l'eau et la conservation de la biodiversité \citep{Balvanera2006Quantifyingevidence,Diaz2006BiodiversityLoss,Canadell2008Managingforests,Pawson2013Plantationforests}. 
+Cependant la croissance démographique mondiale, l'augmentation des besoins en produits forestiers et autres services ont conduit à une intensification des pratiques d'exploitation forestière au cours des dernières décennies \citep{Foley2005GlobalConsequences}. 
+Ces changements d'affectations des terres, comme la récoltes de bois, l'agriculture et l'urbanisation, entrainent ainsi la perte d'écosystèmes forestiers et de biodiversité \citep{Bengtsson2000Biodiversitydisturbances,Sala2000Globalbiodiversity,Naeem2012functionsbiological,Bichet2016Maintaininganimal}. 
+
+Selon certains auteurs, les coupes totales peuvent toutefois représenter une imitation des perturbations naturelles de grandes ampleur, comme les feux ou les tempêtes \citep{Greenberg1995comparisonbird}. 
+
