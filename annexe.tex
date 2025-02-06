@@ -52,8 +52,8 @@
 
   \begin{table}[ht]
     \centering
-    \caption[Count of springtails order and families, per harvest treatments]
-    {Count of springtails order and families captured during summer 2021 in Portneuf Wildlife Reserve, per harvest treatments.}
+    \caption[Counts of springtails at the family level, per harvest treatments]
+    {Counts of springtails at the family level captured during summer 2021 in Portneuf Wildlife Reserve, per harvest treatments.}
     \label{tab:springtail}
     \begin{tabular}{llllll} 
         \hline
@@ -98,7 +98,7 @@ environmental variables ($\text{CWD}_{i}$, $\text{Canopy}_{i}$, $\text{Litter}_{
   \text{Litter}_{i} &\sim \text{N} (\mu_{\text{Litter}_i}, \sigma_{\text{Litter}_{i}}) \nonumber 
 \end{align}
 
-Due to heteroscedasticity in the Springtail biomass, we allowed each treatment group $j$ to have their own variances ($\sigma_j \sim \text{U}(0,150)$). 
+Due to heteroscedasticity in the springtail biomass, we allowed each treatment group $j$ to have their own variances ($\sigma_j \sim \text{U}(0,150)$). 
 Springtail biomass was drawn from a normal distribution $\text{N} (\mu_{\text{Springtail}_i}, \sigma_{\text{Springtail}_{\text{Group}_i}})$, where $\sigma_{\text{Springtail}_{\text{Group}_i}}$ denotes the 
 residual variance of a given treatment group and ($\mu_{i}$) corresponds to the linear predictor including overstory treatments ($\text{Cutpartial}_i$, $\text{Cutclear}_i$), 
 a block random effect ($\alpha_{\text{Block}}$), as well as the latent occupancy state of salamanders and of each ground beetle group 
@@ -135,14 +135,15 @@ We used $\text{N}(0, \alpha_{Block})$ priors for the block random effects, where
 \vspace{10pt}
 
 \begin{table}[h!]
-   \caption[Specification of the occupancy model and linear mixed model components used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) occupancy, ground beetle occupancy and springtail biomass.]
-   {Specification of the occupancy model and linear mixed model components used to estimate impact of overstory treatments on Red-backed salamanders (\textit{Plethodon cinereus}) occupancy, ground beetle occupancy and springtail biomass in Portneuf Wildlife Reserve, Québec, Canada.}
+   \caption[Specification of the occupancy model and linear mixed model components used to estimate impact of overstory treatments on red-backed salamander (\textit{Plethodon cinereus}) occupancy, ground beetle occupancy, and springtail biomass.]
+   {Specification of the occupancy model and linear mixed model components used to estimate impact of overstory treatments on red-backed salamander (\textit{Plethodon cinereus}) occupancy, ground beetle occupancy, and springtail biomass in Portneuf Wildlife Reserve, Québec, Canada.}
    \label{ann:SEM_Sp_eq}
    \end{table}
 
 The occupancy models of salamanders and ground beetles used the observed detections and non-detections at site $i$ during survey $j$, 
-represented by $\text{Salamander}_{ij}$, $\text{Large.carabids}_{ij}$ and $\text{Small.carabids}_{ij}$. These detections and non-detections followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as the success parameter, 
-where $z_{i}$ represents the latent occupancy state of a given species group at site $i$ and $p_{ij}$ represents the probability of detecting the same species group at site $i$ during survey $j$ :
+represented by $\text{Salamander}_{ij}$, $\text{Large.carabids}_{ij}$ and $\text{Small.carabids}_{ij}$. 
+These data followed a Bernoulli distribution with $z_{i} \times p_{ij}$ as the success parameter, 
+where $z_{i}$ represents the latent occupancy state of a given species group at site $i$ and $p_{ij}$ represents the probability of detecting the same species group, given it is present, at site $i$ during survey $j$ :
 
 
 \begin{align}
@@ -197,8 +198,6 @@ We allowed the detection probability of a given species groups ($\text{logit}(p_
 
 We used vague normal priors for CWD and precipitation levels $\text{N}(0, \sigma = \sqrt{10})$. 
 The priors for block random effects were $\text{N}(0, \alpha_{Block})$, where $\alpha_{Block}$ was drawn from a uniform distribution $\text{U}(0, 10)$. 
-Precipitation was highly correlated with air temperature and relative humidity. 
-For this reason, we did not include these two variables in our models.
 
 \clearpage
 
@@ -487,15 +486,4 @@ for(i in 1:nsites) {
 }
 \end{lstlisting}
 
-\clearpage
 
-\chapter*{Bibliographie}         
-\label{chap:biblio}         
-\phantomsection\addcontentsline{toc}{chapter}{\nameref{chap:biblio}} 
-
-\nocite{*}
-\renewcommand{\bibsection}{}
-\begin{otherlanguage}{english}
-\bibliography{References}
-\bibliographystyle{ecologyNewEN}
-\end{otherlanguage}
