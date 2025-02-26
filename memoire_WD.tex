@@ -102,7 +102,7 @@ final]{microtype}
   \direction{Marc J. Mazerolle, directeur de recherche}
   \codirection{Mathieu Bouchard, codirecteur de recherche}
 
-  \annee{2024}
+  \annee{202}
 
 \begin{document}
 
@@ -135,20 +135,20 @@ final]{microtype}
 \include{chapitre1-articles}    % chapitre 1
 \include{conclusion}            % conclusion
 
+\cleardoublepage
+
+\renewcommand{\bibname}{Bibliographie générale}
+\addcontentsline{toc}{chapter}{Bibliographie générale}
+\bibliographystyle{ecologyNewEN}
+\bibliography{References}
+
+
 \appendix                       % annexes le cas échéant
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
 
 \include{annexe}                % annexes
 
-% \bibliographystyle{ecologyNewFR} % Style de citation en anglais
-% \bibliography{References}
 
 \end{document}
 
-
-% pdflatex memoire_WD.tex
-% bibtex chapitre1-articles
-% bibtex memoire_WD
-% pdflatex memoire_WD.tex
-% pdflatex memoire_WD.tex
