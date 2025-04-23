@@ -47,7 +47,7 @@ The objectives were 1) to evaluate the impact of partial and clear-cut treatment
 and 2) to evaluate the direct and indirect effects of these harvests on the cooccurrence of salamanders, ground beetles, and springtails.}
 Our results show that forest harvesting treatments significantly influence environmental variables. 
 Clear-cuts resulted in greater canopy opening, reduced litter depth, and decreased coarse woody debris volume, whereas partial cuts better preserved these environmental attributes. 
-\hl{Silvicultural treatments had little to no effect on salamander and ground beetle occupancy probabilities or springtail biomass. However, the occupancy probability of salamanders in total harvest sites was marginally lower than in partial harvest sites }(90\% CI). 
+\hl{Silvicultural treatments had little to no effect on salamander and ground beetle occupancy probabilities or springtail biomass. However, the occupancy probability of salamanders in clearcut sites was marginally lower than in partial-cut sites }(90\% CI). 
 Furthermore, our results suggest that the effects of harvesting do not propagate through the trophic network from predators to prey in forest soils. 
 Our study highlights the importance of promoting harvesting methods that minimize habitat disturbance, such as partial cuts. 
 These practices help preserve key environmental attributes, benefiting soil fauna. 
@@ -268,6 +268,8 @@ Each weather station measured temperature, air humidity, and atmospheric pressur
 Rain gauges were installed in the clear-cut treatments to monitor precipitation levels. 
 The temperature and humidity sensors were programmed to record data every 15 minutes. 
 We averaged the measurements across both weather stations to get daily average measurements. 
+\hl{Since red-backed salamanders tend to be more active a few days after rainfall, we combined the total precipitation over the three days preceding each field visit} \citep{odonnellPredictingVariationMicrohabitat2014a}. 
+\hl{The level of precipitation was then classified into two categories: low ($\leq$ 1 mm) or high ($>$ 1 mm). }
 These variables fluctuate on a daily basis, affecting species activity and, consequently, the probability of detecting individuals \citep{spotilaRoleTemperatureWater1972,butterfieldCarabidLifeCycle1996,loveiEcologyBehaviorGround1996,odonnellPredictingVariationMicrohabitat2014a}.
 
 
@@ -294,8 +296,9 @@ Occupancy models estimate the presence of species difficult to detect after acco
 Here, we considered the occupancy of three species groups: red-backed salamanders, large ground beetles, and small ground beetles. 
 \hl{For each site and species group, we arranged the data in a detection history matrix, using 1 to denote the detection of the species on a given visit and 0 for non-detection. }
 We included the occupancy of salamanders and large ground beetles as explanatory variables on the occupancy of small ground beetles (\textit{sensu} \cite{Feldman2023Beaveractivity}). 
-Because precipitation and the presence of natural cover can influence species activity on the forest floor, 
-we allowed the detection probability of a given species group to vary with the volume of coarse woody debris, the precipitation levels, as well as a block random effect. 
+\hl{Because precipitation and the presence of natural cover can influence species activity on the forest floor, 
+we allowed the detection probability of a given species group to vary with the volume of coarse woody debris, and the precipitation levels. 
+We included a block random effect to reflect the nested structure of the experimental design. }
 
 Some components of the SEM consisted of linear mixed models to estimate the effect of overstory treatments on environmental variables (Table \ref{ann:SEM_Env_eq}). 
 Because CWD and precipitation data were heteroscedastic across harvesting treatments, we included terms to model the variance of each group explicitly (Table \ref{ann:SEM_Env_eq}). 
@@ -335,10 +338,10 @@ The JAGS model code is available in Table \ref{ann:SEM_script}.
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{subsec:ResEnv}} 
 
 Model diagnostics indicated that the chains were of sufficient length, as the Brooks-Gelman-Rubin statistic was below 1.04. 
-Trace plot analysis revealed that all chains had converged towards similar values, and none of the ratios of MCMC error to posterior standard deviation exceeded 5\%, suggesting that chain length was sufficient.
+Trace plots revealed that all chains had converged towards similar values, and none of the ratios of MCMC error to posterior standard deviation exceeded 5\%, suggesting that chain length was sufficient.
 
 Environmental variables usually differed between overstory treatments and control conditions. 
-Clear-cutting treatments had less CWD compared to partial cutting (95\% CI: [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
+Clear-cutting treatments had lower CWD volumes compared to partial cutting (95\% CI: [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
 However, neither logging treatment showed a significant difference from the control. 
 Canopy openness was significantly higher in both the partial cut (95\% CI: [1.97, 11.02]) and clear-cut treatments (95\% CI: [51.39, 77.06]), when compared 
 to the control sites, with the clear-cuts being more open than the partial cuts (95\% CI: [44.61, 70.76], Figure \ref{fig:envar} B, Table \ref{tab:overstoryenvar}). 
@@ -351,8 +354,8 @@ with the litter being shallower in the clear-cuts than in the partial cuts (95\%
 \begin{figure}[ht]
   \centering
   \includegraphics[scale=0.23]{fig_envar2.png}
-  \caption[Environmental variables with a potential effect on soil species within two different overstory treatments and control.]
-  {Environmental variables with a potential effect on soil species estimations within two different overstory treatments and control 
+  \caption[Environmental variables with a potential effect on soil fauna within two different overstory treatments and control.]
+  {Environmental variables with a potential effect on soil fauna within two different overstory treatments and control 
   during the summer 2022 in the Portneuf Wildlife Reserve, Quebec, Canada. Error bars denote 95\% credible intervals around estimates.}
   \label{fig:envar}
 \end{figure}
@@ -412,7 +415,7 @@ Similarly, the biomass of springtails did not vary with the presence of salamand
   canopy openness, litter depth, salamander occupancy, ground beetle occupancy, and springtail biomass.]
   {Results from SEM analysis showing effects of overstory treatments on CWD, 
   canopy openness, litter depth, salamander occupancy, ground beetle occupancy, and springtail biomass in the Portneuf Wildlife Reserve, 
-  Quebec, Canada. Bold arrows represent significant effects while dotted line indicate no discernible effects. 
+  Quebec, Canada. Bold arrows represent significant effects while dotted lines indicate no discernible effects. 
   Estimates marked with one asterisk (*) indicate a 90\% credible interval (CI) excluding 0, while estimates marked with two asterisks (**) indicate a 95\% CI excluding 0. 
   Note that the large and small carabid categories are based on salamander gape size.}
 	\label{fig:SEMres}
@@ -433,7 +436,7 @@ Similarly, the biomass of springtails did not vary with the presence of salamand
       \hline     
       Salamander           &probability& Partial vs control & \hspace{1mm}0.07 & [-0.29, 0.45] \\ 
       occupancy       && Clear vs control  & -0.38 & [-0.75, 0.11] \\ 
-                          && Clear vs partial  & -0.45 & [-0.74, -0.07]$^{a}$ \\       
+                          && Clear vs partial  & -0.45 & [-0.78, 0.01]$^{a}$ \\       
       Carabid$_{large}$ &probability& Partial vs control & -0.12 & [-0.35, 0.15] \\
       occupancy       && Clear vs control  & -0.06 & [-0.29, 0.20] \\ 
                           && Clear vs partial  & \hspace{1mm}0.06 & [-0.19, 0.30] \\ 
@@ -450,7 +453,8 @@ Similarly, the biomass of springtails did not vary with the presence of salamand
       \hline
       \multicolumn{5}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of posterior mean with 95\%} \\
       \multicolumn{5}{l}{credible intervals, where an interval excluding 0 indicates a difference between groups.} \\
-      \multicolumn{5}{l}{$^{a}$Marginal difference based on 90\% Bayesian credible interval excluding 0}
+      \multicolumn{5}{l}{$^{a}$ \hl{A marginal difference was detected based on the 90\% Bayesian credible interval} } \\
+      \multicolumn{5}{l}{\hl{excluding 0 [-0.74, -0.07].}}
   \end{tabular}
 \end{table}
 
@@ -475,8 +479,8 @@ Detection probabilities of ground beetles did not vary with the volume of CWD.
 
 \begin{table}[ht]
   \centering
-  \caption[Estimated effects of coarse woody debris and precipitation level on detection probabilities of salamanders, large ground beetles, and small ground beetles.]
-  {Estimated effects of coarse woody debris and precipitation level on detection probabilities of salamanders, large ground beetles, and small ground beetles, during the summer 2022 in the Portneuf Wildlife Reserve,  Quebec, Canada.}
+  \caption[Estimated effects of the volume of coarse woody debris and precipitation level on detection probabilities of salamanders, large ground beetles, and small ground beetles.]
+  {Estimated effects of the volume of coarse woody debris and precipitation level on detection probabilities of salamanders, large ground beetles, and small ground beetles, during the summer 2022 in the Portneuf Wildlife Reserve,  Quebec, Canada.}
   \label{tab:detection}
   \begin{tabular}{lllll} 
       \hline
@@ -493,8 +497,8 @@ Detection probabilities of ground beetles did not vary with the volume of CWD.
 
       \hline
       \multicolumn{4}{l}{\textbf{Note:} Estimates from Bayesian SEM are presented in terms of posterior mean} \\
-      \multicolumn{4}{l}{with 95\% credible intervals, where an interval excluding 0 indicates} \\
-      \multicolumn{4}{l}{a difference between groups.} \\
+      \multicolumn{4}{l}{with 95\% credible intervals, where an interval excluding 0 indicates a difference} \\
+      \multicolumn{4}{l}{between groups.} \\
   \end{tabular}
 \end{table}
 
@@ -505,14 +509,14 @@ Detection probabilities of ground beetles did not vary with the volume of CWD.
 \label{sec:discu1}
 \phantomsection\addcontentsline{toc}{section}{\nameref{sec:discu1}}
 
-\subsection*{Effect of the types of harvesting on environmental variables}
+\subsection*{Effect of harvesting type on environmental variables}
 \label{disc:env_var}
 \phantomsection\addcontentsline{toc}{subsection}{\nameref{disc:env_var}} 
 
 Our first hypothesis assumed that environmental variables key to soil fauna would vary depending on the type of logging, with a higher level of disturbance for the most intensive treatments. 
-Overall, our results support this hypothesis, as changes in CWD, canopy openness, and litter depth are more pronounced in total cut treatments, with partial cuts showing intermediate effects. 
+Overall, our results support this hypothesis, as changes in CWD, canopy openness, and litter depth were more pronounced in clearcut treatments, with partial cuts showing intermediate effects. 
 
-We predicted that the most intense treatments (clear-cutting followed by site preparation) would decrease CWD. 
+We predicted that the most intense treatments (clear-cutting followed by site preparation) would decrease CWD volume. 
 Our results showed the partial cuts maintain a higher volume of CWD compared to clear-cuts, aligning with similar studies \citep{Nolet2018Comparingeffects,Ochs2022Responseterrestrial}. 
 However, the lack of a significant difference between control sites and clear-cuts contrasts with other research that reports a significant reduction in CWD volume following clear-cutting \citep{Farnell2020effectsvariable}. 
 This difference may come from the variable amount of CWD left on the site after harvesting, which could temporarily increase the availability of dead wood in the habitat during the initial years post-harvest \citep{McCarthy1994Distributionabundance,Etcheverry2005Responsesmall}. 
@@ -555,8 +559,8 @@ The loss of litter also represents a reduction in food resources for decomposer 
 
 The hypothesis related to our second objective states that harvest treatments could alter directly habitat use by soil fauna. 
 We suggested that logging would negatively affect the occupancy probability of red-backed salamanders. 
-In our study, salamander occupancy probability was marginally higher in partial cuts compared to clear-cut sites, although this effect was weak (only significant at 90\% credible intervals). 
-Additionally, neither partial nor clear-cut treatments showed significant differences from control sites. 
+\hl{In our study, salamander occupancy probability was marginally higher in partial cuts compared to clear-cut sites, although this effect was weak (at 90\% confidence level). 
+Additionally, salamander occupancy in either partial or clear-cut treatments did not differ from control sites.}
 Clear-cutting is often perceived as detrimental to salamander populations, but its impact varies greatly across studies \citep{Hocking2013Effectsexperimental,Chaudhary2016Impactforest}. 
 Some studies have reported declines in salamander abundance 4-6 years after clear-cutting \citep{Petranka1993Effectstimber,Herbeck1999PlethodontidSalamander,Grialou2000effectsforest,Macneil2014Effectstimber}  
 while others, including ours, found no significant difference between clear-cuts and control sites \citep{Renken2004EffectsForest,Mazerolle2021Woodlandsalamander}. 
@@ -569,10 +573,10 @@ According to our results, the harvesting treatments had similar effects on salam
 It is also worth noting that the effects of logging on salamanders vary over time. 
 For example, \cite{Ochs2022Responseterrestrial} found no significant effects of clear-cutting on salamander abundance during the first 3 years post-harvest but reported declines between 4 and 6 years, with no recovery observed up to 11 years later. 
 However, other studies have observed declines immediately following harvesting \citep{deMaynadier1995relationshipforest,Macneil2014Effectstimber}. 
-Short-term responses may depend on the availability of CWD, which decomposes over time and affects salamanders ability to persist in clear-cut areas \citep{Ochs2022Responseterrestrial}. 
+Short-term responses may depend on the availability of CWD, which decomposes over time and affects the ability of salamanders to persist in clear-cut areas \citep{Ochs2022Responseterrestrial}. 
 The retention of forest canopy in partial cuts and the rapid regrowth of understory vegetation associated with this treatment type may also explain the differences in impacts between the two harvesting methods \citep{Raybuck2015silviculturalpractices}. 
 A closed canopy helps to maintain cool and moist microclimates. 
-These conditions are critical for salamanders cutaneous respiration and reduce desiccation risks \citep{Homyack2011Energeticssurface}. 
+These conditions are critical for salamander cutaneous respiration and reduce desiccation risks \citep{Homyack2011Energeticssurface}. 
 Previous studies have shown that retaining forest cover supports higher salamander densities \citep{Hocking2013Effectsexperimental,Harper2015Impactforestry,Mahoney2016Woodlandsalamander}. 
 The presence of forest litter may contribute to the differences in occupancy probability between partial and clear-cuts \citep{tilghmanMetaanalysisEffectsCanopy2012}. 
 For instance, \cite{Ash1997DisappearanceReturn} reported that red-backed salamander abundance returned to pre-harvest levels 4-6 years after clear-cutting, attributing this recovery to the replenishment of forest litter. 
@@ -583,7 +587,7 @@ The second hypothesis also suggested that logging would directly reduce the occu
 Our findings suggest that forest harvesting treatments do not directly affect the occupancy probability of large ground beetles and small ground beetles. 
 Canopy openness has a positive effect on ground beetle species richness and taxonomic composition \citep{Halme1993Carabidbeetles,Heliola2001Distributioncarabid,Koivula2002Alternativeharvesting}. 
 This effect can be attributed to the creation of new habitats through clear-cutting and the ability of ground beetles to move quickly across landscapes \citep{Niemela2007effectsforestry}. 
-Open, warmer, and drier habitats, such as those created by clear-cuts, are favored by many ground beetle species commonly found in grasslands and similar environments. 
+\hl{Open, warmer, and drier habitats, such as those created by clear-cuts, are favored by many ground beetle species commonly found in grasslands and similar environments. }
 In contrast, closed-canopy forests provide less favorable conditions for most ground beetles, with only a few species adapted to cool and shaded sites \citep{Niemela1993Effectsclearcut,koivulaBorealCarabidbeetleColeoptera2002a}. 
 Ground beetles are often categorized based on their habitat preferences, typically as forest specialists, open-habitat specialists, or generalist species \citep{Niemela2007effectsforestry}. 
 Species associated with open habitats are intolerant of canopy closure and tend to disappear 20 to 30 years after harvesting, as the canopy regenerates \citep{Niemela1996importancesmallscale,Koivula2002Alternativeharvesting}. 
@@ -591,7 +595,7 @@ Conversely, forest specialists depend on specific forest attributes, such as mic
 The availability of forest litter is another factor influencing the abundance and distribution of ground beetles \citep{koivula.LeafLitterSmallscale1999,Heliola2001Distributioncarabid,Magura2005ImpactsLeaflitter}. 
 Forest species may also colonize open habitats near old stands, as is often observed in clear-cut areas \citep{Spence1996Northernforestry,Koivula2002Alternativeharvesting}. 
 Moreover, certain forest species adapted to natural disturbances may persist in open environments \citep{Niemela2007effectsforestry}. 
-Although the likelihood of ground beetle occupancy remains similar after forest harvesting, the species composition and richness in harvested areas may change. 
+Although the occupancy probability of ground beetles remains similar after forest harvesting, the species composition and richness in harvested areas may change. 
 Some studies suggest that species responses to forest harvesting vary depending on their size. 
 For instance, \cite{Nolte2019Habitatspecialization} found that larger ground beetles are more likely to decline after forest harvesting compared to smaller species. 
 However, in our study, we did not observe significant differences in occupancy probability between large and small ground beetles. 
