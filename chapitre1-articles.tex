@@ -154,7 +154,7 @@ Other tree species in this bioclimatic domain included sugar maple (\textit{Acer
 The experimental sites are located on deep glacial tills with sandy loams that are moderately well drained \citep{CanadianSystemSoil1998}. 
 The mean daily temperature is 4\up{o}C based on the 1981-2010 period at the nearest weather station (Lac aux sables, \citealp{environmentcanadaCanadianClimateNormals2019}). 
 Based on the same report, the average annual precipitation is 1133.2 mm (including water equivalent of snow), with snowfall averaging 2303 mm. 
-We conducted our study within an assisted migration experimental system established in 2018 by the Ministère des Ressources naturelles et des Forêts du Québec \citep{royoDesiredREgenerationAssisted2023}. 
+We conducted our study within an assisted migration experimental system established in 2018 by the Ministère des Ressources naturelles et des Forêts du Québec \citep{Champagne2021Seedlingresponse}. 
 This experiment uses a factorial experimental design with split-plots replicated in four blocks. 
 Each block (200 m x 140 m) is split in two overstory treatments: clear-cut and regular shelterwood cut at 50\% of the merchantable basal area (partial cut). 
 The harvest took place during the summer 2017, followed by a site preparation by trenching in June 2018 within the clear-cut areas to create more uniform site conditions and facilitate planting. 
@@ -182,12 +182,12 @@ whereas three additional sampling units were positioned outside the block, servi
 
 In each sampling unit, we used three sampling methods to collect species data: artificial coverboards, pitfall traps, and soil cores. 
 We used artificial coverboards to sample eastern red-backed salamanders \textit{Plethodon cinereus} at our study sites \citep{hydeSamplingPlethodontidSalamanders2001,mooreComparisonPopulationEastern2009c,hesedUncoveringSalamanderEcology2012,Mazerolle2021Woodlandsalamander}. 
-Coverboards consisted of 25 cm x 30 cm x 5 cm pieces of untreated spruce wood. 
-Each board was in direct contact with the soil after we had cleared the litter underneath \citep{Mazerolle2021Woodlandsalamander}. 
-Six coverboards spaced by at least 2.5 m from their closest neighbor were arranged in a rectangular array in each sampling unit, resulting in a total of 360 coverboards across our 60 sampling stations (Figure \ref{fig:blockSU}). 
 All coverboards were placed outdoors in March 2022 to allow for natural aging \citep{hedrickEffectsCoverboardAge2021,Grasser2014Effectscover}. 
+Coverboards consisted of 25 cm x 30 cm x 5 cm pieces of untreated spruce wood. 
+Six coverboards spaced by at least 2.5 m from their closest neighbor were arranged in a rectangular array in each sampling unit, resulting in a total of 360 coverboards across our 60 sampling stations (Figure \ref{fig:blockSU}). 
+Each board was in direct contact with the soil after we had cleared the litter underneath \citep{Mazerolle2021Woodlandsalamander}. 
 We conducted four visits to coverboards during the summer 2022, with each visit spaced one month apart, namely in mid-May, mid-June, mid-July, and mid-August. 
-Blocks were visited in a random sequence to reduce the potential effects of time of day and observer fatigue. 
+During each visit, blocks were visited in a random sequence to reduce the potential effects of time of day and observer fatigue. 
 During a given visit, the 360 coverboards were inspected on the same day, and we counted the number of red-backed salamanders underneath. 
 
 We used pitfall traps to capture ground beetles \citep{baarsCatchesPitfallTraps1979,spenceSamplingCarabidAssemblages1994a,loveiEcologyBehaviorGround1996,kotzeFortyYearsCarabid2011a,knappEffectPitfallTrap2012}. 
@@ -202,7 +202,7 @@ Trapping occurred during four sampling periods during 2022 (mid-May, mid-June, m
 Traps were opened on the first day of each survey, and we collected captured ground beetles daily during five consecutive days. 
 Outside the trapping periods, pitfall traps were sealed with adhesive tape to prevent captures. 
 The contents of the traps were preserved in 70\% alcohol and individuals were identified at the species level afterwards. 
-Identification was conducted with a ZEISS SteREO Discovery.V12 binocular microscope using the \cite{larochelleManuelIdentificationCarabidae1976} taxonomic keys. 
+Identification \hl{at the species} level was conducted with a ZEISS SteREO Discovery.V12 binocular microscope using the \cite{larochelleManuelIdentificationCarabidae1976} taxonomic keys. 
 \hl{We categorized ground beetles into two groups, either as small ground beetles (salamander prey, $\leq$ 8,3 mm ) or large ground beetles (salamander competitors, $>$ 8.3 mm)}, based on the red-backed salamander gape size (Table \ref{tab:carabid}, \citealp{jaegerFoodLimitedResource1972,magliaModulationPreycaptureBehavior1995,magliaOntogenyFeedingEcology1996}).
 
 We extracted soil cores to sample springtails \citep{pongeVerticalDistributionCollembola2000,salamonEffectsPlantDiversity2004,chauvatChangesSoilFaunal2011a,farskaManagementIntensityAffects2014}. 
@@ -288,7 +288,7 @@ This approach enabled us to test our hypotheses within a single model.
 
 Some components of the SEM predicted the effect of the different overstory treatments on three environmental variables: CWD volume, canopy openness, and litter depth (Figure \ref{fig:SEM}). 
 Precipitation was highly correlated with air temperature and relative humidity. 
-For this reason, we did not include these two variables in our model. 
+For this reason, we did not include \hl{air temperature and relative humidity} in our model. 
 The other components of the model evaluated the direct and indirect effects of overstory treatments on taxa (Figure \ref{fig:SEM}). 
 We hypothesized that partial cut and clear-cut impacted each taxon, whereas salamander occupancy influenced small ground beetle occupancy and springtail biomass, because both are potential prey for salamanders. 
 We also predicted that both ground beetle groups affected springtail biomass.
@@ -303,8 +303,8 @@ we allowed the detection probability of a given species group to vary with the v
 We included a block random effect to reflect the nested structure of the experimental design. }
 
 Some components of the SEM consisted of linear mixed models to estimate the effect of overstory treatments on environmental variables (Table \ref{ann:SEM_Env_eq}). 
-Because CWD and precipitation data were heteroscedastic across harvesting treatments, we included terms to model the variance of each group explicitly (Table \ref{ann:SEM_Env_eq}). 
-We used a linear mixed model component to predict springtail biomass that also included the latent occupancy state of salamanders and ground beetles to measure the impact of these groups on springtails. 
+Because CWD and precipitation data were heteroscedastic across harvesting treatments, we included terms to model the variance of each \hl{treatment} group explicitly (Table \ref{ann:SEM_Env_eq}). 
+We used a linear mixed model component to predict springtail biomass that also included the latent occupancy state of salamanders and ground beetles to measure the impact of these \hl{taxonomic} groups on springtails. 
 Here, latent occupancy corresponded to the presence probability accounting for imperfect detection probability estimated from the occupancy model \citep{mackenzieOccupancyEstimationModeling2006a}.
 
 We formulated the SEM using a Bayesian framework. 
@@ -343,7 +343,7 @@ Model diagnostics indicated that the chains were of sufficient length, as the Br
 Trace plots revealed that all chains had converged towards similar values, and none of the ratios of MCMC error to posterior standard deviation exceeded 5\%, suggesting that chain length was sufficient.
 
 Environmental variables usually differed between overstory treatments and control conditions. 
-Clear-cutting treatments had lower CWD volumes compared to partial cutting (95\% CI: [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
+Clear-cutting treatments had lower CWD volumes compared to partial cutting, \hl{as the confidence interval exclude 0} (95\% CI: [-1.15, -0.43]) (Figure \ref{fig:envar} A, Table \ref{tab:overstoryenvar}). 
 However, neither logging treatment showed a significant difference from the control. 
 Canopy openness was significantly higher in both the partial cut (95\% CI: [1.97, 11.02]) and clear-cut treatments (95\% CI: [51.39, 77.06]), when compared 
 to the control sites, with the clear-cuts being more open than the partial cuts (95\% CI: [44.61, 70.76], Figure \ref{fig:envar} B, Table \ref{tab:overstoryenvar}). 
@@ -403,9 +403,9 @@ A total of 30 ground beetle species were identified in the pitfall traps and und
 We collected 468 springtails representing 12 families, with 219 springtails collected from partial cut treatments, 131 from clear-cuts, and 118 from the control areas (Table \ref{tab:springtail}). 
 The average springtail biomass collected per overstory treatment was 24.3 $\mu$g (SD = 18.2 $\mu$g), 56.8 $\mu$g (SD = 78.0 $\mu$g), and 31.1 $\mu$g (SD = 52.8 $\mu$g) in the partial cut, clear-cut, and control sites, respectively. 
 
-Occupancy and biomass generally did not vary significantly across the cutting treatments. 
-Salamander occupancy probability was marginally lower in sites subjected to clear-cutting compared to those with partial cutting (90\% CI: [-0.74, -0.07], Figure \ref{fig:pcin}, Table \ref{tab:overstorysp}). 
-However, the occupancy of salamanders in clearcut and partial cut sites did not differ from the control sites. 
+Occupancy and biomass generally did not vary significantly across the cutting treatments \hl{when using the 95\% CI criterion. 
+However,} salamander occupancy probability was marginally lower in sites subjected to clear-cutting compared to those with partial cutting (90\% CI: [-0.74, -0.07], Figure \ref{fig:pcin}, Table \ref{tab:overstorysp}). 
+The occupancy of salamanders in clearcut and partial cut sites did not differ from the control sites. 
 Occupancy probability for each carabid group and the springtail biomass did not vary between the overstory treatments and control sites (Table \ref{tab:overstorysp}). 
 Furthermore, the occupancy probabilities of small ground beetles (salamander prey) did not vary with the presence of salamanders. 
 Similarly, the biomass of springtails did not vary with the presence of salamanders, large ground beetles, or small ground beetles (Table \ref{tab:overstorysp}).
